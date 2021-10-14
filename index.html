@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="icon" href="./images/icon.png">
+<link rel="stylesheet" href="main.css" type="text/css" />
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--- <title></title> --->
+<title>Jing Zeng's Homepage</title>
+<!-- MathJax -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+</head>
+<body>
+<div id="main-container">
+<div id="header-container">
+<div id="header">
+<div id="header-icon-text-container">
+<div id="header-icon-container" >
+<a href="index.html"><img src="./photos/icon.png" alt="" style="width: 100%; height: 100%; position: center; padding:0px; margin: 0px;"></a>
+</div>
+<div id="header-text-container">
+<a href="index.html">Welcome</a>
+</div>
+</div>
+<div id="main">
+<button class="openbtn" onclick="openNav()">☰</button>
+</div>
+</div>
+</div>
+<div id="layout">
+<div id="layout-menu-container">
+<div id="layout-menu">
+<div class="menu-item"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a></div>
+<div class="menu-category">Jing Zeng</div>
+<div class="menu-item"><a href="index.html" class="current"|3>About&nbsp;me</a></div>
+<div class="menu-item"><a href="resume.html"|3>Resume</a></div>
+<div class="menu-item"><a href="publications.html"|3>Publications</a></div>
+<div class="menu-item"><a href="talks.html"|3>Talks</a></div>
+<div class="menu-item"><a href="software.html"|3>Software</a></div>
+<div class="menu-item"><a href="experience.html"|3>Experience</a></div>
+<div class="menu-item"><a href="posts.html"|3>Posts</a></div>
+</div> <!-- <div id="layout-menu"> -->
+</div> <!-- <div id="layout-menu-container"> -->
+<div id="layout-content-container">
+<div id="layout-content">
+<table class="imgtable"><tr><td>
+<img src="photos/bio5.jpeg" alt="me" width="270px" />&nbsp;</td>
+<td align="left"><h1>Jing Zeng (曾靖) <br /></h1>
+<h3><a href="https://stat.fsu.edu/">Department of Statistics</a>, <br /><a href="https://www.fsu.edu/">Florida State University (FSU)</a><br /></h3>
+<p>Hello! I am currently a Ph.D. candidate in Department of Statistics at the Florida State University under the supervision of Professor <a href="https://ani.stat.fsu.edu/~henry/">Xin Henry Zhang</a>. My research interests include sufficient dimension reduction, high-dimensional statistics and tensor data analysis.</p>
+</td></tr></table>
+<h2>Education</h2>
+<ul>
+<li><p>2017-present: Ph.D. in Statistics, Florida State University.</p>
+</li>
+<li><p>2013-2017: B.S. in Probability and Statistics, University of Science and Technology of China.</p>
+</li>
+</ul>
+<h2>Research</h2>
+<p>My research interests include </p>
+<ul>
+<li><p>Sufficient dimension reduction.</p>
+</li>
+<li><p>High-dimensional statistics.</p>
+</li>
+<li><p>Tensor data analysis.</p>
+</li>
+</ul>
+<h2>Services</h2>
+<p><b>Referee:</b> <i>WIREs Computational Statistics</i>, <i>Biometrics</i>.</p>
+<h2>More about me</h2>
+<ul>
+<li><p>I lived with a lovely corgi, his name is Beibei. I plan to invite a kitty to home to be his friend.</p>
+</li>
+<li><p>The legend of Zelda: breath of the wild and NBA2K are my favorite video gimes.</p>
+</li>
+<li><p>My favorite manga is Naruto.</p>
+</li>
+<li><p>I love to travel. My dream is to travel around the world.  </p>
+</li>
+</ul>
+<h2>Contact</h2>
+<p><a href="https://stat.fsu.edu/">Department of Statistics</a>, <br /><a href="https://www.fsu.edu/">Florida State University (FSU)</a><br />
+214 OSB, 117 N. Woodward Ave. <br />
+Tallahassee, FL 32306-4330, USA <br /> 
+Email: jing[DOT]zeng[AT]stat[DOT]fsu[DOT]edu</p>
+<a href="https://clustrmaps.com/site/1bk80"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=IViJMpMXNUARC_NJAi9D9yaOPN_z8BC3-w9a93pNTu4&cl=ffffff" /></a>
+</div> <!-- <div id="layout-content-container"> -->
+</div> <!--- <div id="layout"> --->
+</div> <!--- <div id="main-container"> --->
+<script>
+function openNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "280px";
+        document.getElementById("layout-content-container").style.marginLeft = "280.8px";
+        document.getElementById("layout-content-container").style.position = "fixed";
+    }
+}
+function closeNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "0";
+        document.getElementById("layout-content-container").style.position = "static";
+        document.getElementById("layout-content-container").style.marginLeft = "0px";
+        setInterval(
+            function(){ location.reload() },
+            500
+        );
+    }
+}
+</script>
+</body>
+</html>
