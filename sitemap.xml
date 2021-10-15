@@ -9,62 +9,52 @@
 
 <url>
   <loc>https://jzeng.site/</loc>
-  <lastmod>2021-10-14T20:38:07+00:00</lastmod>
+  <lastmod>2021-10-15T22:06:02+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://jzeng.site/index.html</loc>
-  <lastmod>2021-10-14T20:38:07+00:00</lastmod>
+  <lastmod>2021-10-15T22:06:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jzeng.site/resume.html</loc>
-  <lastmod>2021-10-14T20:38:07+00:00</lastmod>
+  <lastmod>2021-10-15T22:06:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jzeng.site/publications.html</loc>
-  <lastmod>2021-10-14T20:38:07+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jzeng.site/talks.html</loc>
-  <lastmod>2021-10-14T20:38:07+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jzeng.site/software.html</loc>
-  <lastmod>2021-10-14T20:38:07+00:00</lastmod>
+  <lastmod>2021-10-15T22:06:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jzeng.site/experience.html</loc>
-  <lastmod>2021-10-14T20:38:07+00:00</lastmod>
+  <lastmod>2021-10-15T22:06:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jzeng.site/posts.html</loc>
-  <lastmod>2021-10-14T20:38:07+00:00</lastmod>
+  <lastmod>2021-10-15T22:06:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jzeng.site/posts/parallel_computing.nb.html</loc>
-  <lastmod>2021-10-14T20:38:07+00:00</lastmod>
+  <lastmod>2021-10-15T22:06:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://jzeng.site/posts/GLAA.pdf</loc>
-  <lastmod>2021-10-14T20:38:07+00:00</lastmod>
+  <lastmod>2021-10-15T22:06:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://jzeng.site/posts/Tensorly.html</loc>
-  <lastmod>2021-10-14T20:38:07+00:00</lastmod>
+  <lastmod>2021-10-15T22:06:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://jzeng.site/posts/HPC.pdf</loc>
-  <lastmod>2021-10-14T20:38:07+00:00</lastmod>
+  <lastmod>2021-10-15T22:06:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
