@@ -1,7 +1,7 @@
 # jemdoc: menu{MENU}{index.html}, nofooter
 
 ~~~
-{}{img_left}{photos/bio7}{me}{270}{}{}
+{}{img_left}{photos/bio7.jpg}{me}{300}{}{}
 = Jing Zeng (曾靖) \n
 === [https://stat.fsu.edu/ Department of Statistics], \n[https://www.fsu.edu/ Florida State University (FSU)]\n
 Welcome! I am currently a Ph.D. candidate in Department of Statistics at the Florida State University under the supervision of Professor [https://ani.stat.fsu.edu/~henry/ Xin Henry Zhang] and Professor [https://sites.google.com/view/qingmai Qing Mai]. My research interests include sufficient dimension reduction, high-dimensional statistics, and tensor data analysis.
