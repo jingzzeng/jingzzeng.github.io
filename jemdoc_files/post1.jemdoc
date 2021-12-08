@@ -1,0 +1,35 @@
+# jemdoc: menu{MENU}{post1.html}
+== Blog Post Page
+
+
+== Utterances
+
+When you use +jemdoc+ to write a blog post with a valid comment section, we use this extension --- [https://utteranc.es/ +Utterances+].
+
+We do this by just adding this code to the end of your post.
+
+~~~
+{}{}
+{{
+<script src="https://utteranc.es/client.js"
+        repo="szl2/szl2.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+}}
+~~~
+
+Although it may show up locally, when your website is host on a github server.
+
+
+{{
+<script src="https://utteranc.es/client.js"
+        repo="szl2/szl2.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+}}

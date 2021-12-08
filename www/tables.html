@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="icon" href="./images/icon.png">
+<link rel="stylesheet" href="main.css" type="text/css" />
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="table.css" type="text/css" />
+<!--- <title>jemdoc &ndash; tables</title> --->
+<title>jemdoc + new design</title>
+<!-- MathJax -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+</head>
+<body>
+<div id="main-container">
+<div id="header-container">
+<div id="header">
+<div id="header-icon-text-container">
+<div id="header-icon-container" >
+<a href="index.html"><img src="./images/profile2.png" alt="" style="width: 100%; height: 100%; position: center; padding:0px; margin: 0px;"></a>
+</div>
+<div id="header-text-container">
+<a href="index.html">jemdoc + new design</a>
+</div>
+</div>
+<div id="main">
+<button class="openbtn" onclick="openNav()">☰</button>
+</div>
+</div>
+</div>
+<div id="layout">
+<div id="layout-menu-container">
+<div id="layout-menu">
+<div class="menu-item"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a></div>
+<div class="menu-category">Jing Zeng</div>
+<div class="menu-item"><a href="index.html">About&nbsp;me</a></div>
+<div class="menu-item"><a href="resume.html">Resume</a></div>
+<div class="menu-item"><a href="publications.html">Publications</a></div>
+<div class="menu-item"><a href="talks.html">Talks</a></div>
+<div class="menu-item"><a href="software.html">Software</a></div>
+<div class="menu-item"><a href="experience.html">Experience</a></div>
+<div class="menu-item"><a href="posts.html">Posts</a></div>
+</div> <!-- <div id="layout-menu"> -->
+</div> <!-- <div id="layout-menu-container"> -->
+<div id="layout-content-container">
+<div id="layout-content">
+<div id="toptitle">
+<h1>jemdoc &ndash; tables</h1>
+</div>
+<p>jemdoc includes preliminary support for tables.</p>
+<div class="codeblock">
+<div class="blocktitle">Table syntax</div>
+<div class="blockcontent"><pre>
+~~~
+{}{table}{TABLENAME}
+first entry  | another entry ||
+as many rows | as you like   ||
+bottom row   | last entry
+~~~
+</pre></div></div>
+<p><tt>TABLENAME</tt> should either be replaced with a name&#8201;&mdash;&#8201;which becomes the table's
+<tt>css</tt> <tt>id</tt>&#8201;&mdash;&#8201;or be omitted.</p>
+<h2>Notes</h2>
+<ul>
+<li><p>There is no need to line up the <tt>|</tt> symbols. Extra whitespace is ignored.</p>
+</li>
+<li><p>The last row does not need a terminating <tt>||</tt>.</p>
+</li>
+<li><p>Individual tables can be customised by replacing <tt>TABLENAME</tt> with a unique
+name, and using custom css. For example, within
+a css file, <tt>#countries { background: gray; }</tt> will make the background of
+the <tt>countries</tt> table gray.</p>
+</li>
+<li><p>Rows in a table are numbered sequentially for easy formatting with css. For
+example, to make the entries in the first row of a table called <tt>countries</tt>
+bold, use <tt>#countries tr.r1 { font-weight: bold; }</tt>.</p>
+</li>
+</ul>
+<h2>Example</h2>
+<table id="countries">
+<tr class="r1"><td class="c1">country </td><td class="c2"> population </td><td class="c3"> people per square km </td></tr>
+<tr class="r2"><td class="c1">Canada </td><td class="c2"> 33 million </td><td class="c3"> 3.2 </td></tr>
+<tr class="r3"><td class="c1">
+<span lang="zh-Hans">中华人民共和国</span><br /> </td><td class="c2"> 1300 million </td><td class="c2"> 140 </td></tr>
+<tr class="r5"><td class="c1">Kingdom of Denmark </td><td class="c2"> 5.5 million </td><td class="c3"> 130 </td></tr>
+<tr class="r6"><td class="c1">New Zealand </td><td class="c2"> 4.3 million </td><td class="c3"> 15 </td></tr>
+<tr class="r7"><td class="c1">United States of America </td><td class="c2"> 300 million </td><td class="c3"> 31
+</td></tr></table>
+</div> <!-- <div id="layout-content"> -->
+<div id="footer-container">
+<div id="footer">
+<div id="footer-text">
+Last edited  on December 8<sup>th</sup> 2021  01:46PM (Time Zone: EST). </br>
+Powered by <a href="https://github.com/szl2/jemdoc-new-design" target="blank">jemdoc + new design</a>.
+(<a href="tables.jemdoc">source</a>)>&nbsp
+</div> <!-- <div id="footer-text"> -->
+</div> <!-- <div id="footer"> -->
+</div> <!-- <div id="footer-container"> -->
+</div> <!-- <div id="layout-content-container"> -->
+</div> <!--- <div id="layout"> --->
+</div> <!--- <div id="main-container"> --->
+<script>
+function openNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "280px";
+        document.getElementById("layout-content-container").style.marginLeft = "280.8px";
+        document.getElementById("layout-content-container").style.position = "fixed";
+    }
+}
+function closeNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "0";
+        document.getElementById("layout-content-container").style.position = "static";
+        document.getElementById("layout-content-container").style.marginLeft = "0px";
+        setInterval(
+            function(){ location.reload() },
+            500
+        );
+    }
+}
+</script>
+</body>
+</html>
