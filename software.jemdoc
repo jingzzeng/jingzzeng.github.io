@@ -1,0 +1,6 @@
+# jemdoc: menu{MENU}{software.html}, nofooter  
+
+== R Packages
+
+- *TRES:* [https://CRAN.R-project.org/package=TRES \[CRAN\]] {{&nbsp;&nbsp;<img src=https://cranlogs.r-pkg.org/badges/grand-total/TRES?color=green width="90px" style="vertical-align:top">}}
+\n  *T*ensor *R*egression with *E*nvelope *S*tructure and Three Generic Envelope Estimation Approaches. (co-author, maintainer)
