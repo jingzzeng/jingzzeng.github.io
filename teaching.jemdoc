@@ -1,10 +1,12 @@
 # jemdoc: menu{MENU}{teaching.html}, nofooter  
 
-== Solo Instructor
-- STA 2122 -- Introduction to Applied Statistics (Summer 2018, Fall 2018, Spring 2019)
-
-== Grader
-- STA 2122 -- Introduction to Applied Statistics (Fall 2017, Spring 2018)
-- STA 5934-0001 -- Tensor Data Analysis (Spring 2020)
-- STA 5934-0002 -- Deep Learning (Spring 2020)
-- STA 5934-0004 -- Statistical Computing with Python (Spring 2020)
+== Florida State University
+``*'' indicates the role as a Grader.
+- * Spring 2020: STA 5934-0001 Tensor Data Analysis
+- * Spring 2020: STA 5934-0002 Deep Learning
+- * Spring 2020: STA 5934-0004 Statistical Computing with Python
+- Spring 2019: STA 2122 Introduction to Applied Statistics
+- Fall 2018: STA 2122 Introduction to Applied Statistics
+- Summer 2018: STA 2122 Introduction to Applied Statistics
+- * Spring 2018: STA 2122 Introduction to Applied Statistics
+- * Fall 2017: STA 2122 Introduction to Applied Statistics
