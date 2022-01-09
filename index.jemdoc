@@ -1,16 +1,22 @@
 # jemdoc: menu{MENU}{index.html}, nofooter
 
+= Jing Zeng (曾靖)
 ~~~
-{}{img_left}{./images/bio3.jpeg}{me}{200px}{}{}
-= Jing Zeng (曾靖) \n\n
-=== [https://stat.fsu.edu/ Department of Statistics], \n[https://www.fsu.edu/ Florida State University (FSU)]\n
-Welcome! I am currently a Ph.D. candidate in Department of Statistics at the Florida State University under the supervision of Professor [https://ani.stat.fsu.edu/~henry/ Xin Henry Zhang] and Professor [https://sites.google.com/view/qingmai Qing Mai]. My research interests include dimension reduction, high-dimensional statistics, and tensor data analysis.
+{}{img_left}{./images/bio3.jpeg}{me}{160px}{}{}
+== /Ph.D. Candidate/
+=== [https://stat.fsu.edu/ /Department of Statistics/]\n [https://www.fsu.edu/ /Florida State University (FSU)/]\n\n
+
+=== Contact
+214 OSB, 117 N. Woodward Ave. \n
+Tallahassee, FL 32306-4330, USA \n
+Email: jz17c\[AT\]my\[DOT\]fsu\[DOT\]edu
 ~~~
 
+Welcome! I am currently a Ph.D. candidate in Department of Statistics at Florida State University under the supervision of Professor [https://ani.stat.fsu.edu/~henry/ Xin Henry Zhang] and Professor [https://sites.google.com/view/qingmai Qing Mai]. I received my Bachelor's degree from the University of Science and Technology of China in 2017. My research interests include dimension reduction, high-dimensional statistics, and tensor data analysis.
 
 == Education
 - 2017-present: Ph.D. in Statistics, Florida State University.
-- 2013-2017: B.S. in Probability and Statistics, University of Science and Technology of China.
+- 2013-2017: B.S. in Mathematics and Applied Mathematics, University of Science and Technology of China.
 
 == Research Interests
 - Applications in medical science.
@@ -26,14 +32,9 @@ Welcome! I am currently a Ph.D. candidate in Department of Statistics at the Flo
 
 == More about me
 - I am living with a lovely corgi, his name is Beibei.
-- My favorite video games: The legend of Zelda: breath of the wild; NBA2K.
+- My favorite video games: The legend of Zelda: breath of the wild; NieR:Automata.
 - My favorite anime: Naruto.
 ~~~
 {}{img_left}{./images/beibei2.jpeg}{beibei}{250px}{}{}
 ~~~
 
-== Contact
-[https://stat.fsu.edu/ Department of Statistics], \n[https://www.fsu.edu/ Florida State University (FSU)]\n
-214 OSB, 117 N. Woodward Ave. \n
-Tallahassee, FL 32306-4330, USA \n 
-Email: jing\[DOT\]zeng\[AT\]stat\[DOT\]fsu\[DOT\]edu
