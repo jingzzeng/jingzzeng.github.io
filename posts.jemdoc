@@ -1,11 +1,6 @@
 # jemdoc: menu{MENU}{posts.html}, nofooter  
  
-== 2021
-- [posts/parallel_computing.nb.html (09\/02) Parallel computing with /R/] 
-# - [posts/GLAA.pdf (06/26, EcoSta 2021) Generalized Liquid Association Analysis for Multimodal Neuroimaging] 
-
-== 2020
-- [posts/Tensorly.html (02\/24) /Tensorly/ library]
-
-== 2019
-- [posts/HPC.pdf (10/07) High-performance Computing (HPC)]
+== Posts
+- [posts/parallel_computing.nb.html (2021-09-02) Parallel computing with /R/] 
+- [posts/Tensorly.html (2020-02-24) /Tensorly/ library]
+- [posts/HPC.pdf (2019-10-07) High-Performance Computing (HPC)]
