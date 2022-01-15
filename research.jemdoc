@@ -6,6 +6,9 @@
 . Zeng, J., Zhang, X. and Mai, Q. (2021+). An Efficient Convex Formulation for Reduced-Rank Linear Discriminant Analysis in High Dimensions. /Statistics Sinica/, accepted. \[[http://www3.stat.sinica.edu.tw/ss_newpaper/SS-2021-0047_na.pdf Link]\]
 . Zeng, J., Wang, W. and Zhang, X. (2021). TRES: An R Package for Tensor Regression and Envelope Algorithms. /Journal of Statistical Software/, 99, 1-31. \[[https://www.jstatsoft.org/article/view/v099i12 Link]\]\[[https://github.com/leozeng15/TRES R package]\]
 
+== Current work
+. High-dimensional SDR approach for heavy-tailed data.
+
 == Software
 
 - *TRES:* [https://CRAN.R-project.org/package=TRES \[CRAN\]] {{&nbsp;&nbsp;<img src=https://cranlogs.r-pkg.org/badges/grand-total/TRES?color=green width="90px" style="vertical-align:top">}}
