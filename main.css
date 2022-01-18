@@ -721,3 +721,18 @@ div#member p{
     max-width: 100%;
   }
 }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.social {
+  position: relative;
+  display: inline-block;
+  float: left;
+  padding: 10px;
+}
