@@ -2,9 +2,17 @@
 
 == Publications
 ``$\dagger$'' indicates joint first authorship.
-. $\dagger$ Li, L., Zeng, J. and Zhang, X. (2021+). Generalized Liquid Association Analysis for Multimodal Data Integration. /Journal of the American Statistical Association/, accepted. \[[https://www.tandfonline.com/doi/abs/10.1080/01621459.2021.2024437?journalCode=uasa20 Link]\]
-. Zeng, J., Zhang, X. and Mai, Q. (2021+). An Efficient Convex Formulation for Reduced-Rank Linear Discriminant Analysis in High Dimensions. /Statistics Sinica/, accepted. \[[http://www3.stat.sinica.edu.tw/ss_newpaper/SS-2021-0047_na.pdf Link]\]
-. Zeng, J., Wang, W. and Zhang, X. (2021). TRES: An R Package for Tensor Regression and Envelope Algorithms. /Journal of Statistical Software/, 99, 1-31. \[[https://www.jstatsoft.org/article/view/v099i12 Link]\]\[[https://github.com/leozeng15/TRES R package]\]
+. $\dagger$ Li, L., Zeng, J. and Zhang, X. (2022+).\n
+Generalized Liquid Association Analysis for Multimodal Data Integration. \[[papers/GLAA.pdf pdf]\]\n
+/Journal of the American Statistical Association/. Accepted.
+
+. Zeng, J., Zhang, X. and Mai, Q. (2022+).\n
+An Efficient Convex Formulation for Reduced-Rank Linear Discriminant Analysis in High Dimensions. \[[papers/LSLDA.pdf pdf]\]\n
+/Statistics Sinica/. Accepted.
+
+. Zeng, J., Wang, W. and Zhang, X. (2021).\n
+TRES: An R Package for Tensor Regression and Envelope Algorithms. \[[papers/TRES.pdf pdf]\]\[[https://github.com/leozeng15/TRES R package]\]\n
+/Journal of Statistical Software/, 99, 1-31.
 
 == Current work
 . High-dimensional SDR approach for heavy-tailed data.
