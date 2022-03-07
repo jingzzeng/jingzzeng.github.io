@@ -3,16 +3,16 @@
 == Publications
 ``$\dagger$'' indicates joint first authorship.
 . $\dagger$ Li, L., Zeng, J. and Zhang, X. (2022+).\n
-Generalized Liquid Association Analysis for Multimodal Data Integration. \[[papers/GLAA.pdf pdf]\]\n
-/Journal of the American Statistical Association/. Accepted.
+Generalized Liquid Association Analysis for Multimodal Data Integration.\n
+/Journal of the American Statistical Association/. Accepted. \[[papers/GLAA.pdf pdf]\]\n
 
 . Zeng, J., Zhang, X. and Mai, Q. (2022+).\n
-An Efficient Convex Formulation for Reduced-Rank Linear Discriminant Analysis in High Dimensions. \[[papers/LSLDA.pdf pdf]\]\n
-/Statistics Sinica/. Accepted.
+An Efficient Convex Formulation for Reduced-Rank Linear Discriminant Analysis in High Dimensions.\n
+/Statistics Sinica/. Accepted. \[[papers/LSLDA.pdf pdf]\]\[[https://github.com/jingzzeng/LSLDA code]\]\n
 
 . Zeng, J., Wang, W. and Zhang, X. (2021).\n
-TRES: An R Package for Tensor Regression and Envelope Algorithms. \[[papers/TRES.pdf pdf]\]\[[https://github.com/leozeng15/TRES R package]\]\n
-/Journal of Statistical Software/, 99, 1-31.
+TRES: An R Package for Tensor Regression and Envelope Algorithms.\n
+/Journal of Statistical Software/, 99, 1-31. \[[papers/TRES.pdf pdf]\]\[[https://github.com/leozeng15/TRES R package]\]
 
 == Current work
 . High-dimensional SDR approach for heavy-tailed data.
