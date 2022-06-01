@@ -2,13 +2,14 @@
 
 == Publications
 ``$\dagger$'' indicates joint first authorship.
-. $\dagger$ Li, L., Zeng, J. and Zhang, X. (2022+).\n
-Generalized Liquid Association Analysis for Multimodal Data Integration.\n
-/Journal of the American Statistical Association/. Accepted. \[[papers/GLAA.pdf pdf]\]\[[https://github.com/jingzzeng/GLAA code]\]\n
 
-. Zeng, J., Zhang, X. and Mai, Q. (2022+).\n
+. Zeng, J., Zhang, X. and Mai, Q. (2023+).\n
 An Efficient Convex Formulation for Reduced-Rank Linear Discriminant Analysis in High Dimensions.\n
 /Statistics Sinica/. Accepted. \[[papers/LSLDA.pdf pdf]\]\[[https://github.com/jingzzeng/LSLDA code]\]\n
+
+. $\dagger$ Li, L., Zeng, J. and Zhang, X. (2022).\n
+Generalized Liquid Association Analysis for Multimodal Data Integration.\n
+/Journal of the American Statistical Association/. Accepted. \[[papers/GLAA.pdf pdf]\]\[[https://github.com/jingzzeng/GLAA code]\]\n
 
 . Zeng, J., Wang, W. and Zhang, X. (2021).\n
 TRES: An R Package for Tensor Regression and Envelope Algorithms.\n
