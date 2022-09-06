@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Working paper\n\nRobust estimation of central subspace under the high-dimensional and elliptical-contoured design (with Dr. Qing Mai and Dr. Keqian Min).\nEfficient formulation for sliced average variance estimate with variable and dimension selection (with Dr. Xin Zhang)."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Jing Zeng (曾靖)",
+    "section": "",
+    "text": "International Institute of Finance\nSchool of Management\nUniversity of Science and Technology of China"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About me",
+    "section": "",
+    "text": "My research interests mainly cover dimension reduction, high-dimensional statistics, and tensor data analysis. I am also interested in applications in other fields, e.g., medical science, finance, etc. Recently, I am working on the robust dimension reduction of the high-dimensional heavy-tailed data, and the second-moment based sparse SDR method.\n\nEducation\n\n2017/08–2022/05: Ph.D. in Statistics, Florida State University.\n2013/08–2017/06: B.S. in Mathematics and Applied Mathematics, University of Science and Technology of China.\n\n\n\nEmployment\n\n2022/07–Present: Associate Professor (tenure-track), International Institute of Finance, School of Management, University of Science and Technology of China.\n\n\n\nResearch Interests\n\nApplications in medical science\nDimension reduction\nHigh-dimensional statistics\nMachine learning\nRobust statistics\nTensor data analysis\n\n\n\nServices\n\nReviewer: Biometrics, Journal of Computational and Graphical Statistics, WIREs Computational Statistics.\n\n\n\nContact\nOffice 406, Building 1, International Institute of Finance\nHefei, Anhui, China\nEmail: zengjxl[AT]ustc[DOT]edu[DOT]cn"
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  }
+]

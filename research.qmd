@@ -1,0 +1,28 @@
+---
+title: "Research"
+---
+
+### Publications
+"$\dagger$" indicates joint first authorship.
+
+1. Zeng, J., Mai, Q. and Zhang, X. (2022).
+Subspace Estimation with Automatic Dimension and Variable Selection in Sufficient Dimension Reduction.
+Journal of the American Statistical Association. Accepted. [[pdf]](papers/SEAS.pdf)
+
+
+2. $\dagger$ Li, L., Zeng, J. and Zhang, X. (2022).
+Generalized Liquid Association Analysis for Multimodal Data Integration.
+Journal of the American Statistical Association. Accepted. [[pdf]](papers/GLAA.pdf)[[code]](https://github.com/jingzzeng/GLAA)
+
+3. Zeng, J., Zhang, X. and Mai, Q. (2022+).
+An Efficient Convex Formulation for Reduced-Rank Linear Discriminant Analysis in High Dimensions.
+Statistics Sinica. Accepted. [[pdf]](papers/LSLDA.pdf pdf)[[code]](https://github.com/jingzzeng/LSLDA)
+
+4. Zeng, J., Wang, W. and Zhang, X. (2021).
+TRES: An R Package for Tensor Regression and Envelope Algorithms.
+Journal of Statistical Software, 99, 1-31. [[pdf]](papers/TRES.pdf pdf)[[R package]](https://github.com/leozeng15/TRES)
+
+### Working paper
+1. Robust estimation of central subspace under the high-dimensional and elliptical-contoured design (with Dr. Qing Mai and Dr. Keqian Min).
+
+2. Efficient formulation for sliced average variance estimate with variable and dimension selection (with Dr. Xin Zhang).
