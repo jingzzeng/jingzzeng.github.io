@@ -1,0 +1,14 @@
+---
+title: "Jing Zeng (曾靖)"
+image: profile3.jpg
+about:
+  template: jolla
+  image-shape: round
+  image-width: 13em
+---
+
+### Associate Professor (tenure-track)
+
+*International Institute of Finance*\
+*School of Management*\
+*University of Science and Technology of China*

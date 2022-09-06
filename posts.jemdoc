@@ -1,6 +1,0 @@
-# jemdoc: menu{MENU}{posts.html}, nofooter  
- 
-== Posts
-- [posts/parallel_computing.nb.html (2021-09-02) Parallel computing with /R/] 
-- [posts/Tensorly.html (2020-02-24) /Tensorly/ library]
-- [posts/HPC.pdf (2019-10-07) High-Performance Computing (HPC)]
