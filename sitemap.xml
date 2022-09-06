@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://jzeng.site/</loc>
+  <lastmod>2022-01-18T01:29:57+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://jzeng.site/index.html</loc>
+  <lastmod>2022-01-18T01:29:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jzeng.site/research.html</loc>
+  <lastmod>2022-01-18T01:29:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jzeng.site/teaching.html</loc>
+  <lastmod>2022-01-18T01:29:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jzeng.site/software.html</loc>
+  <lastmod>2022-01-18T01:29:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jzeng.site/posts.html</loc>
+  <lastmod>2022-01-18T01:29:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jzeng.site/CV/CV-website.pdf</loc>
+  <lastmod>2022-01-18T01:29:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jzeng.site/posts/parallel_computing.nb.html</loc>
+  <lastmod>2022-01-18T01:29:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jzeng.site/posts/Tensorly.html</loc>
+  <lastmod>2022-01-18T01:29:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jzeng.site/posts/HPC.pdf</loc>
+  <lastmod>2022-01-18T01:29:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
