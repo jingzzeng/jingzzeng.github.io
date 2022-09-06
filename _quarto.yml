@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Jing Zeng"
+  search: false
   navbar:
     left:
       - href: index.qmd
@@ -13,7 +14,6 @@ website:
       - research.qmd
       - teaching.qmd
       - software.qmd
-      - cv.qmd
   page-footer: "Copyright 2022, Jing Zeng" 
 
 format:

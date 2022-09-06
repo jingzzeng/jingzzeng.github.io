@@ -4,14 +4,14 @@
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "1 + 1\n\n[1] 2"
+    "text": "Florida State University\n“\\(*\\)” indicates the role as a Grader.\n\n\\(*\\) Spring 2020: STA 5934-0001 Tensor Data Analysis\n\\(*\\) Spring 2020: STA 5934-0002 Deep Learning\n\\(*\\) Spring 2020: STA 5934-0004 Statistical Computing with Python\nSummer 2018, Fall 2018, Spring 2019: STA 2122 Introduction to Applied Statistics\n\\(*\\) Fall 2017, Spring 2018: STA 2122 Introduction to Applied Statistics"
   },
   {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Working paper\n\nRobust estimation of central subspace under the high-dimensional and elliptical-contoured design (with Dr. Qing Mai and Dr. Keqian Min).\nEfficient formulation for sliced average variance estimate with variable and dimension selection (with Dr. Xin Zhang)."
+    "text": "Publications\n“\\(\\dagger\\)” indicates joint first authorship.\n\nZeng, J., Mai, Q. and Zhang, X. (2022). Subspace Estimation with Automatic Dimension and Variable Selection in Sufficient Dimension Reduction. Journal of the American Statistical Association. Accepted. [pdf]\n\\(\\dagger\\) Li, L., Zeng, J. and Zhang, X. (2022). Generalized Liquid Association Analysis for Multimodal Data Integration. Journal of the American Statistical Association. Accepted. [pdf][code]\nZeng, J., Zhang, X. and Mai, Q. (2022+). An Efficient Convex Formulation for Reduced-Rank Linear Discriminant Analysis in High Dimensions. Statistics Sinica. Accepted. [pdf][code]\nZeng, J., Wang, W. and Zhang, X. (2021). TRES: An R Package for Tensor Regression and Envelope Algorithms. Journal of Statistical Software, 99, 1-31. [pdf][R package]\n\n\n\n\nWorking paper\n\nRobust estimation of central subspace under the high-dimensional and elliptical-contoured design (with Dr. Qing Mai and Dr. Keqian Min).\nEfficient formulation for sliced average variance estimate with variable and dimension selection (with Dr. Xin Zhang)."
   },
   {
     "objectID": "index.html",
@@ -25,20 +25,13 @@
     "href": "about.html",
     "title": "About me",
     "section": "",
-    "text": "My research interests mainly cover dimension reduction, high-dimensional statistics, and tensor data analysis. I am also interested in applications in other fields, e.g., medical science, finance, etc. Recently, I am working on the robust dimension reduction of the high-dimensional heavy-tailed data, and the second-moment based sparse SDR method.\n\nEducation\n\n2017/08–2022/05: Ph.D. in Statistics, Florida State University.\n2013/08–2017/06: B.S. in Mathematics and Applied Mathematics, University of Science and Technology of China.\n\n\n\nEmployment\n\n2022/07–Present: Associate Professor (tenure-track), International Institute of Finance, School of Management, University of Science and Technology of China.\n\n\n\nResearch Interests\n\nApplications in medical science\nDimension reduction\nHigh-dimensional statistics\nMachine learning\nRobust statistics\nTensor data analysis\n\n\n\nServices\n\nReviewer: Biometrics, Journal of Computational and Graphical Statistics, WIREs Computational Statistics.\n\n\n\nContact\nOffice 406, Building 1, International Institute of Finance\nHefei, Anhui, China\nEmail: zengjxl[AT]ustc[DOT]edu[DOT]cn"
+    "text": "Welcome! I am an Associate Professor (tenure-track) at International Institute of Finance, School of Management, University of Science and Technology of China (USTC). I received my Ph.D. degree from Florida State University (FSU) in 2022 under the supervision of Professor Xin Henry Zhang and Professor Qing Mai. I received my B.S. degree from USTC in 2017.\nMy research interests mainly cover dimension reduction, high-dimensional statistics, and tensor data analysis. I am also interested in applications in other fields, e.g., medical science, finance, etc. Recently, I am working on the robust dimension reduction of the high-dimensional heavy-tailed data, and the second-moment based sparse SDR method.\nHere is my full CV.\n\n\nEducation\n\n2017/08–2022/05: Ph.D. in Statistics, Florida State University.\n2013/08–2017/06: B.S. in Mathematics and Applied Mathematics, University of Science and Technology of China.\n\n\n\n\nEmployment\n\n2022/07–Present: Associate Professor (tenure-track), International Institute of Finance, School of Management, University of Science and Technology of China.\n\n\n\n\nResearch Interests\n\nApplications in medical science\nDimension reduction\nHigh-dimensional statistics\nMachine learning\nRobust statistics\nTensor data analysis\n\n\n\n\nServices\n\nReviewer: Biometrics, Journal of Computational and Graphical Statistics, WIREs Computational Statistics.\n\n\n\n\nContact\nOffice 406, Building 1, International Institute of Finance\nHefei, Anhui, China\nEmail: zengjxl[AT]ustc[DOT]edu[DOT]cn"
   },
   {
     "objectID": "software.html",
     "href": "software.html",
     "title": "Software",
     "section": "",
-    "text": "1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "CV",
-    "section": "",
-    "text": "1 + 1\n\n[1] 2"
+    "text": "R Packages\n\nTRES (Tensor Regression with Envelope Structure) \nSummary: Provides three estimators for tensor response regression (TRR) and tensor predictor regression (TPR) models with tensor envelope structure. The three types of estimation approaches are generic and can be applied to any envelope estimation problems.\nReference: Zeng, J., Wang, W., and Zhang, X. (2021). TRES: An R Package for Tensor Regression and Envelope Algorithms. Journal of Statistical Software, 99, 1-31."
   }
 ]
