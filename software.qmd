@@ -10,6 +10,6 @@ title: "Software"
 
 *Summary:* Provides three estimators for tensor response regression (TRR) and tensor predictor regression (TPR) models with tensor envelope structure. The three types of estimation approaches are generic and can be applied to any envelope estimation problems.
 
-*Reference:* Zeng, J., Wang, W., and Zhang, X. (2021). TRES: An R Package for Tensor Regression and Envelope Algorithms. *Journal of Statistical Software*, 99, 1-31.
+*Reference:* **Zeng, J.**, Wang, W., and Zhang, X. (2021). TRES: An R Package for Tensor Regression and Envelope Algorithms. *Journal of Statistical Software*, 99, 1-31.
 
 ![](figures/TRES1.png){width="600"}
