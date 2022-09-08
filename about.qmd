@@ -39,7 +39,7 @@ Here is my full [CV](CV/CV.pdf).
 
 ### Services
 
--   Reviewer: Biometrics, Journal of Computational and Graphical Statistics, WIREs Computational Statistics.
+-   Reviewer: *Biometrics, Journal of Computational and Graphical Statistics, WIREs Computational Statistics.*
 
 ------------------------------------------------------------------------
 
