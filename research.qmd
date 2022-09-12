@@ -18,7 +18,7 @@ title: "Research"
 
 ------------------------------------------------------------------------
 
-### Work in progress
+### Work in Progress
 
 1.  Robust sufficient dimension reduction in high dimensions (with Dr. Qing Mai and Dr. Keqian Min).
 
