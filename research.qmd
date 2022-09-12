@@ -18,8 +18,10 @@ title: "Research"
 
 ------------------------------------------------------------------------
 
-### Working paper
+### Work in progress
 
-1.  Robust estimation of central subspace under the high-dimensional and elliptical-contoured design (with Dr. Qing Mai and Dr. Keqian Min).
+1.  Robust sufficient dimension reduction in high dimensions (with Dr. Qing Mai and Dr. Keqian Min).
 
-2.  Efficient formulation for sliced average variance estimate with variable and dimension selection (with Dr. Xin Zhang).
+2.  Sparse sliced average variance estimate in high dimensions (with Dr. Xin Zhang).
+
+3.  Sufficient dimension reduction in extreme theory (with Dr. Liujun Chen).
