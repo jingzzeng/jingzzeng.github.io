@@ -8,7 +8,7 @@ title: "Research"
 
 "$\dagger$" indicates joint first authorship.
 
-1.  **Zeng, J.**, Mai, Q. and Zhang, X. (2022). Subspace Estimation with Automatic Dimension and Variable Selection in Sufficient Dimension Reduction. *Journal of the American Statistical Association*. Accepted. [\[pdf\]](papers/SEAS.pdf)
+1.  **Zeng, J.**, Mai, Q. and Zhang, X. (2022). Subspace Estimation with Automatic Dimension and Variable Selection in Sufficient Dimension Reduction. *Journal of the American Statistical Association*. Accepted. [\[pdf\]](papers/SEAS.pdf)[\[code\]](https://github.com/jingzzeng/SEAS)
 
 2.  $\dagger$ Li, L., **Zeng, J**. and Zhang, X. (2022). Generalized Liquid Association Analysis for Multimodal Data Integration. *Journal of the American Statistical Association*. Accepted. [\[pdf\]](papers/GLAA.pdf)[\[code\]](https://github.com/jingzzeng/GLAA)
 
