@@ -22,6 +22,6 @@ title: "Research"
 
 1.  Robust sufficient dimension reduction in high dimensions (with Dr. Qing Mai and Dr. Keqian Min).
 
-2.  Sparse sliced average variance estimate in high dimensions (with Dr. Xin Zhang).
+2.  Second-moment sufficient dimension reduction method in high dimensions (with Dr. Xin Zhang).
 
 3.  Sufficient dimension reduction in extreme theory (with Dr. Liujun Chen).
