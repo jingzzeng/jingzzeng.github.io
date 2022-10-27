@@ -16,12 +16,12 @@ title: "Research"
 
 4.  **Zeng, J.**, Wang, W. and Zhang, X. (2021). TRES: An R Package for Tensor Regression and Envelope Algorithms. *Journal of Statistical Software*, 99, 1-31. [\[pdf\]](papers/TRES.pdf)[\[R package\]](https://github.com/leozeng15/TRES)
 
-------------------------------------------------------------------------
+<!-- ------------------------------------------------------------------------ -->
 
-### Work in Progress
+<!-- ### Work in Progress -->
 
-1.  Robust sufficient dimension reduction in high dimensions (with Dr. Qing Mai and Dr. Keqian Min).
+<!-- 1.  Robust sufficient dimension reduction in high dimensions (with Dr. Qing Mai and Dr. Keqian Min). -->
 
-2.  Second-moment sufficient dimension reduction method in high dimensions (with Dr. Xin Zhang).
+<!-- 2.  Second-moment sufficient dimension reduction method in high dimensions (with Dr. Xin Zhang). -->
 
-3.  Sufficient dimension reduction in extreme theory (with Dr. Liujun Chen).
+<!-- 3.  Sufficient dimension reduction in extreme theory (with Dr. Liujun Chen). -->
