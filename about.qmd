@@ -40,7 +40,7 @@ Here is my full [CV](CV/CV.pdf).
 
 ### Services
 
--   Reviewer: *Biometrics, Journal of Computational and Graphical Statistics, Statistica Sinica, WIREs Computational Statistics.*
+-   Reviewer: *Biometrics, Computational Statistics and Data Analysis, Journal of Computational and Graphical Statistics, Statistica Sinica, WIREs Computational Statistics.*
 
 ------------------------------------------------------------------------
 
