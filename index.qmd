@@ -1,10 +1,10 @@
 ---
 title: "Jing Zeng (曾靖)"
-image: profile.jpg
+image: profile2.jpeg
 about:
   template: jolla
   image-shape: round
-  image-width: 13em
+  image-width: 14em
 ---
 
 ### Associate Professor (tenure-track)
