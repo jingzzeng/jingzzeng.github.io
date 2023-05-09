@@ -6,7 +6,7 @@ title: "About me"
 
 Welcome! I am an Associate Professor (tenure-track) at International Institute of Finance, School of Management, University of Science and Technology of China (USTC). I received my Ph.D. degree from Florida State University (FSU) in 2022 under the supervision of Professor Xin Henry Zhang and Professor Qing Mai. I received my B.S. degree from USTC in 2017.
 
-My research interests mainly cover dimension reduction, high-dimensional statistics, and tensor data analysis. I am also interested in applications in other fields, e.g., medical science, machine learning, finance, etc. <!-- Recently, I am working on the robust dimension reduction of the high-dimensional heavy-tailed data, and the second-moment based sparse SDR method. -->
+My research interests mainly cover dimension reduction, high-dimensional statistics, and tensor data analysis. I am also interested in applications in other fields, e.g., medical science, machine learning, finance, etc.
 
 Here is my full [CV](CV/CV.pdf).
 
@@ -28,18 +28,16 @@ Here is my full [CV](CV/CV.pdf).
 
 ### Research Interests
 
-<!-- -   Applications in medical science -->
-
 -   Dimension reduction
--   High-dimensional statistics <!-- -   Machine learning -->
+-   High-dimensional statistics
 -   Robust statistics
 -   Tensor data analysis
 
-------------------------------------------------------------------------
+<!-- ------------------------------------------------------------------------ -->
 
-### Services
+<!-- ### Services -->
 
--   Reviewer: *Biometrics, Computational Statistics and Data Analysis, Journal of Computational and Graphical Statistics, Statistics and Its Interface, Statistica Sinica, WIREs Computational Statistics.*
+<!-- -   Reviewer: *Biometrics, Computational Statistics and Data Analysis, Journal of Computational and Graphical Statistics, Statistics and Its Interface, Statistica Sinica, WIREs Computational Statistics.* -->
 
 ------------------------------------------------------------------------
 

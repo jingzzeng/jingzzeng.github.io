@@ -4,9 +4,15 @@ title: "Research"
 
 ------------------------------------------------------------------------
 
-### Publications
-
 "$\dagger$" indicates joint first authorship.
+
+### Submitted works
+
+1. $\dagger$ Chen, L. and **Zeng, J.** (2023). Dimension Reduction for Extreme Regression via Contour Projection.
+
+2. $\dagger$ **Zeng, J.** and Zhang, X. (2023). Tensor and Multimodal Data Analysis for Health Data Science (Invited Book Chapter).
+
+### Publications
 
 1.  **Zeng, J.**, Mai, Q. and Zhang, X. (2022). Subspace Estimation with Automatic Dimension and Variable Selection in Sufficient Dimension Reduction. *Journal of the American Statistical Association*. Accepted. [\[pdf\]](papers/SEAS.pdf)[\[code\]](https://github.com/jingzzeng/SEAS)
 
