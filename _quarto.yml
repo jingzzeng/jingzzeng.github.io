@@ -5,6 +5,7 @@ project:
 website:
   title: "Jing Zeng"
   search: false
+  favicon: profile.png
   navbar:
     left:
       - href: index.qmd
@@ -14,13 +15,15 @@ website:
       - research.qmd
       - teaching.qmd
       - software.qmd
+      - href: CV/CV.pdf
+        text: CV
   page-footer: "Copyright 2022, Jing Zeng" 
 
 format:
   html:
-    theme: cosmo
+    theme: Cosmo
     css: styles.css
-    toc: true
+    # toc: true
 
 editor: visual
 

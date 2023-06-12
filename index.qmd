@@ -5,9 +5,13 @@ about:
   template: jolla
   image-shape: round
   image-width: 14em
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/jingzzeng
 ---
 
-### Associate Professor (tenure-track)
+**Associate Professor (tenure-track)**
 
 *International Institute of Finance*\
 *School of Management*\

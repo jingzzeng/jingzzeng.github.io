@@ -8,8 +8,6 @@ Welcome! I am an Associate Professor (tenure-track) at International Institute o
 
 My research interests mainly cover dimension reduction, high-dimensional statistics, and tensor data analysis. I am also interested in applications in other fields, e.g., medical science, machine learning, finance, etc.
 
-Here is my full [CV](CV/CV.pdf).
-
 ------------------------------------------------------------------------
 
 ### Education
