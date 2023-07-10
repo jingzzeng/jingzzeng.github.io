@@ -6,18 +6,18 @@ title: "Teaching"
 
 ### University of Science and Technology of China
 
--   Spring 2023: STAT3003 Fundamentals of Statistical Algorithm
+-   STAT3003 Fundamentals of Statistical Algorithm (Spring & Fall 2023)
 
 ------------------------------------------------------------------------
 
 ### Florida State University
 
--   Spring 2020: STA 5934-0001 Tensor Data Analysis (TA)
+<!-- -   Spring 2020: STA 5934-0001 Tensor Data Analysis (TA) -->
 
--   Spring 2020: STA 5934-0002 Deep Learning (TA)
+<!-- -   Spring 2020: STA 5934-0002 Deep Learning (TA) -->
 
--   Spring 2020: STA 5934-0004 Statistical Computing with Python (TA)
+<!-- -   Spring 2020: STA 5934-0004 Statistical Computing with Python (TA) -->
 
--   Summer 2018, Fall 2018, Spring 2019: STA 2122 Introduction to Applied Statistics
+-   STA 2122 Introduction to Applied Statistics (Summer & Fall 2018, Spring 2019)
 
--   Fall 2017, Spring 2018: STA 2122 Introduction to Applied Statistics (TA)
+<!-- -   Fall 2017, Spring 2018: STA 2122 Introduction to Applied Statistics (TA) -->
