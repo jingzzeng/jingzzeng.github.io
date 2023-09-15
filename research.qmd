@@ -8,9 +8,11 @@ title: "Research"
 
 ### Submitted works
 
-1. $\dagger$ Chen, L. and **Zeng, J.** (2023). Dimension Reduction for Extreme Regression via Contour Projection.
+1.  **Zeng, J.**, Min, K. and Mai, Q. (2023). Robust Sliced Inverse Regression: Optimal Estimation for Heavy-Tailed Data in High Dimensions
 
-2. $\dagger$ **Zeng, J.** and Zhang, X. (2023). Tensor and Multimodal Data Analysis for Health Data Science (Invited Book Chapter).
+2.  $\dagger$ Chen, L. and **Zeng, J.** (2023). Dimension Reduction for Extreme Regression via Contour Projection.
+
+3.  $\dagger$ **Zeng, J.** and Zhang, X. (2023). Tensor and Multimodal Data Analysis for Health Data Science (Invited Book Chapter).
 
 ### Publications
 
@@ -21,13 +23,3 @@ title: "Research"
 3.  **Zeng, J.**, Zhang, X. and Mai, Q. (2022+). An Efficient Convex Formulation for Reduced-Rank Linear Discriminant Analysis in High Dimensions. *Statistics Sinica*. Accepted. [\[pdf\]](papers/LSLDA.pdf)[\[code\]](https://github.com/jingzzeng/LSLDA)
 
 4.  **Zeng, J.**, Wang, W. and Zhang, X. (2021). TRES: An R Package for Tensor Regression and Envelope Algorithms. *Journal of Statistical Software*, 99, 1-31. [\[pdf\]](papers/TRES.pdf)[\[R package\]](https://github.com/leozeng15/TRES)
-
-<!-- ------------------------------------------------------------------------ -->
-
-<!-- ### Work in Progress -->
-
-<!-- 1.  Robust sufficient dimension reduction in high dimensions (with Dr. Qing Mai and Dr. Keqian Min). -->
-
-<!-- 2.  Second-moment sufficient dimension reduction method in high dimensions (with Dr. Xin Zhang). -->
-
-<!-- 3.  Sufficient dimension reduction in extreme theory (with Dr. Liujun Chen). -->
