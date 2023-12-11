@@ -17,6 +17,8 @@ website:
       - software.qmd
       - href: CV/CV.pdf
         text: CV
+      - href: gallery.qmd
+        text: Gallery
   page-footer: "Copyright 2022, Jing Zeng" 
 
 format:

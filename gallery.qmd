@@ -1,0 +1,30 @@
+---
+title: Gallery of life
+---
+
+------------------------------------------------------------------------
+
+### My furry friend
+
+<div class="gallery">
+  <img class="favorite-picture" src="pictures/2.jpg" alt="Picture 2">
+  <img class="favorite-picture" src="pictures/3.jpg" alt="Picture 3">
+  <img class="favorite-picture" src="pictures/4.jpg" alt="Picture 4">
+  <!-- Add more images as needed -->
+</div>
+
+<style>
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .favorite-picture {
+    width: 200px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+  }
+</style>
