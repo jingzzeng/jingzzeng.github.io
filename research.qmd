@@ -14,6 +14,8 @@ title: "Research"
 
 3.  $\dagger$ **Zeng, J.** and Zhang, X. (2023). Tensor and Multimodal Data Analysis for Health Data Science (Invited Book Chapter).
 
+4. **Zeng, J.**, Zhang, X. and Hao, N. (2024). Second-Order Sparse Suﬃcient Dimension Reduction with Applications to Quadratic Discriminant Analysis.
+
 ### Publications
 
 1.  **Zeng, J.**, Mai, Q. and Zhang, X. (2022). Subspace Estimation with Automatic Dimension and Variable Selection in Sufficient Dimension Reduction. *Journal of the American Statistical Association*. Accepted. [\[pdf\]](papers/SEAS.pdf)[\[code\]](https://github.com/jingzzeng/SEAS)
