@@ -13,6 +13,7 @@ website:
       - href: about.qmd
         text: About
       - research.qmd
+      - group.qmd
       - teaching.qmd
       - software.qmd
       - href: CV/CV.pdf
