@@ -4,7 +4,7 @@ title: "Group"
 
 ------------------------------------------------------------------------
 
-### Current Graduate Student
+### Current Graduate Students
 
 -   Weijian Huang
 
@@ -16,11 +16,11 @@ title: "Group"
 
 ------------------------------------------------------------------------
 
-### Former Undergraduate Student
+### Former Undergraduate Students
 
 -   Heng Liu
 
-    B.S. in Statistics, USTC, 2019-2023
+    B.S. in Statistics, USTC (graduated in 2023)
 
     Thesis: *Robust Sufficient Dimension Reduction with Multivariate Response*
 
