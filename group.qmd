@@ -8,7 +8,7 @@ title: "Group"
 
 -   Weijian Huang
 
-    Master in Statistics, USTC, 2022-
+    Ph.D. Candidate in Statistics, USTC, 2022-
 
 -   Heng Liu
 
@@ -18,9 +18,13 @@ title: "Group"
 
 ### Former Undergraduate Students
 
--   Heng Liu
+-   Jingyi Guo (B.S. in Statistics, USTC, 2024)
 
-    B.S. in Statistics, USTC (graduated in 2023)
+    Thesis: *Sparse Sliced Inverse Regression Based on Kendall's Tau Matrix*
+
+    Now: Ph.D. Candidate in Statistics, Pennsylvania State University, 2024-
+
+-   Heng Liu (B.S. in Statistics, USTC, 2023)
 
     Thesis: *Robust Sufficient Dimension Reduction with Multivariate Response*
 
