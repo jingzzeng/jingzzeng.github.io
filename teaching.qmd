@@ -6,9 +6,9 @@ title: "Teaching"
 
 ### University of Science and Technology of China
 
--   STAT3003 Fundamentals of Statistical Algorithm (Spring & Fall 2023)
+-   STAT3003 Fundamentals of Statistical Algorithm
 
--   ASTA6002P: Regression Analysis And Data Thinking (Fall 2023)
+-   ASTA6002P: Regression Analysis And Data Thinking
 
 ------------------------------------------------------------------------
 

@@ -16,11 +16,11 @@ title: "Research"
 
 ### Publications
 
-1.  $\dagger$ **Zeng, J.** and Zhang, X. (2024). Tensor and Multimodal Data Analysis. In: Gaw, N., Pardalos, P.M., Gahrooei, M.R. (eds) *Multimodal and Tensor Data Analytics for Industrial Systems Improvement*. Springer Optimization and Its Applications, vol 211. Springer, Cham.
+1.  **Zeng, J.** and Zhang, X. (2024). Tensor and Multimodal Data Analysis. In: Gaw, N., Pardalos, P.M., Gahrooei, M.R. (eds) *Multimodal and Tensor Data Analytics for Industrial Systems Improvement*. Springer Optimization and Its Applications, vol 211. Springer, Cham.
 
-2.  **Zeng, J.**, Mai, Q. and Zhang, X. (2024). Subspace Estimation with Automatic Dimension and Variable Selection in Sufficient Dimension Reduction. *Journal of the American Statistical Association*, 119(545), 343–355. [\[pdf\]](papers/SEAS.pdf)[\[code\]](https://github.com/jingzzeng/SEAS)
+2.  **Zeng, J.**, Mai, Q. and Zhang, X. (2024). Subspace Estimation with Automatic Dimension and Variable Selection in Sufficient Dimension Reduction. *Journal of the American Statistical Association*, 119(545), 343--355. [\[pdf\]](papers/SEAS.pdf)[\[code\]](https://github.com/jingzzeng/SEAS)
 
-3.  $\dagger$ Li, L., **Zeng, J**. and Zhang, X. (2023). Generalized Liquid Association Analysis for Multimodal Data Integration. *Journal of the American Statistical Association*, 118(543), 1984–1996. [\[pdf\]](papers/GLAA.pdf)[\[code\]](https://github.com/jingzzeng/GLAA)
+3.  $\dagger$ Li, L., **Zeng, J**. and Zhang, X. (2023). Generalized Liquid Association Analysis for Multimodal Data Integration. *Journal of the American Statistical Association*, 118(543), 1984--1996. [\[pdf\]](papers/GLAA.pdf)[\[code\]](https://github.com/jingzzeng/GLAA)
 
 4.  **Zeng, J.**, Zhang, X. and Mai, Q. (2023). An Efficient Convex Formulation for Reduced-Rank Linear Discriminant Analysis in High Dimensions. *Statistics Sinica*, 33, 1249-1270. [\[pdf\]](papers/LSLDA.pdf)[\[code\]](https://github.com/jingzzeng/LSLDA)
 

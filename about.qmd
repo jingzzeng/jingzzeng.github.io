@@ -6,7 +6,7 @@ title: "About me"
 
 Welcome! I am an Associate Professor (tenure-track) at International Institute of Finance, School of Management, University of Science and Technology of China (USTC). I received my Ph.D. degree from Florida State University (FSU) in 2022 under the supervision of Professor Xin Henry Zhang and Professor Qing Mai. I received my B.S. degree from USTC in 2017.
 
-My research interests mainly cover dimension reduction, high-dimensional statistics, and tensor data analysis. I am also interested in applications in other fields, e.g., medical science, machine learning, finance, etc.
+My research interests mainly cover dimension reduction, high-dimensional statistics, robust statistics, and tensor data analysis. I am also interested in their applications in other statistical areas, e.g., extreme value theory, transfer learning, mixture model. My research is also motivated by many real applications, including finance, neuroimaging, brain imaging, multi-omics, and genomics.
 
 ------------------------------------------------------------------------
 

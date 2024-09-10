@@ -23,9 +23,3 @@ title: "Group"
     Thesis: *Sparse Sliced Inverse Regression Based on Kendall's Tau Matrix*
 
     Now: Ph.D. Candidate in Statistics, Pennsylvania State University, 2024-
-
--   Heng Liu (B.S. in Statistics, USTC, 2023)
-
-    Thesis: *Robust Sufficient Dimension Reduction with Multivariate Response*
-
-    Now: Master in Statistics, USTC, 2023-
