@@ -1,6 +1,6 @@
 ---
 title: "Jing Zeng (曾靖)"
-image: profile2.jpg
+image: profile3.jpg
 about:
   template: jolla
   image-shape: round
