@@ -13,3 +13,11 @@ title: "Software"
 *Reference:* **Zeng, J.**, Wang, W., and Zhang, X. (2021). TRES: An R Package for Tensor Regression and Envelope Algorithms. *Journal of Statistical Software*, 99, 1-31.
 
 ![](figures/TRES1.png){width="600"}
+
+### Paper Codes
+
+-   [SEAS](https://github.com/jingzzeng/SEAS): Subspace Estimation with Automatic Dimension and Variable Selection in Sufficient Dimension Reduction.
+
+-   [LSLDA](https://github.com/jingzzeng/LSLDA): An Efficient Convex Formulation for Reduced-Rank Linear Discriminant Analysis in High Dimensions.
+
+-   [GLAA](https://github.com/jingzzeng/GLAA): Generalized Liquid Association Analysis for Multimodal Data Integration.

@@ -1,10 +1,10 @@
 ---
 title: "Jing Zeng (曾靖)"
-image: profile3.jpg
+image: profile.jpg
 about:
   template: jolla
   image-shape: round
-  image-width: 14em
+  image-width: 12em
   links:
     - icon: github
       text: GitHub
