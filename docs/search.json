@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "R Packages\n\nTRES (Tensor Regression with Envelope Structure) \nSummary: Provides three estimators for tensor response regression (TRR) and tensor predictor regression (TPR) models with tensor envelope structure. The three types of estimation approaches are generic and can be applied to any envelope estimation problems.\nReference: TRES: An R Package for Tensor Regression and Envelope Algorithms. Journal of Statistical Software, 99, 1-31.\n\n\n\n\nPaper Codes\n\nSEAS\nReference: Subspace Estimation with Automatic Dimension and Variable Selection in Sufficient Dimension Reduction. Journal of the American Statistical Association, 119(545), 343–355.\n\n\nLSLDA\nReference: An Efficient Convex Formulation for Reduced-Rank Linear Discriminant Analysis in High Dimensions. Statistics Sinica, 33, 1249-1270.\n\n\nGLAA\nReference: Generalized Liquid Association Analysis for Multimodal Data Integration. Journal of the American Statistical Association, 118(543), 1984–1996."
+  },
+  {
+    "objectID": "group.html",
+    "href": "group.html",
+    "title": "Group",
+    "section": "",
+    "text": "Current Graduate Students\n\nWeijian Huang\nPh.D. Candidate in Statistics, USTC, 2022-\nHeng Liu\nMaster in Statistics, USTC, 2023-\n\n\n\n\nFormer Undergraduate Students\n\nJingyi Guo (B.S. in Statistics, USTC, 2024)\nThesis: Sparse Sliced Inverse Regression Based on Kendall’s Tau Matrix\nNow: Ph.D. Candidate in Statistics, Pennsylvania State University, 2024-"
+  },
+  {
     "objectID": "teaching.html",
     "href": "teaching.html",
     "title": "Teaching",
@@ -14,13 +28,6 @@
     "text": "“\\(\\dagger\\)” indicates joint first authorship.\n\nSubmitted works\n\nZeng, J., Min, K. and Mai, Q. (2023). Robust Sliced Inverse Regression: Optimal Estimation for Heavy-Tailed Data in High Dimensions\n\\(\\dagger\\) Chen, L. and Zeng, J. (2023). Dimension Reduction for Extreme Regression via Contour Projection.\nZeng, J., Zhang, X. and Hao, N. (2024). Second-Order Sparse Suﬃcient Dimension Reduction with Applications to Quadratic Discriminant Analysis.\n\n\n\nPublications\n\nZeng, J. and Zhang, X. (2024). Tensor and Multimodal Data Analysis. In: Gaw, N., Pardalos, P.M., Gahrooei, M.R. (eds) Multimodal and Tensor Data Analytics for Industrial Systems Improvement. Springer Optimization and Its Applications, vol 211. Springer, Cham.\nZeng, J., Mai, Q. and Zhang, X. (2024). Subspace Estimation with Automatic Dimension and Variable Selection in Sufficient Dimension Reduction. Journal of the American Statistical Association, 119(545), 343–355. [pdf]\n\\(\\dagger\\) Li, L., Zeng, J. and Zhang, X. (2023). Generalized Liquid Association Analysis for Multimodal Data Integration. Journal of the American Statistical Association, 118(543), 1984–1996. [pdf]\nZeng, J., Zhang, X. and Mai, Q. (2023). An Efficient Convex Formulation for Reduced-Rank Linear Discriminant Analysis in High Dimensions. Statistics Sinica, 33, 1249-1270. [pdf]\nZeng, J., Wang, W. and Zhang, X. (2021). TRES: An R Package for Tensor Regression and Envelope Algorithms. Journal of Statistical Software, 99, 1-31. [pdf][R package]\n\n\n\nAcknowledgement\nMy research is partially supported by the National Natural Science Foundation of China (NSFC) Grant 12301365 (2024.01–2026.12). Thank you, NSFC!"
   },
   {
-    "objectID": "group.html",
-    "href": "group.html",
-    "title": "Group",
-    "section": "",
-    "text": "Current Graduate Students\n\nWeijian Huang\nPh.D. Candidate in Statistics, USTC, 2022-\nHeng Liu\nMaster in Statistics, USTC, 2023-\n\n\n\n\nFormer Undergraduate Students\n\nJingyi Guo (B.S. in Statistics, USTC, 2024)\nThesis: Sparse Sliced Inverse Regression Based on Kendall’s Tau Matrix\nNow: Ph.D. Candidate in Statistics, Pennsylvania State University, 2024-"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Jing Zeng (曾靖)",
@@ -33,12 +40,5 @@
     "title": "About me",
     "section": "",
     "text": "Welcome! I am an Associate Professor (tenure-track) at International Institute of Finance, School of Management, University of Science and Technology of China (USTC). I received my Ph.D. degree from Florida State University (FSU) in 2022 under the supervision of Professor Xin Henry Zhang and Professor Qing Mai. I received my B.S. degree from USTC in 2017.\nMy research interests mainly cover dimension reduction, high-dimensional statistics, robust statistics, and tensor data analysis. I am also interested in their applications in other statistical areas, e.g., extreme value theory, transfer learning, mixture model. My research is also motivated by many real applications, including finance, neuroimaging, brain imaging, multi-omics, and genomics.\n\n\nEducation\n\n2017/08–2022/05: Ph.D. in Statistics, Florida State University.\n2013/08–2017/06: B.S. in Mathematics and Applied Mathematics, University of Science and Technology of China.\n\n\n\n\nEmployment\n\n2022/07–Present: Associate Professor (tenure-track), International Institute of Finance, School of Management, University of Science and Technology of China.\n\n\n\n\nResearch Interests\n\nDimension reduction\nHigh-dimensional statistics\nRobust statistics\nTensor data analysis\n\n\n\n\n\n\n\nAwards\n\n2022/12: R.A. Bradley Award for the best PhD dissertation in the Department of Statistics, Florida State University.\n2018/10: Best First Year Student in Applied Statistics Award for outstanding achievement as a graduate student, Florida State University\n\n\n\n\nContact\nRoom 208, Building of Management Academy, USTC\nNo. 96 Jinzhai Rd, Hefei, China\nEmail: zengjxl[AT]ustc[DOT]edu[DOT]cn"
-  },
-  {
-    "objectID": "software.html",
-    "href": "software.html",
-    "title": "Software",
-    "section": "",
-    "text": "R Packages\n\nTRES (Tensor Regression with Envelope Structure) \nSummary: Provides three estimators for tensor response regression (TRR) and tensor predictor regression (TPR) models with tensor envelope structure. The three types of estimation approaches are generic and can be applied to any envelope estimation problems.\nReference: Zeng, J., Wang, W., and Zhang, X. (2021). TRES: An R Package for Tensor Regression and Envelope Algorithms. Journal of Statistical Software, 99, 1-31.\n\n\n\n\nPaper Codes\n\nSEAS: Subspace Estimation with Automatic Dimension and Variable Selection in Sufficient Dimension Reduction.\nLSLDA: An Efficient Convex Formulation for Reduced-Rank Linear Discriminant Analysis in High Dimensions.\nGLAA: Generalized Liquid Association Analysis for Multimodal Data Integration."
   }
 ]

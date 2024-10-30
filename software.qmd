@@ -10,14 +10,20 @@ title: "Software"
 
 *Summary:* Provides three estimators for tensor response regression (TRR) and tensor predictor regression (TPR) models with tensor envelope structure. The three types of estimation approaches are generic and can be applied to any envelope estimation problems.
 
-*Reference:* **Zeng, J.**, Wang, W., and Zhang, X. (2021). TRES: An R Package for Tensor Regression and Envelope Algorithms. *Journal of Statistical Software*, 99, 1-31.
+*Reference:* TRES: An R Package for Tensor Regression and Envelope Algorithms. *Journal of Statistical Software*, 99, 1-31.
 
 ![](figures/TRES1.png){width="600"}
 
 ### Paper Codes
 
--   [SEAS](https://github.com/jingzzeng/SEAS): Subspace Estimation with Automatic Dimension and Variable Selection in Sufficient Dimension Reduction.
+#### [SEAS](https://github.com/jingzzeng/SEAS)
 
--   [LSLDA](https://github.com/jingzzeng/LSLDA): An Efficient Convex Formulation for Reduced-Rank Linear Discriminant Analysis in High Dimensions.
+*Reference:* Subspace Estimation with Automatic Dimension and Variable Selection in Sufficient Dimension Reduction. *Journal of the American Statistical Association*, 119(545), 343--355.
 
--   [GLAA](https://github.com/jingzzeng/GLAA): Generalized Liquid Association Analysis for Multimodal Data Integration.
+#### [LSLDA](https://github.com/jingzzeng/LSLDA)
+
+*Reference:* An Efficient Convex Formulation for Reduced-Rank Linear Discriminant Analysis in High Dimensions. *Statistics Sinica*, 33, 1249-1270.
+
+#### [GLAA](https://github.com/jingzzeng/GLAA)
+
+*Reference:* Generalized Liquid Association Analysis for Multimodal Data Integration. *Journal of the American Statistical Association*, 118(543), 1984--1996.
