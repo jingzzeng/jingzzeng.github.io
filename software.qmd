@@ -27,3 +27,7 @@ title: "Software"
 #### [GLAA](https://github.com/jingzzeng/GLAA)
 
 *Reference:* Generalized Liquid Association Analysis for Multimodal Data Integration. *Journal of the American Statistical Association*, 118(543), 1984--1996.
+
+#### [COPES](https://github.com/jingzzeng/COPES)
+
+*Reference:* Dimension Reduction for Extreme Regression via Contour Projection. *Statistics Sinica*, just-accepted.

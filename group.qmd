@@ -13,10 +13,28 @@ title: "Group"
 -   Heng Liu
 
     Master in Statistics, USTC, 2023-
+    
+### Current Undergraduate Students
+
+-   Nuo Ding
+
+    Statistics, USTC, 2021-
+
+-   Shucheng Liu
+
+    Statistics, USTC, 2021-
+    
+-   Qiongjie Hu
+
+    Statistics, USTC, 2022-
+    
+-   Chenyang Wang
+
+    Statistics, USTC, 2022-
 
 ------------------------------------------------------------------------
 
-### Former Undergraduate Students
+### Former Students
 
 -   Jingyi Guo (B.S. in Statistics, USTC, 2024)
 

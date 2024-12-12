@@ -10,21 +10,21 @@ title: "Research"
 
 1.  **Zeng, J.**, Min, K. and Mai, Q. (2023). Robust Sliced Inverse Regression: Optimal Estimation for Heavy-Tailed Data in High Dimensions
 
-2.  $\dagger$ Chen, L. and **Zeng, J.** (2023). Dimension Reduction for Extreme Regression via Contour Projection.
-
-3.  **Zeng, J.**, Zhang, X. and Hao, N. (2024). Second-Order Sparse Suﬃcient Dimension Reduction with Applications to Quadratic Discriminant Analysis.
+2.  **Zeng, J.**, Zhang, X. and Hao, N. (2024). Second-Order Sparse Suﬃcient Dimension Reduction with Applications to Quadratic Discriminant Analysis.
 
 ### Publications
 
-1.  **Zeng, J.** and Zhang, X. (2024). Tensor and Multimodal Data Analysis. In: Gaw, N., Pardalos, P.M., Gahrooei, M.R. (eds) *Multimodal and Tensor Data Analytics for Industrial Systems Improvement*. Springer Optimization and Its Applications, vol 211. Springer, Cham.
+1.  $\dagger$ Chen, L. and **Zeng, J.** (2024+). Dimension Reduction for Extreme Regression via Contour Projection. *Statistics Sinica*, just-accepted.
 
-2.  **Zeng, J.**, Mai, Q. and Zhang, X. (2024). Subspace Estimation with Automatic Dimension and Variable Selection in Sufficient Dimension Reduction. *Journal of the American Statistical Association*, 119(545), 343--355. [\[pdf\]](papers/SEAS.pdf)
+2.  **Zeng, J.** and Zhang, X. (2024). Tensor and Multimodal Data Analysis. In: Gaw, N., Pardalos, P.M., Gahrooei, M.R. (eds) *Multimodal and Tensor Data Analytics for Industrial Systems Improvement*. Springer Optimization and Its Applications, vol 211. Springer, Cham.
 
-3.  $\dagger$ Li, L., **Zeng, J**. and Zhang, X. (2023). Generalized Liquid Association Analysis for Multimodal Data Integration. *Journal of the American Statistical Association*, 118(543), 1984--1996. [\[pdf\]](papers/GLAA.pdf)
+3.  **Zeng, J.**, Mai, Q. and Zhang, X. (2024). Subspace Estimation with Automatic Dimension and Variable Selection in Sufficient Dimension Reduction. *Journal of the American Statistical Association*, 119(545), 343--355. [\[pdf\]](papers/SEAS.pdf)
 
-4.  **Zeng, J.**, Zhang, X. and Mai, Q. (2023). An Efficient Convex Formulation for Reduced-Rank Linear Discriminant Analysis in High Dimensions. *Statistics Sinica*, 33, 1249-1270. [\[pdf\]](papers/LSLDA.pdf)
+4.  $\dagger$ Li, L., **Zeng, J**. and Zhang, X. (2023). Generalized Liquid Association Analysis for Multimodal Data Integration. *Journal of the American Statistical Association*, 118(543), 1984--1996. [\[pdf\]](papers/GLAA.pdf)
 
-5.  **Zeng, J.**, Wang, W. and Zhang, X. (2021). TRES: An R Package for Tensor Regression and Envelope Algorithms. *Journal of Statistical Software*, 99, 1-31. [\[pdf\]](papers/TRES.pdf)[\[R package\]](https://github.com/leozeng15/TRES)
+5.  **Zeng, J.**, Zhang, X. and Mai, Q. (2023). An Efficient Convex Formulation for Reduced-Rank Linear Discriminant Analysis in High Dimensions. *Statistics Sinica*, 33, 1249-1270. [\[pdf\]](papers/LSLDA.pdf)
+
+6.  **Zeng, J.**, Wang, W. and Zhang, X. (2021). TRES: An R Package for Tensor Regression and Envelope Algorithms. *Journal of Statistical Software*, 99, 1-31. [\[pdf\]](papers/TRES.pdf)[\[R package\]](https://github.com/leozeng15/TRES)
 
 ### Acknowledgement
 
