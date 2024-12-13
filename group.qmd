@@ -4,33 +4,23 @@ title: "Group"
 
 ------------------------------------------------------------------------
 
-### Current Graduate Students
+### Current Students
 
--   Weijian Huang
+#### *Graduate Students*
 
-    Ph.D. Candidate in Statistics, USTC, 2022-
+-   Weijian Huang (Ph.D. Candidate in Statistics, USTC, 2022-)
 
--   Heng Liu
+-   Heng Liu (Master in Statistics, USTC, 2023-)
 
-    Master in Statistics, USTC, 2023-
-    
-### Current Undergraduate Students
+#### *Undergraduate Students*
 
--   Nuo Ding
+-   Nuo Ding (Statistics, USTC, 2021-)
 
-    Statistics, USTC, 2021-
+-   Shucheng Liu (Statistics, USTC, 2021-)
 
--   Shucheng Liu
+-   Qiongjie Hu (Statistics, USTC, 2022-)
 
-    Statistics, USTC, 2021-
-    
--   Qiongjie Hu
-
-    Statistics, USTC, 2022-
-    
--   Chenyang Wang
-
-    Statistics, USTC, 2022-
+-   Chenyang Wang (Statistics, USTC, 2022-)
 
 ------------------------------------------------------------------------
 
@@ -38,6 +28,6 @@ title: "Group"
 
 -   Jingyi Guo (B.S. in Statistics, USTC, 2024)
 
-    Thesis: *Sparse Sliced Inverse Regression Based on Kendall's Tau Matrix*
+    -   *Thesis*: Sparse Sliced Inverse Regression Based on Kendall's Tau Matrix
 
-    Now: Ph.D. Candidate in Statistics, Pennsylvania State University, 2024-
+    -   *Current Position*: Ph.D. Candidate in Statistics, Pennsylvania State University
