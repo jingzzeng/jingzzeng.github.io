@@ -14,7 +14,7 @@ title: "Research"
 
 ### Publications
 
-1.  $\dagger$ Chen, L. and **Zeng, J.** (2024+). Dimension Reduction for Extreme Regression via Contour Projection. *Statistics Sinica*, just-accepted.
+1.  $\dagger$ Chen, L. and **Zeng, J.** (2024+). Dimension Reduction for Extreme Regression via Contour Projection. *Statistics Sinica*, just-accepted. [\[pdf\]](papers/COPES.pdf)
 
 2.  **Zeng, J.** and Zhang, X. (2024). Tensor and Multimodal Data Analysis. In: Gaw, N., Pardalos, P.M., Gahrooei, M.R. (eds) *Multimodal and Tensor Data Analytics for Industrial Systems Improvement*. Springer Optimization and Its Applications, vol 211. Springer, Cham.
 
@@ -28,4 +28,4 @@ title: "Research"
 
 ### Acknowledgement
 
-My research is partially supported by the National Natural Science Foundation of China (NSFC) Grant 12301365 (2024.01--2026.12). Thank you, NSFC!
+My research is partially supported by the National Natural Science Foundation of China (NSFC) Grant 12301365 (2024.01--2026.12).

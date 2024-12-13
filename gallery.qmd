@@ -3,23 +3,7 @@ title: Gallery of life
 ---
 
 ::: gallery
-<img src="pictures/2.jpg" class="portrait"/> 
-<img src="pictures/3.jpg" class="landscape"/>
-<img src="pictures/4.jpg" class="landscape"/>
-<img src="pictures/5.jpg" class="landscape"/>
-<img src="pictures/6.jpg" class="landscape"/>
-<img src="pictures/7.jpg" class="landscape"/>
-<img src="pictures/8.jpg" class="portrait"/> 
-<img src="pictures/9.jpg" class="landscape"/>
-<img src="pictures/9-1.jpg" class="landscape"/>
-<img src="pictures/10.jpg" class="landscape"/>
-<img src="pictures/11.jpg" class="landscape"/>
-<img src="pictures/12.jpg" class="landscape"/>
-<img src="pictures/13.jpg" class="landscape"/>
-<img src="pictures/14.jpg" class="portrait"/> 
-<img src="pictures/15.jpg" class="landscape"/>
-<img src="pictures/16.jpg" class="landscape"/>
-
+<img src="pictures/2.jpg" class="portrait"/> <img src="pictures/3.jpg" class="landscape"/> <img src="pictures/4.jpg" class="landscape"/> <img src="pictures/5.jpg" class="landscape"/> <img src="pictures/6.jpg" class="landscape"/> <img src="pictures/7.jpg" class="landscape"/> <img src="pictures/8.jpg" class="portrait"/> <img src="pictures/9.jpg" class="landscape"/> <img src="pictures/9-1.jpg" class="landscape"/> <img src="pictures/10.jpg" class="landscape"/> <img src="pictures/11.jpg" class="landscape"/> <img src="pictures/12.jpg" class="landscape"/> <img src="pictures/13.jpg" class="landscape"/> <img src="pictures/14.jpg" class="portrait"/> <img src="pictures/15.jpg" class="landscape"/> <img src="pictures/16.jpg" class="landscape"/>
 :::
 
 ```{=html}
