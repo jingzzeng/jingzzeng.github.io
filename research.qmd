@@ -4,7 +4,7 @@ title: "Research"
 
 ------------------------------------------------------------------------
 
-"$\dagger$" indicates joint first authorship.
+"$\dagger$" indicates equal contribution; "$*$" indicates student author.
 
 ### Submitted works
 
@@ -12,15 +12,19 @@ title: "Research"
 
 2.  **Zeng, J.**, Zhang, X. and Hao, N. (2024). Second-Order Sparse Suﬃcient Dimension Reduction with Applications to Quadratic Discriminant Analysis.
 
+3.  Huang, W.$^*$, Mai, Q. and **Zeng, J.** (2025) Sparse Robust Discriminant Analysis for High-Dimensional and Heavy-Tailed Data.
+
+4.  **Zeng, J.**$^\dagger$, Wang, N.$^\dagger$ and Zhang, X. (2025) Envelope Inverse Regression for Dimension Reduction: A Review and New Perspectives.
+
 ### Publications
 
 #### *Papers*
 
-1.  $\dagger$ Chen, L. and **Zeng, J.** (2024+). Dimension Reduction for Extreme Regression via Contour Projection. *Statistics Sinica*, just-accepted. [\[pdf\]](papers/COPES.pdf)
+1.  Chen, L.$^\dagger$ and **Zeng, J.**$^\dagger$ (2024+). Dimension Reduction for Extreme Regression via Contour Projection. *Statistics Sinica*, just-accepted. [\[pdf\]](papers/COPES.pdf)
 
 2.  **Zeng, J.**, Mai, Q. and Zhang, X. (2024). Subspace Estimation with Automatic Dimension and Variable Selection in Sufficient Dimension Reduction. *Journal of the American Statistical Association*, 119(545), 343--355. [\[pdf\]](papers/SEAS.pdf)
 
-3.  $\dagger$ Li, L., **Zeng, J**. and Zhang, X. (2023). Generalized Liquid Association Analysis for Multimodal Data Integration. *Journal of the American Statistical Association*, 118(543), 1984--1996. [\[pdf\]](papers/GLAA.pdf)
+3.  Li, L.$^\dagger$, **Zeng, J.**$^\dagger$ and Zhang, X.$^\dagger$ (2023). Generalized Liquid Association Analysis for Multimodal Data Integration. *Journal of the American Statistical Association*, 118(543), 1984--1996. [\[pdf\]](papers/GLAA.pdf)
 
 4.  **Zeng, J.**, Zhang, X. and Mai, Q. (2023). An Efficient Convex Formulation for Reduced-Rank Linear Discriminant Analysis in High Dimensions. *Statistics Sinica*, 33, 1249-1270. [\[pdf\]](papers/LSLDA.pdf)
 
