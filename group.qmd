@@ -13,13 +13,6 @@ title: "Group"
 -   Heng Liu (Master in Statistics, USTC, 2023-)
 
 #### *Undergraduate Students*
--   Nuo Ding (Statistics, USTC, 2021-)
-
--   Feng Lin (Statistics, USTC, 2021-)
-
--   Jia Liu (Statistics, USTC, 2021-)
-
--   Shucheng Liu (Statistics, USTC, 2021-)
 
 -   Qiongjie Hu (Statistics, USTC, 2022-)
 
@@ -29,8 +22,20 @@ title: "Group"
 
 ### Former Students
 
--   Jingyi Guo (B.S. in Statistics, USTC, 2024)
+-   Nuo Ding (Statistics, USTC, 2025)
 
-    -   *Thesis*: Sparse Sliced Inverse Regression Based on Kendall's Tau Matrix
+    -   *Current Position*: Ph.D. Candidate in Statistics, Harvard University
+
+-   Jia Liu (Statistics, USTC, 2025)
+
+    -   *Current Position*: Ph.D. Candidate in Statistics, Pennsylvania State University
+
+-   Shucheng Liu (Statistics, USTC, 2025)
+
+    -   *Current Position*: Ph.D. Candidate in Statistics, University of North Carolina at Chapel Hill
+     
+-   Feng Han (Statistics, USTC, 2025)
+
+-   Jingyi Guo (B.S. in Statistics, USTC, 2024)
 
     -   *Current Position*: Ph.D. Candidate in Statistics, Pennsylvania State University
