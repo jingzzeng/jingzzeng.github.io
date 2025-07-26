@@ -27,9 +27,12 @@ My research interests mainly cover dimension reduction, high-dimensional statist
 ### Research Interests
 
 -   Dimension reduction
+-   Discriminant analysis
 -   High-dimensional statistics
 -   Robust statistics
 -   Tensor data analysis
+-   Transfer learning
+-   Mixture model
 
 <!-- ------------------------------------------------------------------------ -->
 
@@ -49,6 +52,6 @@ My research interests mainly cover dimension reduction, high-dimensional statist
 
 ### Contact
 
-Room 208, Building of Management Academy, USTC\
+Room 208, Management Research Building, East Campus, USTC\
 No. 96 Jinzhai Rd, Hefei, China\
 Email: zengjxl\[AT\]ustc\[DOT\]edu\[DOT\]cn

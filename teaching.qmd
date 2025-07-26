@@ -6,11 +6,13 @@ title: "Teaching"
 
 ### University of Science and Technology of China
 
--   STAT3002 Applied Statistical Software (Spring 2025)
+-   STAT2002: Probability Theory and Mathematical Statistics (Fall 2025)
 
--   STAT3003 Fundamentals of Statistical Algorithm (Spring & Fall 2023, Fall 2024)
+-   STAT3002: Applied Statistical Software (Spring 2025)
 
--   ASTA6002P Regression Analysis And Data Thinking (Fall 2023, Fall 2024)
+-   STAT3003: Fundamentals of Statistical Algorithm (Spring 2023, Fall 2023--2025)
+
+-   ASTA6002P: Regression Analysis and Data Thinking (Fall 2023--2025)
 
 ------------------------------------------------------------------------
 
