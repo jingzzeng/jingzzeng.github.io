@@ -12,8 +12,6 @@ title: "Research"
 
 2.  **Zeng, J.**, Zhang, X. and Hao, N. Second-Order Sparse Suﬃcient Dimension Reduction with Applications to Quadratic Discriminant Analysis.
 
-3.  Huang, W.$^*$, Mai, Q. and **Zeng, J.** Sparse Robust Discriminant Analysis for High-Dimensional and Heavy-Tailed Data.
-
 4.  Liu, H.$^*$ and **Zeng, J.** Regularized Sufficient Dimension Reduction for Multivariate Response via Distance Covariance.
 
 5. Wang, N. and **Zeng, J.** High-Dimensional Best Subset Selection Based EM Algorithm for Mixed Linear Regression Model.
@@ -21,6 +19,8 @@ title: "Research"
 ### Publications
 
 #### *Papers*
+
+1.  Huang, W.$^*$, Mai, Q. and **Zeng, J.** (2026) Sparse Robust Discriminant Analysis for High-Dimensional and Heavy-Tailed Data. *Biometrics*, just-accepted.
 
 1.  **Zeng, J.**$^\dagger$, Wang, N.$^\dagger$ and Zhang, X. (2025) Envelope Inverse Regression for Dimension Reduction: A Review and New Perspectives. *Journal of Systems Science and Complexity*, accepted.
 
