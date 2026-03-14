@@ -4,7 +4,7 @@ title: "About me"
 
 ------------------------------------------------------------------------
 
-Welcome! I am an Associate Professor (tenure-track) at International Institute of Finance, School of Management, University of Science and Technology of China (USTC). I received my Ph.D. degree from Florida State University (FSU) in 2022 under the supervision of Professor Xin Henry Zhang and Professor Qing Mai. I received my B.S. degree from USTC in 2017.
+Welcome! I am a Full Researcher (tenure-track) at Faculty of Business for Science and Technology, School of Management, University of Science and Technology of China (USTC). I received my Ph.D. degree from Florida State University (FSU) in 2022 under the supervision of Professor Xin Henry Zhang and Professor Qing Mai. I received my B.S. degree from USTC in 2017.
 
 My research interests mainly cover dimension reduction, high-dimensional statistics, robust statistics, and tensor data analysis. I am also interested in their applications in other statistical areas, e.g., extreme value theory, transfer learning, mixture model. My research is also motivated by many real applications, including finance, neuroimaging, brain imaging, multi-omics, and genomics.
 
@@ -20,7 +20,9 @@ My research interests mainly cover dimension reduction, high-dimensional statist
 
 ### Employment
 
--   2022/07--Present: Associate Professor (tenure-track), International Institute of Finance, School of Management, University of Science and Technology of China.
+-   2026/02--Present: Full Researcher (tenure-track), Faculty of Business for Science and Technology, School of Management, University of Science and Technology of China.
+
+-   2022/07--2026/01: Associate Professor (tenure-track), International Institute of Finance, School of Management, University of Science and Technology of China.
 
 ------------------------------------------------------------------------
 
@@ -44,10 +46,10 @@ My research interests mainly cover dimension reduction, high-dimensional statist
 
 ### Awards
 
--   2026/02: *'100 Talents Project' of Chinese Academy of Sciences*.
--   2022/07: *Special Allowance for Mozi Outstanding Youth* (First Prize), USTC.
--   2022/12: *R.A. Bradley Award* for the best PhD dissertation in the Department of Statistics, FSU.
--   2018/10: *Best First Year Student in Applied Statistics Award* for outstanding achievement as a graduate student, FSU.
+-   2026/02: *'100 Talents Project' of Chinese Academy of Sciences, Category B* 
+-   2022/07: *Special Allowance for Mozi Outstanding Youth* (First Prize), USTC
+-   2022/12: *R.A. Bradley Award* for the best PhD dissertation in the Department of Statistics, FSU
+<!-- -   2018/10: *Best First Year Student in Applied Statistics Award* for outstanding achievement as a graduate student, FSU. -->
 
 ------------------------------------------------------------------------
 
