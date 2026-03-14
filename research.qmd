@@ -12,27 +12,27 @@ title: "Research"
 
 2.  **Zeng, J.**, Zhang, X. and Hao, N. Second-Order Sparse Suﬃcient Dimension Reduction with Applications to Quadratic Discriminant Analysis.
 
-4.  Liu, H.$^*$ and **Zeng, J.** Regularized Sufficient Dimension Reduction for Multivariate Response via Distance Covariance.
+3.  Liu, H.$^*$ and **Zeng, J.** Regularized Sufficient Dimension Reduction for Multivariate Response via Distance Covariance.
 
-5. Wang, N. and **Zeng, J.** High-Dimensional Best Subset Selection Based EM Algorithm for Mixed Linear Regression Model.
+<!-- 4.  Wang, N. and **Zeng, J.** High-Dimensional Best Subset Selection Based EM Algorithm for Mixed Linear Regression Model. -->
 
 ### Publications
 
 #### *Papers*
 
-1.  Huang, W.$^*$, Mai, Q. and **Zeng, J.** (2026) Sparse Robust Discriminant Analysis for High-Dimensional and Heavy-Tailed Data. *Biometrics*, just-accepted.
+1.  Huang, W.$^*$, Mai, Q. and **Zeng, J.** (2026) Sparse Robust Discriminant Analysis for High-Dimensional and Heavy-Tailed Data. *Biometrics*, 82(1), ujag039. [\[pdf\]](papers/SODA.pdf)
 
-1.  **Zeng, J.**$^\dagger$, Wang, N.$^\dagger$ and Zhang, X. (2025) Envelope Inverse Regression for Dimension Reduction: A Review and New Perspectives. *Journal of Systems Science and Complexity*, accepted.
+2.  **Zeng, J.**$^\dagger$, Wang, N.$^\dagger$ and Zhang, X. (2025) Envelope Inverse Regression for Dimension Reduction: A Review and New Perspectives. *Journal of Systems Science and Complexity*, 9(1), 284-308. [\[pdf\]](papers/Env.pdf)
 
-2.  Chen, L.$^\dagger$ and **Zeng, J.**$^\dagger$ (2024+). Dimension Reduction for Extreme Regression via Contour Projection. *Statistics Sinica*, just-accepted. [\[pdf\]](papers/COPES.pdf)
+3.  Chen, L.$^\dagger$ and **Zeng, J.**$^\dagger$ (2024+). Dimension Reduction for Extreme Regression via Contour Projection. *Statistics Sinica*, just-accepted. [\[pdf\]](papers/COPES.pdf)
 
-3.  **Zeng, J.**, Mai, Q. and Zhang, X. (2024). Subspace Estimation with Automatic Dimension and Variable Selection in Sufficient Dimension Reduction. *Journal of the American Statistical Association*, 119(545), 343--355. [\[pdf\]](papers/SEAS.pdf)
+4.  **Zeng, J.**, Mai, Q. and Zhang, X. (2024). Subspace Estimation with Automatic Dimension and Variable Selection in Sufficient Dimension Reduction. *Journal of the American Statistical Association*, 119(545), 343--355. [\[pdf\]](papers/SEAS.pdf)
 
-4.  Li, L.$^\dagger$, **Zeng, J.**$^\dagger$ and Zhang, X.$^\dagger$ (2023). Generalized Liquid Association Analysis for Multimodal Data Integration. *Journal of the American Statistical Association*, 118(543), 1984--1996. [\[pdf\]](papers/GLAA.pdf)
+5.  Li, L.$^\dagger$, **Zeng, J.**$^\dagger$ and Zhang, X.$^\dagger$ (2023). Generalized Liquid Association Analysis for Multimodal Data Integration. *Journal of the American Statistical Association*, 118(543), 1984--1996. [\[pdf\]](papers/GLAA.pdf)
 
-5.  **Zeng, J.**, Zhang, X. and Mai, Q. (2023). An Efficient Convex Formulation for Reduced-Rank Linear Discriminant Analysis in High Dimensions. *Statistics Sinica*, 33, 1249-1270. [\[pdf\]](papers/LSLDA.pdf)
+6.  **Zeng, J.**, Zhang, X. and Mai, Q. (2023). An Efficient Convex Formulation for Reduced-Rank Linear Discriminant Analysis in High Dimensions. *Statistics Sinica*, 33, 1249-1270. [\[pdf\]](papers/LSLDA.pdf)
 
-6.  **Zeng, J.**, Wang, W. and Zhang, X. (2021). TRES: An R Package for Tensor Regression and Envelope Algorithms. *Journal of Statistical Software*, 99, 1-31. [\[pdf\]](papers/TRES.pdf)[\[R package\]](https://github.com/leozeng15/TRES)
+7.  **Zeng, J.**, Wang, W. and Zhang, X. (2021). TRES: An R Package for Tensor Regression and Envelope Algorithms. *Journal of Statistical Software*, 99, 1-31. [\[pdf\]](papers/TRES.pdf)[\[R package\]](https://github.com/leozeng15/TRES)
 
 #### *Book Chapters*
 
