@@ -16,12 +16,6 @@ title: "Group"
 
 #### *Undergraduate Students*
 
--   Jieqiong Hu (School of Management, 2022-)
-
--   Chenyang Wang (School of Management, 2022-)
-
--   Yixuan Xu (School of Management, 2022-)
-
 -   Yifan Zhao (School of the Gifted Young, 2023-)
 
 -   Hanyu Zhang (School of Management, 2024-)
@@ -30,16 +24,24 @@ title: "Group"
 
 ### Former Students
 
+#### 2026
+
+-   Jieqiong Hu (*Current Position*: Ph.D. Candidate, Georgia Institute of Technology)
+
+-   Chenyang Wang (*Current Position*: Ph.D. Candidate, Hong Kong Polytechnic University)
+
+-   Yixuan Xu (*Current Position*: Ph.D. Candidate, The Hong Kong University of Science and Technology )
+
 #### 2025
 
--   Nuo Ding (*Current Position*: Ph.D. Candidate in Biostatistics, Harvard University)
+-   Nuo Ding (*Current Position*: Ph.D. Candidate, Harvard University)
 
--   Jia Liu (*Current Position*: Ph.D. Candidate in Statistics, Pennsylvania State University)
+-   Jia Liu (*Current Position*: Ph.D. Candidate, Pennsylvania State University)
 
--   Shucheng Liu (*Current Position*: Ph.D. Candidate in Statistics, University of North Carolina at Chapel Hill)
+-   Shucheng Liu (*Current Position*: Ph.D. Candidate, University of North Carolina at Chapel Hill)
 
--   Feng Han
+-   Feng Han (*Current Position*: Master degree, Peking University)
 
 #### 2024
 
--   Jingyi Guo (*Current Position*: Ph.D. Candidate in Statistics, Pennsylvania State University)
+-   Jingyi Guo (*Current Position*: Ph.D. Candidate, Pennsylvania State University)
