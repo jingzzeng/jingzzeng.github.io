@@ -1,1 +1,8 @@
 /* css styles */
+
+.course-overview-image {
+  display: block;
+  width: 100%;
+  margin: 1.5rem auto;
+  border-radius: 0.5rem;
+}
