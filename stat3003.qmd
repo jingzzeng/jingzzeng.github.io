@@ -8,9 +8,9 @@ This course introduces the fundamental ideas and computational tools behind mode
 
 ![A visual overview of random-number generation, Markov chain Monte Carlo, and bootstrap resampling.](figures/stat3003-algorithms.png){.course-overview-image}
 
-Course materials will be continuously updated throughout the course.
-
 ## Course materials
+
+*Course materials will be continuously updated throughout the course.*
 
 ### Syllabus
 
