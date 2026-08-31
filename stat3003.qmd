@@ -36,22 +36,22 @@ This course introduces the fundamental ideas and computational tools behind mode
 <tbody>
 <tr><td>1</td><td>Sep 1</td><td>Course introduction; random-number generation; inverse transform method</td><td>0-syllabus; 1.1</td><td></td></tr>
 <tr><td>2</td><td>Sep 8</td><td>Inverse transform method; acceptance–rejection algorithm</td><td>1.1</td><td></td></tr>
-<tr><td>3</td><td>Sep 15</td><td>Mixture models; special transformations; copula models</td><td>1.2</td><td>Assignment 1 released</td></tr>
+<tr><td>3</td><td>Sep 15</td><td>Mixture models; special transformations; copula models</td><td>1.2</td><td>Assignment 1 released<br>Due: Sep 22</td></tr>
 <tr><td>4</td><td>Sep 22</td><td>Monte Carlo integration; variance and efficiency</td><td>2.1</td><td></td></tr>
 <tr><td>5</td><td>Sep 29</td><td>Monte Carlo statistical inference: parameter estimation and hypothesis testing</td><td>2.2</td><td></td></tr>
-<tr><td>6</td><td>Oct 10</td><td>Variance reduction: antithetic variables, control variates, and more</td><td>2.3</td><td>Assignment 2 released</td></tr>
+<tr><td>6</td><td>Oct 10</td><td>Variance reduction: antithetic variables, control variates, and more</td><td>2.3</td><td>Assignment 2 released<br>Due: Oct 13</td></tr>
 <tr><td>7</td><td>Oct 13</td><td>Variance reduction: importance sampling, stratified sampling, and more</td><td>2.3</td><td></td></tr>
 <tr><td>8</td><td>Oct 20</td><td>MCMC: Markov-chain foundations; Metropolis–Hastings algorithm</td><td>2.4</td><td></td></tr>
-<tr><td>9</td><td>Oct 27</td><td>Gibbs sampling, convergence diagnostics, and MCMC applications</td><td>2.4</td><td>Assignment 3 released</td></tr>
+<tr><td>9</td><td>Oct 27</td><td>Gibbs sampling, convergence diagnostics, and MCMC applications</td><td>2.4</td><td>Assignment 3 released<br>Due: Nov 3</td></tr>
 <tr><td>10</td><td>Nov 3</td><td>Bisection method; Newton's method</td><td>3.1</td><td></td></tr>
 <tr><td>11</td><td>Nov 10</td><td>Fisher scoring; gradient descent</td><td>3.1</td><td></td></tr>
-<tr><td>12</td><td>Nov 17</td><td>Gradient descent; coordinate descent</td><td>3.2</td><td>Assignment 4 released</td></tr>
+<tr><td>12</td><td>Nov 17</td><td>Gradient descent; coordinate descent</td><td>3.2</td><td>Assignment 4 released<br>Due: Nov 24</td></tr>
 <tr><td>13</td><td>Nov 24</td><td>EM algorithm</td><td>3.2</td><td></td></tr>
 <tr><td>14</td><td>Dec 1</td><td>EM algorithm</td><td>3.2</td><td></td></tr>
-<tr><td>15</td><td>Dec 8</td><td>MM algorithm; ADMM algorithm</td><td>3.3</td><td>Assignment 5 released</td></tr>
+<tr><td>15</td><td>Dec 8</td><td>MM algorithm; ADMM algorithm</td><td>3.3</td><td>Assignment 5 released<br>Due: Dec 15</td></tr>
 <tr><td>16</td><td>Dec 15</td><td>ADMM algorithm</td><td>3.3</td><td></td></tr>
 <tr><td>17</td><td>Dec 22</td><td>Bootstrap: bias and standard-error estimation</td><td>4</td><td></td></tr>
-<tr><td>18</td><td>Dec 29</td><td>Bootstrap confidence intervals; cross-validation; course review</td><td>4</td><td>Assignment 6 released</td></tr>
+<tr><td>18</td><td>Dec 29</td><td>Bootstrap confidence intervals; cross-validation; course review</td><td>4</td><td>Assignment 6 released<br>Due: Jan 5, 2027</td></tr>
 </tbody>
 </table>
 </div>
