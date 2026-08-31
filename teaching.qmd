@@ -6,13 +6,13 @@ title: "Teaching"
 
 ### University of Science and Technology of China
 
--   STAT2002: Probability Theory and Mathematical Statistics (Fall 2025)
+-   STAT2002: Probability Theory and Mathematical Statistics
 
--   STAT3002: Applied Statistical Software (Spring 2025)
+-   STAT3002: Applied Statistical Software
 
--   [STAT3003: Fundamentals of Statistical Algorithm](stat3003.qmd) (Spring 2023, Fall 2023--2025)
+-   [STAT3003: Fundamentals of Statistical Algorithm](stat3003.qmd)
 
--   ASTA6002P: Regression Analysis and Data Thinking (Fall 2023--2025)
+-   ASTA6002P: Regression Analysis and Data Thinking
 
 ------------------------------------------------------------------------
 
@@ -24,6 +24,6 @@ title: "Teaching"
 
 <!-- -   Spring 2020: STA 5934-0004 Statistical Computing with Python (TA) -->
 
--   STA 2122 Introduction to Applied Statistics (Summer & Fall 2018, Spring 2019)
+-   STA 2122 Introduction to Applied Statistics
 
 <!-- -   Fall 2017, Spring 2018: STA 2122 Introduction to Applied Statistics (TA) -->

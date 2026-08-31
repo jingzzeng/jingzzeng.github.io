@@ -14,11 +14,11 @@ title: "Group"
 
 -   Zhiyuan Jin (Master in Statistics, 2025-)
 
-#### *Undergraduate Students*
+<!-- #### *Undergraduate Students* -->
 
--   Yifan Zhao (School of the Gifted Young, 2023-)
+<!-- -   Yifan Zhao (School of the Gifted Young, 2023-) -->
 
--   Hanyu Zhang (School of Management, 2024-)
+<!-- -   Hanyu Zhang (School of Management, 2024-) -->
 
 ------------------------------------------------------------------------
 
@@ -30,7 +30,7 @@ title: "Group"
 
 -   Chenyang Wang (*Current Position*: Ph.D. Candidate, Hong Kong Polytechnic University)
 
--   Yixuan Xu (*Current Position*: Ph.D. Candidate, The Hong Kong University of Science and Technology )
+-   Yixuan Xu (*Current Position*: Ph.D. Candidate, The Hong Kong University of Science and Technology)
 
 #### 2025
 
