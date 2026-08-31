@@ -34,6 +34,48 @@
   color: #fff;
 }
 
+.schedule-note {
+  color: #5c6773;
+  margin-bottom: 0.75rem;
+}
+
+.schedule-table {
+  margin: 1.25rem 0;
+  overflow-x: auto;
+}
+
+.schedule-table table {
+  width: 100%;
+  border: 1px solid #0d6efd;
+  border-collapse: separate;
+  border-radius: 0.45rem;
+  border-spacing: 0;
+  overflow: hidden;
+}
+
+.schedule-table th,
+.schedule-table td {
+  border-bottom: 1px solid #d9e7ff;
+  padding: 0.7rem 0.8rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.schedule-table th {
+  border-bottom-color: #0d6efd;
+  color: #0d6efd;
+  font-weight: 600;
+}
+
+.schedule-table th + th,
+.schedule-table td + td {
+  border-left: 1px solid #d9e7ff;
+}
+
+.schedule-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
 @media (max-width: 576px) {
   .lecture-downloads {
     flex-direction: column;
@@ -41,5 +83,9 @@
 
   .lecture-downloads .btn {
     width: 100%;
+  }
+
+  .schedule-table table {
+    min-width: 46rem;
   }
 }
