@@ -14,11 +14,11 @@ Course materials will be added here as the course progresses.
 
 ### Syllabus
 
-[Download the syllabus (PDF)](course-materials/stat3003/STAT3003-syllabus.pdf){.btn .btn-primary download="STAT3003-syllabus.pdf"}
+[Download the syllabus (PDF)](course-materials/stat3003/STAT3003-syllabus.pdf){.btn .btn-outline-primary download="STAT3003-syllabus.pdf"}
 
 ### Lecture 1.1: Random Variable Generation (1)
 
-::: {.lecture-downloads}
+::: lecture-downloads
 [Download the slides (PDF)](course-materials/stat3003/STAT3003-1.1-random-variable-generation.pdf){.btn .btn-outline-primary .slides-download download="STAT3003-1.1-random-variable-generation.pdf"}
 
 [Download the handout (PDF)](course-materials/stat3003/STAT3003-1.1-random-variable-generation-handout.pdf){.btn .btn-outline-secondary .handout-download download="STAT3003-1.1-random-variable-generation-handout.pdf"}
