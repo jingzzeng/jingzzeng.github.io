@@ -6,7 +6,7 @@ title: "STAT3003: Fundamentals of Statistical Algorithm"
 
 This course introduces the fundamental ideas and computational tools behind modern statistical algorithms. Topics include random-variable generation, Monte Carlo methods, optimization, Markov chain Monte Carlo, and bootstrap methods.
 
-![A visual overview of random-number generation, Monte Carlo simulation, Markov chain Monte Carlo, and bootstrap resampling.](figures/stat3003-algorithms.png){.course-overview-image}
+![A visual overview of random-number generation, Markov chain Monte Carlo, and bootstrap resampling.](figures/stat3003-algorithms.png){.course-overview-image}
 
 Course materials will be added here as the course progresses.
 
