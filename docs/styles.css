@@ -6,3 +6,40 @@
   margin: 1.5rem auto;
   border-radius: 0.5rem;
 }
+
+.lecture-downloads {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 1.25rem 0;
+}
+
+.lecture-downloads .btn {
+  min-width: 12.5rem;
+}
+
+.lecture-downloads p {
+  margin: 0;
+}
+
+.lecture-downloads .handout-download {
+  border-color: #c76b32;
+  color: #b65920;
+}
+
+.lecture-downloads .handout-download:hover,
+.lecture-downloads .handout-download:focus {
+  background-color: #c76b32;
+  border-color: #c76b32;
+  color: #fff;
+}
+
+@media (max-width: 576px) {
+  .lecture-downloads {
+    flex-direction: column;
+  }
+
+  .lecture-downloads .btn {
+    width: 100%;
+  }
+}
