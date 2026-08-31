@@ -10,7 +10,7 @@ title: "Teaching"
 
 -   STAT3002: Applied Statistical Software (Spring 2025)
 
--   STAT3003: Fundamentals of Statistical Algorithm (Spring 2023, Fall 2023--2025)
+-   [STAT3003: Fundamentals of Statistical Algorithm](stat3003.qmd) (Spring 2023, Fall 2023--2025)
 
 -   ASTA6002P: Regression Analysis and Data Thinking (Fall 2023--2025)
 
