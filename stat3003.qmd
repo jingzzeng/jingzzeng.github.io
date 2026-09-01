@@ -24,6 +24,78 @@ This course introduces the fundamental ideas and computational tools behind mode
 [Download the handout (PDF)](course-materials/stat3003/STAT3003-1.1-random-variable-generation-handout.pdf){.btn .btn-outline-secondary .handout-download download="STAT3003-1.1-random-variable-generation-handout.pdf"}
 :::
 
+### Lecture 1.2: Random Variable Generation (2)
+
+::: lecture-downloads
+[Download the slides (PDF)](course-materials/stat3003/STAT3003-1.2-random-variable-generation-2.pdf){.btn .btn-outline-primary .slides-download download="STAT3003-1.2-random-variable-generation-2.pdf"}
+
+[Download the handout (PDF)](course-materials/stat3003/STAT3003-1.2-random-variable-generation-2-handout.pdf){.btn .btn-outline-secondary .handout-download download="STAT3003-1.2-random-variable-generation-2-handout.pdf"}
+:::
+
+### Lecture 2.1: Monte Carlo Integration
+
+::: lecture-downloads
+[Download the slides (PDF)](course-materials/stat3003/STAT3003-2.1-monte-carlo-integration.pdf){.btn .btn-outline-primary .slides-download download="STAT3003-2.1-monte-carlo-integration.pdf"}
+
+[Download the handout (PDF)](course-materials/stat3003/STAT3003-2.1-monte-carlo-integration-handout.pdf){.btn .btn-outline-secondary .handout-download download="STAT3003-2.1-monte-carlo-integration-handout.pdf"}
+:::
+
+### Lecture 2.2: Monte Carlo Statistical Inference
+
+::: lecture-downloads
+[Download the slides (PDF)](course-materials/stat3003/STAT3003-2.2-monte-carlo-inference.pdf){.btn .btn-outline-primary .slides-download download="STAT3003-2.2-monte-carlo-inference.pdf"}
+
+[Download the handout (PDF)](course-materials/stat3003/STAT3003-2.2-monte-carlo-inference-handout.pdf){.btn .btn-outline-secondary .handout-download download="STAT3003-2.2-monte-carlo-inference-handout.pdf"}
+:::
+
+### Lecture 2.3: Variance Reduction
+
+::: lecture-downloads
+[Download the slides (PDF)](course-materials/stat3003/STAT3003-2.3-variance-reduction.pdf){.btn .btn-outline-primary .slides-download download="STAT3003-2.3-variance-reduction.pdf"}
+
+[Download the handout (PDF)](course-materials/stat3003/STAT3003-2.3-variance-reduction-handout.pdf){.btn .btn-outline-secondary .handout-download download="STAT3003-2.3-variance-reduction-handout.pdf"}
+:::
+
+### Lecture 2.4: Markov Chain Monte Carlo
+
+::: lecture-downloads
+[Download the slides (PDF)](course-materials/stat3003/STAT3003-2.4-mcmc.pdf){.btn .btn-outline-primary .slides-download download="STAT3003-2.4-mcmc.pdf"}
+
+[Download the handout (PDF)](course-materials/stat3003/STAT3003-2.4-mcmc-handout.pdf){.btn .btn-outline-secondary .handout-download download="STAT3003-2.4-mcmc-handout.pdf"}
+:::
+
+### Lecture 3.1: Optimization (1)
+
+::: lecture-downloads
+[Download the slides (PDF)](course-materials/stat3003/STAT3003-3.1-optimization-1.pdf){.btn .btn-outline-primary .slides-download download="STAT3003-3.1-optimization-1.pdf"}
+
+[Download the handout (PDF)](course-materials/stat3003/STAT3003-3.1-optimization-1-handout.pdf){.btn .btn-outline-secondary .handout-download download="STAT3003-3.1-optimization-1-handout.pdf"}
+:::
+
+### Lecture 3.2: Optimization (2)
+
+::: lecture-downloads
+[Download the slides (PDF)](course-materials/stat3003/STAT3003-3.2-optimization-2.pdf){.btn .btn-outline-primary .slides-download download="STAT3003-3.2-optimization-2.pdf"}
+
+[Download the handout (PDF)](course-materials/stat3003/STAT3003-3.2-optimization-2-handout.pdf){.btn .btn-outline-secondary .handout-download download="STAT3003-3.2-optimization-2-handout.pdf"}
+:::
+
+### Lecture 3.3: Optimization (3)
+
+::: lecture-downloads
+[Download the slides (PDF)](course-materials/stat3003/STAT3003-3.3-optimization-3.pdf){.btn .btn-outline-primary .slides-download download="STAT3003-3.3-optimization-3.pdf"}
+
+[Download the handout (PDF)](course-materials/stat3003/STAT3003-3.3-optimization-3-handout.pdf){.btn .btn-outline-secondary .handout-download download="STAT3003-3.3-optimization-3-handout.pdf"}
+:::
+
+### Lecture 4: Bootstrap Methods
+
+::: lecture-downloads
+[Download the slides (PDF)](course-materials/stat3003/STAT3003-4-bootstrap.pdf){.btn .btn-outline-primary .slides-download download="STAT3003-4-bootstrap.pdf"}
+
+[Download the handout (PDF)](course-materials/stat3003/STAT3003-4-bootstrap-handout.pdf){.btn .btn-outline-secondary .handout-download download="STAT3003-4-bootstrap-handout.pdf"}
+:::
+
 ## Course schedule
 
 <p class="schedule-note">2026 Fall · Tuesdays 14:00–15:35</p>
