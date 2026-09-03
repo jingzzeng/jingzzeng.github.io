@@ -26,12 +26,6 @@ The statistical component introduces populations, samples, sampling distribution
 [Download the slides (PDF)](course-materials/stat2002/STAT2002-1-events-and-probability.pdf){.btn .btn-outline-primary .slides-download download="STAT2002-1-events-and-probability.pdf"}
 :::
 
-::: {.course-qr}
-![QR code for the STAT2002 course page.](figures/stat2002-qr.png){.course-qr-image fig-alt="QR code linking to the STAT2002 course page"}
-
-Scan to open the STAT2002 course page on your phone.
-:::
-
 ## Course schedule
 
 <p class="schedule-note">2026 Fall · Fridays 09:45–12:10 · Room 3A111</p>

@@ -22,28 +22,6 @@
   margin: 0;
 }
 
-.course-qr {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  width: fit-content;
-  margin: 1.25rem 0 1.75rem;
-  padding: 0.8rem 1rem;
-  border: 1px solid #d9e7ff;
-  border-radius: 0.5rem;
-  color: #5c6773;
-}
-
-.course-qr p {
-  margin: 0;
-}
-
-.course-qr-image {
-  display: block;
-  width: 8.5rem;
-  height: 8.5rem;
-}
-
 .lecture-downloads .handout-download {
   border-color: #c76b32;
   color: #b65920;
@@ -105,10 +83,6 @@
 
   .lecture-downloads .btn {
     width: 100%;
-  }
-
-  .course-qr {
-    align-items: flex-start;
   }
 
   .schedule-table table {
