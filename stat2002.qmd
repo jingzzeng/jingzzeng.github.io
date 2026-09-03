@@ -20,6 +20,8 @@ This course introduces probability theory and mathematical statistics, covering 
 
 ::: lecture-downloads
 [Download the slides (PDF)](course-materials/stat2002/STAT2002-1-events-and-probability.pdf){.btn .btn-outline-primary .slides-download download="STAT2002-1-events-and-probability.pdf"}
+
+[Download the handout (PDF)](course-materials/stat2002/STAT2002-1-events-and-probability-handout.pdf){.btn .btn-outline-secondary .handout-download download="STAT2002-1-events-and-probability-handout.pdf"}
 :::
 
 ## Course schedule
