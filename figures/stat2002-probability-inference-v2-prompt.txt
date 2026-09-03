@@ -1,0 +1,12 @@
+Generated with the built-in image generation tool.
+Style reference: stat3003-algorithms.png
+
+Use case: scientific-educational.
+Create a NEW wide landscape overview illustration for a university Probability Theory and Mathematical Statistics course.
+The attached STAT3003 image is STYLE REFERENCE ONLY: match its airy ivory watercolor-paper background, delicate hand-painted washes, fine blue ink, teal/navy with warm orange accents, generous negative space and friendly editorial illustration. Do not reuse its MCMC paths, contours or bootstrap branching.
+Composition: one polished 2:1 landscape image containing FOUR clearly separate illustrated vignettes in an elegant 2 by 2 arrangement, separated by generous white space, NO boxes, NO dividing lines, NO overall title. Each vignette should express one specific idea, with an unobtrusive beautifully legible English caption below it:
+Top left caption exactly "Random experiments": one blue die and two copper coins, subtle branching outcomes indicated by small blue dots.
+Top right caption exactly "Probability densities": a graceful blue bell-shaped probability density with horizontal baseline and vertical axis; subtle blue watercolor area under the curve. A tiny adjacent discrete probability bar chart suggests discrete and continuous distributions.
+Bottom left caption exactly "Confidence intervals": SIX horizontal capped interval segments at distinct vertical heights with small central estimate dots. ONE vertical dotted navy line represents the true parameter, extending across all rows. Five blue intervals visibly CROSS that vertical line and one orange interval lies wholly to the RIGHT and does not cross it. No bell curve in this vignette.
+Bottom right caption exactly "Hypothesis tests & p-values": one blue symmetric null bell curve with horizontal baseline. Two thin vertical orange markers at symmetric distant positions in the tails. ONLY the two tail areas BEYOND those markers are filled orange; the large central region remains unshaded ivory. This is a stylized two-sided p-value illustration.
+Keep all four illustrations clearly readable and similarly sized. No busy background, no glowing neon, no dark field, no decorative network, no equations, no numerical claims, no extra words, no logos or watermarks. Overall feel like the supplied watercolor illustration, but a carefully organized collection of meaningful statistical mini-illustrations.
