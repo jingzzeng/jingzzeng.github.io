@@ -10,6 +10,8 @@ The probability component covers random experiments, events and probability; con
 
 The statistical component introduces populations, samples, sampling distributions, and the history and basic ideas of statistics. It then develops point estimation (including the method of moments and maximum likelihood), criteria for evaluating estimators and large-sample theory, interval estimation and bootstrap methods, and hypothesis testing for normal populations and proportions. The course concludes with p-values, likelihood-ratio tests, and goodness-of-fit tests (Section 9.1).
 
+![Density curves, a confidence interval, and highlighted hypothesis-test tails.](figures/stat2002-probability-inference.png){.course-overview-image fig-alt="Statistical illustration showing density curves, confidence-interval markers, sample points, and highlighted p-value tails"}
+
 ## Course materials
 
 *Course materials will be continuously updated throughout the course.*
