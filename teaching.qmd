@@ -6,7 +6,7 @@ title: "Teaching"
 
 ### University of Science and Technology of China
 
--   STAT2002: Probability Theory and Mathematical Statistics
+-   [STAT2002: Probability Theory and Mathematical Statistics](stat2002.qmd)
 
 -   STAT3002: Applied Statistical Software
 
