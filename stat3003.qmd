@@ -14,14 +14,14 @@ This course introduces the fundamental ideas and computational tools behind mode
 
 ### Syllabus
 
-[Download the syllabus (PDF)](course-materials/stat3003/STAT3003-syllabus.pdf){.btn .btn-outline-primary download="STAT3003-syllabus.pdf"}
+[Open the syllabus (PDF)](course-materials/stat3003/STAT3003-syllabus.pdf){.btn .btn-outline-primary target="_blank" rel="noopener"}
 
 ### Lecture 1.1: Random Variable Generation (1)
 
 ::: lecture-downloads
-[Download the slides (PDF)](course-materials/stat3003/STAT3003-1.1-random-variable-generation.pdf){.btn .btn-outline-primary .slides-download download="STAT3003-1.1-random-variable-generation.pdf"}
+[Open the slides (PDF)](course-materials/stat3003/STAT3003-1.1-random-variable-generation.pdf){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
 
-[Download the handout (PDF)](course-materials/stat3003/STAT3003-1.1-random-variable-generation-handout.pdf){.btn .btn-outline-secondary .handout-download download="STAT3003-1.1-random-variable-generation-handout.pdf"}
+[Open the handout (PDF)](course-materials/stat3003/STAT3003-1.1-random-variable-generation-handout.pdf){.btn .btn-outline-secondary .handout-download target="_blank" rel="noopener"}
 :::
 
 ## Course schedule

@@ -14,14 +14,14 @@ This course introduces probability theory and mathematical statistics, covering 
 
 ### Syllabus
 
-[Download the syllabus (PDF)](course-materials/stat2002/STAT2002-syllabus.pdf){.btn .btn-outline-primary download="STAT2002-syllabus.pdf"}
+[Open the syllabus (PDF)](course-materials/stat2002/STAT2002-syllabus.pdf){.btn .btn-outline-primary target="_blank" rel="noopener"}
 
 ### Lecture 1: Events and Their Probabilities (1)
 
 ::: lecture-downloads
-[Download the slides (PDF)](course-materials/stat2002/STAT2002-1-events-and-probability.pdf){.btn .btn-outline-primary .slides-download download="STAT2002-1-events-and-probability.pdf"}
+[Open the slides (PDF)](course-materials/stat2002/STAT2002-1-events-and-probability.pdf){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
 
-[Download the handout (PDF)](course-materials/stat2002/STAT2002-1-events-and-probability-handout.pdf){.btn .btn-outline-secondary .handout-download download="STAT2002-1-events-and-probability-handout.pdf"}
+[Open the handout (PDF)](course-materials/stat2002/STAT2002-1-events-and-probability-handout.pdf){.btn .btn-outline-secondary .handout-download target="_blank" rel="noopener"}
 :::
 
 ## Course schedule
@@ -34,7 +34,7 @@ This course introduces probability theory and mathematical statistics, covering 
 <tr><th scope="col">Week</th><th scope="col">Date</th><th scope="col">Planned topics</th><th scope="col">Textbook / sections</th><th scope="col">Assignment</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td>Sep 4</td><td>A brief history of probability; random experiments, sample spaces, and events; definition and properties of probability</td><td>1.1–1.3</td><td><a href="course-materials/stat2002/STAT2002-assignment-1.pdf" download="STAT2002-assignment-1.pdf">Download Assignment 1</a></td></tr>
+<tr><td>1</td><td>Sep 4</td><td>A brief history of probability; random experiments, sample spaces, and events; definition and properties of probability</td><td>1.1–1.3</td><td><a href="course-materials/stat2002/STAT2002-assignment-1.pdf" target="_blank" rel="noopener">Open Assignment 1</a></td></tr>
 <tr><td>2</td><td>Sep 11</td><td>Conditional probability; the law of total probability; Bayes' formula; independence</td><td>1.4–1.5</td><td></td></tr>
 <tr><td>3</td><td>Sep 18</td><td>Random variables; discrete random variables and their distributions</td><td>2.1–2.2</td><td></td></tr>
 <tr><td>4</td><td>Sep 20<br><small>Sunday; rescheduled from Sep 25</small></td><td>Continuous random variables and their distributions; distributions of functions of random variables</td><td>2.3–2.4</td><td></td></tr>
