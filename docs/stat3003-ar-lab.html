@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="交互式理解接受—拒绝抽样：观察包络、候选点、接受率与目标分布。">
+  <title>Jing Zeng - 接受-拒绝算法</title>
+  <link href="./profile.png" rel="icon" type="image/png">
+  <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+  <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>window.MathJax = { tex: { inlineMath: [['\\(', '\\)']] } };</script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"></script>
+</head>
+<body class="nav-fixed fullcontent">
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="navbar-container container-fluid">
+        <div class="navbar-brand-container"><a class="navbar-brand" href="./index.html"><span class="navbar-title">Jing Zeng</span></a></div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="./research.html">Research</a></li>
+            <li class="nav-item"><a class="nav-link" href="./group.html">Group</a></li>
+            <li class="nav-item"><a class="nav-link" href="./teaching.html">Teaching</a></li>
+            <li class="nav-item"><a class="nav-link" href="./software.html">Software</a></li>
+            <li class="nav-item"><a class="nav-link" href="./CV/CV.pdf">CV</a></li>
+            <li class="nav-item"><a class="nav-link" href="./gallery.html">Gallery</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+    <main class="content" id="quarto-document-content">
+      <header class="quarto-title-block default">
+        <div class="quarto-title"><h1 class="title">接受-拒绝算法</h1><p class="subtitle lead">STAT3003 · Lecture 1.1</p></div>
+      </header>
+      <div class="ar-lab" id="ar-lab">
+        <header class="ar-intro">
+          <a class="ar-back" href="stat3003.html">← 返回 STAT3003</a>
+          <div class="ar-algorithm-box"><span class="ar-algorithm-label">算法步骤</span><ol class="ar-intro-steps"><li>生成 \(Y\sim g\)</li><li>生成 \(U\sim\operatorname{Uniform}(0,1)\)</li><li>若 \(U\leq \dfrac{f(Y)}{c\,g(Y)}\)，接受 \(Y\)；否则拒绝并重新试验</li></ol></div>
+        </header>
+        <div class="ar-workbench">
+          <section class="ar-controls" aria-label="实验参数">
+            <div class="ar-distribution-picker">
+              <fieldset class="ar-radio-group"><legend>目标分布 \(f\)</legend><label class="ar-radio-option"><input type="radio" name="ar-target" value="beta" checked><span><strong>\(\operatorname{Beta}(4,3)\)</strong><small>定义域：\([0,1]\)</small></span></label><label class="ar-radio-option"><input type="radio" name="ar-target" value="gamma"><span><strong>\(\operatorname{Gamma}(3/2,1)\)</strong><small>定义域：\((0,\infty)\)</small></span></label></fieldset>
+              <fieldset class="ar-radio-group"><legend>提议分布 \(g\)</legend><label class="ar-radio-option"><input type="radio" name="ar-proposal" value="uniform1" checked><span><strong>\(\operatorname{Uniform}(0,1)\)</strong><small>定义域：\([0,1]\)</small></span></label><label class="ar-radio-option"><input type="radio" name="ar-proposal" value="uniform2"><span><strong>\(\operatorname{Uniform}(0,2)\)</strong><small>定义域：\([0,2]\)</small></span></label><label class="ar-radio-option"><input type="radio" name="ar-proposal" value="exponential"><span><strong>\(\operatorname{Exp}(2/3)\)</strong><small>定义域：\([0,\infty)\)</small></span></label></fieldset>
+            </div>
+            <div class="ar-formula" id="ar-formula" aria-live="polite"></div>
+            <div class="ar-control-group">
+              <div class="ar-label-row"><label for="ar-c">包络系数 \(c\)</label><output id="ar-c-value"></output></div>
+              <input id="ar-c" type="range" step="0.01"><div class="ar-range-hint"><span id="ar-c-min"></span><span id="ar-c-max"></span></div>
+              <p class="ar-help">增大 \(c\) 会降低接受率。只有当 \(g\) 完整覆盖 \(f\) 的定义域时，理论接受率才是 \(1/c\)。</p>
+            </div>
+            <div class="ar-control-group">
+              <div class="ar-label-row"><label for="ar-n">希望接受的样本数</label><output id="ar-n-value">500</output></div>
+              <input id="ar-n" type="range" min="50" max="2000" step="50" value="500"><div class="ar-range-hint"><span>50</span><span>2000</span></div>
+            </div>
+            <div class="ar-actions"><button type="button" class="ar-primary" id="ar-run">运行实验</button><button type="button" class="ar-secondary" id="ar-step">单步试验</button><button type="button" class="ar-ghost" id="ar-reset">重置</button></div>
+          </section>
+          <div class="ar-results">
+            <section class="ar-stat-grid" aria-label="实验结果摘要">
+              <div class="ar-stat"><span>已接受</span><strong id="ar-accepted">0</strong></div><div class="ar-stat"><span>总试验数</span><strong id="ar-trials">0</strong></div><div class="ar-stat"><span>经验接受率</span><strong id="ar-rate">—</strong></div><div class="ar-stat ar-stat-theory"><span>理论接受率</span><strong id="ar-theory">—</strong></div>
+            </section>
+            <section class="ar-panel ar-envelope-panel">
+              <div class="ar-panel-heading"><div><h2>候选点落在哪里？</h2><p>曲线下方的候选点被接受；曲线与包络之间的点被拒绝。</p></div><div class="ar-legend"><span><i class="ar-dot accepted"></i>接受</span><span><i class="ar-dot rejected"></i>拒绝</span></div></div>
+              <div class="ar-chart-frame"><span class="ar-axis-label ar-y-axis">抽样高度 \(Z=U\cdot c\,g(Y)\)</span><canvas id="ar-envelope" role="img" aria-label="横轴为候选值Y，纵轴为抽样高度Z；展示目标密度、包络曲线与候选点"></canvas><span class="ar-axis-label ar-x-axis">候选值 \(Y\)</span></div>
+            </section>
+            <section class="ar-panel">
+              <div class="ar-panel-heading"><div><h2>接受的样本像目标分布吗？</h2><p>柱形是接受样本的经验密度，蓝线是目标密度 \(f(x)\)。</p></div><span class="ar-status" id="ar-status" aria-live="polite">等待实验</span></div>
+              <div class="ar-chart-frame"><span class="ar-axis-label ar-y-axis">经验密度</span><canvas id="ar-histogram" role="img" aria-label="横轴为接受样本X，纵轴为经验密度；展示接受样本直方图与目标密度"></canvas><span class="ar-axis-label ar-x-axis">接受样本 \(X\)</span></div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <footer class="footer"><div class="nav-footer"><div class="nav-footer-left">&nbsp;</div><div class="nav-footer-center">Copyright 2022, Jing Zeng</div><div class="nav-footer-right">&nbsp;</div></div></footer>
+  <script src="site_libs/bootstrap/bootstrap.min.js"></script>
+  <script src="ar-lab.js"></script>
+</body>
+</html>
