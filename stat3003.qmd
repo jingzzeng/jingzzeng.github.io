@@ -21,7 +21,6 @@ This course introduces the fundamental ideas and computational tools behind mode
 ::: lecture-downloads
 [Open the slides (PDF)](course-materials/stat3003/STAT3003-1.1-random-variable-generation.pdf){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
 
-[Open the handout (PDF)](course-materials/stat3003/STAT3003-1.1-random-variable-generation-handout.pdf){.btn .btn-outline-secondary .handout-download target="_blank" rel="noopener"}
 :::
 
 ## Course schedule
