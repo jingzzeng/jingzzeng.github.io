@@ -20,9 +20,29 @@ This course introduces probability theory and mathematical statistics, covering 
 
 ::: lecture-downloads
 [Open the slides (PDF)](course-materials/stat2002/STAT2002-1-events-and-probability.pdf){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
-
-[Open the handout (PDF)](course-materials/stat2002/STAT2002-1-events-and-probability-handout.pdf){.btn .btn-outline-secondary .handout-download target="_blank" rel="noopener"}
 :::
+
+### Lecture 2: Events and Their Probabilities (2)
+
+::: lecture-downloads
+[Open the slides (PDF)](course-materials/stat2002/STAT2002-2-conditional-probability-and-independence.pdf){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
+:::
+
+## Labs
+
+```{=html}
+<div class="lab-grid">
+  <article class="lab-card">
+    <div class="lab-card-topline">
+      <span class="lab-number">LAB 01</span>
+      <span class="lab-topic">Conditional Probability</span>
+    </div>
+    <h3>Monty Hall</h3>
+    <p>Choose among three, four, or five doors, watch the host reveal a goat, and decide whether to stay or switch. Compare the two strategies over repeated rounds.</p>
+    <a class="lab-link" href="stat2002-monty-hall-lab.html">Open lab <span aria-hidden="true">→</span></a>
+  </article>
+</div>
+```
 
 ## Course schedule
 

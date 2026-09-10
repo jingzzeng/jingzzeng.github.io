@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Jing Zeng - STAT2002: Probability Theory and Mathematical Statistics</title>
+<title>Jing Zeng - 蒙提霍尔问题</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -50,12 +50,13 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<meta name="description" content="通过三门问题比较坚持与换门策略的获胜概率。">
 
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -111,16 +112,17 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">STAT2002: Probability Theory and Mathematical Statistics</h1>
+<h1 class="title">蒙提霍尔问题</h1>
+<p class="subtitle lead">STAT2002 · 条件概率</p>
 </div>
 
 
@@ -135,372 +137,149 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="course-overview" class="level2">
-<h2 class="anchored" data-anchor-id="course-overview">Course overview</h2>
-<p>This course introduces probability theory and mathematical statistics, covering events, conditional probability, independence, random variables and joint distributions, expectation and variance, and limit theorems. Building on these foundations, it develops statistical inference through sampling distributions, point and interval estimation, large-sample theory, bootstrap methods, and hypothesis testing, including p-values, likelihood-ratio tests, and goodness-of-fit tests.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/stat2002-probability-inference-v3.png" class="course-overview-image img-fluid figure-img" alt="Four watercolor illustrations: a tossed die and coin; a density curve and probability bars; repeated confidence intervals around a reference value; and a right-skewed null distribution with its right-tail p-value shaded and labeled"></p>
-<figcaption class="figure-caption">Random experiments, probability distributions, confidence intervals, and hypothesis tests.</figcaption>
-</figure>
-</div>
-</section>
-<section id="course-materials" class="level2">
-<h2 class="anchored" data-anchor-id="course-materials">Course materials</h2>
-<p><em>Course materials will be continuously updated throughout the course.</em></p>
-<section id="syllabus" class="level3">
-<h3 class="anchored" data-anchor-id="syllabus">Syllabus</h3>
-<p><a href="course-materials/stat2002/STAT2002-syllabus.pdf" class="btn btn-outline-primary" target="_blank" rel="noopener">Open the syllabus (PDF)</a></p>
-</section>
-<section id="lecture-1-events-and-their-probabilities-1" class="level3">
-<h3 class="anchored" data-anchor-id="lecture-1-events-and-their-probabilities-1">Lecture 1: Events and Their Probabilities (1)</h3>
-<div class="lecture-downloads">
-<p><a href="course-materials/stat2002/STAT2002-1-events-and-probability.pdf" class="btn btn-outline-primary slides-download" target="_blank" rel="noopener">Open the slides (PDF)</a></p>
-</div>
-</section>
-<section id="lecture-2-events-and-their-probabilities-2" class="level3">
-<h3 class="anchored" data-anchor-id="lecture-2-events-and-their-probabilities-2">Lecture 2: Events and Their Probabilities (2)</h3>
-<div class="lecture-downloads">
-<p><a href="course-materials/stat2002/STAT2002-2-conditional-probability-and-independence.pdf" class="btn btn-outline-primary slides-download" target="_blank" rel="noopener">Open the slides (PDF)</a></p>
-</div>
-</section>
-</section>
-<section id="labs" class="level2">
-<h2 class="anchored" data-anchor-id="labs">Labs</h2>
-<div class="lab-grid">
-  <article class="lab-card">
-    <div class="lab-card-topline">
-      <span class="lab-number">LAB 01</span>
-      <span class="lab-topic">Conditional Probability</span>
+<div class="mh-lab page-columns page-full" id="mh-lab">
+  <header class="mh-intro">
+    <a class="mh-back" href="stat2002.html">← 返回 STAT2002</a>
+    <div class="mh-rule-box">
+      <span class="mh-rule-label">游戏规则</span>
+      <ol class="mh-rule-steps">
+        <li><span id="mh-rule-count">三</span>扇门后藏着一辆车，其余门后都是羊，请先选一扇门。</li>
+        <li>主持人知道奖品位置，会从其余门中打开一扇藏有羊的门。</li>
+        <li>你可以坚持原来的选择，也可以亲自改选其余未打开的任意一扇门。</li>
+      </ol>
     </div>
-    <h3 class="anchored">Monty Hall</h3>
-    <p>Choose among three, four, or five doors, watch the host reveal a goat, and decide whether to stay or switch. Compare the two strategies over repeated rounds.</p>
-    <a class="lab-link" href="stat2002-monty-hall-lab.html">Open lab <span aria-hidden="true">→</span></a>
-  </article>
+  </header>
+
+  <div class="mh-workbench page-columns page-full">
+    <section class="mh-stage" aria-labelledby="mh-stage-title">
+      <div class="mh-stage-heading">
+        <div>
+          <span class="mh-eyebrow">MONTY HALL</span>
+          <h2 id="mh-stage-title" class="anchored">选一扇门</h2>
+          <p id="mh-instruction" aria-live="polite">汽车就在其中一扇门后。你的第一选择是哪一扇？</p>
+        </div>
+        <div class="mh-stage-tools">
+          <fieldset class="mh-door-count">
+            <legend>门的数量</legend>
+            <label><input type="radio" name="mh-door-count" value="3" checked=""><span>3 扇</span></label>
+            <label><input type="radio" name="mh-door-count" value="4"><span>4 扇</span></label>
+            <label><input type="radio" name="mh-door-count" value="5"><span>5 扇</span></label>
+          </fieldset>
+          <span class="mh-round" id="mh-round">第 1 轮</span>
+        </div>
+      </div>
+
+      <div class="mh-doors" id="mh-doors" aria-label="三扇可选择的门">
+        <button class="mh-door" type="button" data-door="0" aria-label="选择 1 号门">
+          <span class="mh-door-frame">
+            <span class="mh-prize" aria-hidden="true"></span>
+            <span class="mh-door-face"><span class="mh-door-number">1</span><i class="mh-knob"></i></span>
+          </span>
+          <span class="mh-door-caption">1 号门</span>
+        </button>
+        <button class="mh-door" type="button" data-door="1" aria-label="选择 2 号门">
+          <span class="mh-door-frame">
+            <span class="mh-prize" aria-hidden="true"></span>
+            <span class="mh-door-face"><span class="mh-door-number">2</span><i class="mh-knob"></i></span>
+          </span>
+          <span class="mh-door-caption">2 号门</span>
+        </button>
+        <button class="mh-door" type="button" data-door="2" aria-label="选择 3 号门">
+          <span class="mh-door-frame">
+            <span class="mh-prize" aria-hidden="true"></span>
+            <span class="mh-door-face"><span class="mh-door-number">3</span><i class="mh-knob"></i></span>
+          </span>
+          <span class="mh-door-caption">3 号门</span>
+        </button>
+        <button class="mh-door" type="button" data-door="3" aria-label="选择 4 号门" hidden="">
+          <span class="mh-door-frame">
+            <span class="mh-prize" aria-hidden="true"></span>
+            <span class="mh-door-face"><span class="mh-door-number">4</span><i class="mh-knob"></i></span>
+          </span>
+          <span class="mh-door-caption">4 号门</span>
+        </button>
+        <button class="mh-door" type="button" data-door="4" aria-label="选择 5 号门" hidden="">
+          <span class="mh-door-frame">
+            <span class="mh-prize" aria-hidden="true"></span>
+            <span class="mh-door-face"><span class="mh-door-number">5</span><i class="mh-knob"></i></span>
+          </span>
+          <span class="mh-door-caption">5 号门</span>
+        </button>
+      </div>
+
+      <div class="mh-decision" id="mh-decision" hidden="">
+        <p>主持人打开了一扇有羊的门。现在你要——</p>
+        <div class="mh-decision-buttons">
+          <button type="button" class="mh-strategy-choice mh-stay" id="mh-stay">
+            <span class="mh-choice-icon" aria-hidden="true">●</span>
+            <span><strong>坚持不换</strong><small id="mh-stay-copy">保留原来的门</small></span>
+          </button>
+          <button type="button" class="mh-strategy-choice mh-switch" id="mh-switch">
+            <span class="mh-choice-icon" aria-hidden="true">→</span>
+            <span><strong>选择换门</strong><small id="mh-switch-copy">自己挑选另一扇门</small></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="mh-result" id="mh-result" hidden="" aria-live="polite">
+        <div class="mh-result-icon" id="mh-result-icon" aria-hidden="true"></div>
+        <div>
+          <strong id="mh-result-title"></strong>
+          <p id="mh-result-copy"></p>
+        </div>
+        <button type="button" class="mh-next" id="mh-next">再来一轮</button>
+      </div>
+    </section>
+
+    <aside class="mh-sidebar" aria-label="实验统计">
+      <section class="mh-scoreboard">
+        <div class="mh-score-heading">
+          <div>
+            <span class="mh-eyebrow">本次实验</span>
+            <h2 class="anchored">策略记录</h2>
+          </div>
+          <button type="button" class="mh-reset" id="mh-reset">清空</button>
+        </div>
+
+        <div class="mh-total">
+          <span>已完成</span>
+          <strong id="mh-total">0</strong>
+          <small>轮</small>
+        </div>
+
+        <div class="mh-strategy-list">
+          <div class="mh-strategy mh-strategy-stay">
+            <div class="mh-strategy-title"><span>坚持</span><strong id="mh-stay-rate">—</strong></div>
+            <div class="mh-meter"><i id="mh-stay-meter"></i></div>
+            <p><span id="mh-stay-wins">0</span> 次获胜 / <span id="mh-stay-total">0</span> 次选择</p>
+          </div>
+          <div class="mh-strategy mh-strategy-switch">
+            <div class="mh-strategy-title"><span>换门</span><strong id="mh-switch-rate">—</strong></div>
+            <div class="mh-meter"><i id="mh-switch-meter"></i></div>
+            <p><span id="mh-switch-wins">0</span> 次获胜 / <span id="mh-switch-total">0</span> 次选择</p>
+          </div>
+        </div>
+
+        <div class="mh-theory">
+          <span>理论获胜概率</span>
+          <div><b>坚持</b><strong id="mh-theory-stay">1/3</strong></div>
+          <div><b>换门</b><strong id="mh-theory-switch">2/3</strong></div>
+        </div>
+      </section>
+
+      <section class="mh-question">
+        <span class="mh-question-mark">?</span>
+        <div>
+          <h3 class="anchored">为什么换门更有利？</h3>
+          <p id="mh-explanation">第一次选中汽车的概率只有 1/3；选中羊的概率是 2/3。主持人排除一扇有羊的门后，换门会在最初选中羊的所有情形中获胜。</p>
+        </div>
+      </section>
+    </aside>
+  </div>
 </div>
-</section>
-<section id="course-schedule" class="level2">
-<h2 class="anchored" data-anchor-id="course-schedule">Course schedule</h2>
-<p class="schedule-note">
-2026 Fall · Fridays 09:45–12:10 · Room 3A111
-</p>
-<div class="schedule-table" role="region" aria-label="STAT2002 course schedule" tabindex="0">
-
-<table>
-<thead>
-<tr>
-<th scope="col">
-Week
-</th>
-<th scope="col">
-Date
-</th>
-<th scope="col">
-Planned topics
-</th>
-<th scope="col">
-Textbook / sections
-</th>
-<th scope="col">
-Assignment
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-1
-</td>
-<td>
-Sep 4
-</td>
-<td>
-A brief history of probability; random experiments, sample spaces, and events; definition and properties of probability
-</td>
-<td>
-1.1–1.3
-</td>
-<td>
-<a href="course-materials/stat2002/STAT2002-assignment-1.pdf" target="_blank" rel="noopener">Open Assignment 1</a>
-</td>
-</tr>
-<tr>
-<td>
-2
-</td>
-<td>
-Sep 11
-</td>
-<td>
-Conditional probability; the law of total probability; Bayes’ formula; independence
-</td>
-<td>
-1.4–1.5
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-3
-</td>
-<td>
-Sep 18
-</td>
-<td>
-Random variables; discrete random variables and their distributions
-</td>
-<td>
-2.1–2.2
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-4
-</td>
-<td>
-Sep 20<br><small>Sunday; rescheduled from Sep 25</small>
-</td>
-<td>
-Continuous random variables and their distributions; distributions of functions of random variables
-</td>
-<td>
-2.3–2.4
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-5
-</td>
-<td>
-Oct 2
-</td>
-<td>
-No class — National Day holiday
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-6
-</td>
-<td>
-Oct 9
-</td>
-<td>
-Random vectors; marginal and conditional distributions; mutual independence; distributions of functions of random vectors
-</td>
-<td>
-3.1–3.5
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-7
-</td>
-<td>
-Oct 16
-</td>
-<td>
-Expectation, median, variance, moments, and entropy; the law of large numbers and the central limit theorem
-</td>
-<td>
-4.1–4.4
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-8
-</td>
-<td>
-Oct 23
-</td>
-<td>
-A brief history of statistics; basic concepts; populations, samples, and sampling distributions
-</td>
-<td>
-5.1–5.3
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-9
-</td>
-<td>
-Oct 30
-</td>
-<td>
-Point estimation; the method of moments and maximum likelihood estimation
-</td>
-<td>
-6.1–6.3
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-10
-</td>
-<td>
-Nov 6
-</td>
-<td>
-Criteria for evaluating estimators; large-sample theory of point estimation
-</td>
-<td>
-6.4–6.5
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-11
-</td>
-<td>
-Nov 13
-</td>
-<td>
-Interval estimation; the pivotal quantity method
-</td>
-<td>
-7.1–7.2
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-12
-</td>
-<td>
-Nov 20
-</td>
-<td>
-Large-sample methods; bootstrap confidence intervals; confidence limits
-</td>
-<td>
-7.3–7.5
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-13
-</td>
-<td>
-Nov 27
-</td>
-<td>
-Hypothesis testing; tests for the mean and variance of a single normal population
-</td>
-<td>
-8.1; 8.2.1
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-14
-</td>
-<td>
-Dec 4
-</td>
-<td>
-Comparing means and variances of two normal populations; paired-sample tests for means
-</td>
-<td>
-8.2.2–8.2.3
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-15
-</td>
-<td>
-Dec 11
-</td>
-<td>
-Tests for a proportion; likelihood ratio tests
-</td>
-<td>
-8.3–8.4
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-16
-</td>
-<td>
-Dec 18
-</td>
-<td>
-p-values; goodness-of-fit tests
-</td>
-<td>
-8.5; 9.1
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-17
-</td>
-<td>
-Dec 25
-</td>
-<td>
-Course review
-</td>
-<td>
-1–9
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-18
-</td>
-<td>
-Jan 1, 2027
-</td>
-<td>
-No class — New Year’s Day holiday
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-</tbody>
-
-</table>
-</div>
+<script src="monty-hall-lab.js"></script>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
