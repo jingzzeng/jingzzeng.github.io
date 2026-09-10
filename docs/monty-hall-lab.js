@@ -31,8 +31,7 @@
     switchTotal: $("mh-switch-total"),
     switchRate: $("mh-switch-rate"),
     switchMeter: $("mh-switch-meter"),
-    theoryStay: $("mh-theory-stay"),
-    theorySwitch: $("mh-theory-switch"),
+    tip: $("mh-tip"),
     explanation: $("mh-explanation")
   };
 
@@ -195,18 +194,12 @@
     updateStrategy("switch");
   }
 
-  function updateTheory() {
+  function updateTip() {
     if (doorCount === 3) {
-      ui.theoryStay.textContent = "1/3";
-      ui.theorySwitch.textContent = "2/3";
       ui.explanation.textContent = "第一次选中汽车的概率只有 1/3；选中羊的概率是 2/3。主持人排除一扇有羊的门后，换门会在最初选中羊的所有情形中获胜。";
     } else if (doorCount === 4) {
-      ui.theoryStay.textContent = "1/4";
-      ui.theorySwitch.textContent = "3/8";
       ui.explanation.textContent = "第一次选中羊的概率是 3/4。主持人排除一扇羊门后，汽车位于其余 2 扇可换门中的概率相同，因此任选一扇换门的胜率为 (3/4) × (1/2) = 3/8。";
     } else {
-      ui.theoryStay.textContent = "1/5";
-      ui.theorySwitch.textContent = "4/15";
       ui.explanation.textContent = "第一次选中羊的概率是 4/5。主持人排除一扇羊门后，汽车位于其余 3 扇可换门中的概率相同，因此任选一扇换门的胜率为 (4/5) × (1/3) = 4/15。";
     }
   }
@@ -217,7 +210,8 @@
       stay: { wins: 0, total: 0 },
       switch: { wins: 0, total: 0 }
     };
-    updateTheory();
+    updateTip();
+    ui.tip.open = false;
     updateScore();
     startRound();
     doors[0].focus();
@@ -242,7 +236,7 @@
     resetExperiment();
   }));
 
-  updateTheory();
+  updateTip();
   updateScore();
   startRound();
 })();
