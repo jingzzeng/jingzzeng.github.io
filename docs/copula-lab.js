@@ -43,9 +43,6 @@ function update(regenerate=true){
  plot($('uniform'),uv,uv,true);plot($('transformed'),xy,uv,false);
  const rx=ranks(xy,0),ry=ranks(xy,1),sp=corr(rx.map((x,i)=>[x,ry[i]]));
  $('stats').innerHTML=[['样本数',uv.length],['Pearson r · (U, V)',corr(uv).toFixed(3)],['Pearson r · (X, Y)',corr(xy).toFixed(3)],['Spearman · (X, Y)',sp.toFixed(3)]].map(([a,b])=>`<div class="cp-stat">${a}<strong>${b}</strong></div>`).join('');
- const cop={gaussian:`normalCopula(${p}, dim = 2)`,t:`tCopula(${p}, dim = 2, df = ${df}, df.fixed = TRUE)`,clayton:`claytonCopula(${p}, dim = 2)`,gumbel:`gumbelCopula(${p}, dim = 2)`,independent:'indepCopula(dim = 2)'}[f];
- const qm=(m,u)=>({uniform:`qunif(${u})`,normal:`qnorm(${u})`,t:`qt(${u}, df = 4)`,exponential:`qexp(${u}, rate = 1)`,lognormal:`qlnorm(${u}, meanlog = 0, sdlog = 1)`,beta:`qbeta(${u}, shape1 = 2, shape2 = 5)`})[m];
- $('code').textContent=`library(copula)\nlibrary(ggplot2)\nlibrary(ggExtra)\nset.seed(${seed})\nC <- ${cop}\nU <- rCopula(${n}, C)\ndat <- data.frame(x = ${qm(mx,'U[, 1]')},\n                  y = ${qm(my,'U[, 2]')})\np <- ggplot(dat, aes(x, y)) +\n  geom_point(shape = 1, alpha = 0.5) + theme_bw()\nggMarginal(p, type = "histogram",\n           color = "darkblue", fill = "lightblue")`;
 }
 $('family').addEventListener('change',()=>{familySetup();update();});
 for(const id of ['param','df','n'])$(id).addEventListener('input',()=>update());
