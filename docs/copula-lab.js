@@ -19,6 +19,7 @@ function sample(n,f,p,df,seed) {
  });
 }
 const quantile=(u,m)=>({uniform:()=>u,normal:()=>J.normal.inv(u,0,1),t:()=>J.studentt.inv(u,4),exponential:()=>-Math.log1p(-u),lognormal:()=>Math.exp(J.normal.inv(u,0,1)),beta:()=>J.beta.inv(u,2,5)})[m]();
+const marginMath=m=>({uniform:'\\operatorname{Uniform}(0,1)',normal:'\\mathcal{N}(0,1)',t:'t_4',exponential:'\\operatorname{Exp}(1)',lognormal:'\\operatorname{Lognormal}(0,1)',beta:'\\operatorname{Beta}(2,5)'})[m];
 function plot(canvas,data,uv,uniform){
  const size=Math.max(280,canvas.getBoundingClientRect().width),dpr=window.devicePixelRatio||1;canvas.width=size*dpr;canvas.height=size*dpr;const c=canvas.getContext('2d');c.scale(dpr,dpr);const l=60,t=62,r=size-58,b=size-56,w=r-l,h=b-t;
  const ranges=[0,1].map(k=>{if(uniform)return [0,1];let lo=Infinity,hi=-Infinity;for(const p of data){lo=Math.min(lo,p[k]);hi=Math.max(hi,p[k]);}const pad=(hi-lo)*.04||1;return [lo-pad,hi+pad];});
@@ -37,7 +38,9 @@ function update(regenerate=true){
  $('param-value').textContent=p.toFixed(2);
  if(regenerate)uv=sample(n,f,p,df,seed);xy=uv.map(([u,v])=>[quantile(u,mx),quantile(v,my)]);
  if(!xy.every(p=>p.every(Number.isFinite))){$('error').textContent='数值计算失败，请调整模型参数。';return;}
- $('margin-title').textContent=`X: ${$('x').selectedOptions[0].text} · Y: ${$('y').selectedOptions[0].text}`;
+ const marginTitle=$('margin-title');
+ marginTitle.textContent=`\\(X\\sim ${marginMath(mx)},\\qquad Y\\sim ${marginMath(my)}\\)`;
+ if(window.MathJax?.typesetPromise){window.MathJax.typesetClear?.([marginTitle]);window.MathJax.typesetPromise([marginTitle]);}
  plot($('uniform'),uv,uv,true);plot($('transformed'),xy,uv,false);
 }
 $('family').addEventListener('change',()=>{familySetup();update();});

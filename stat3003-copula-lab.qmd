@@ -3,6 +3,14 @@ title: "Copula 模型"
 subtitle: "STAT3003 · Lecture 1.2"
 page-layout: full
 toc: false
+format:
+  html:
+    include-in-header:
+      text: |
+        <script>
+          window.MathJax = { tex: { inlineMath: [['\\(', '\\)']] } };
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"></script>
 ---
 
 ```{=html}
@@ -21,7 +29,7 @@ toc: false
 <p class="cp-help">设置自动生效；只改边际时保留 (U, V)。每次“重新抽样”都会自动使用新的随机种子。</p>
 </section><div class="cp-results">
 <div class="cp-presets" aria-label="课件示例"><span>课件示例</span><button data-preset="uniform">均匀边际 · ρ = 0.5</button><button data-preset="normal">正态边际 · ρ = 0.9</button><button data-preset="mixed">t + 正态 · ρ = 0.5</button></div>
-<div class="cp-plots"><section class="cp-panel"><h2>① Copula 样本</h2><p>U、V 的边际均为 Uniform(0, 1)</p><canvas id="cp-uniform" role="img" aria-label="Copula 均匀边际散点图及边际直方图"></canvas></section><section class="cp-panel"><h2>② 边际变换后的样本</h2><p id="cp-margin-title"></p><canvas id="cp-transformed" role="img" aria-label="变换后的 X Y 散点图及边际直方图"></canvas></section></div>
+<div class="cp-plots"><section class="cp-panel"><h2>① Copula 样本</h2><p class="cp-math-title">\(U,V\sim\operatorname{Uniform}(0,1)\)</p><canvas id="cp-uniform" role="img" aria-label="Copula 均匀边际散点图及边际直方图"></canvas></section><section class="cp-panel"><h2>② 边际变换后的样本</h2><p class="cp-math-title" id="cp-margin-title"></p><canvas id="cp-transformed" role="img" aria-label="变换后的 X Y 散点图及边际直方图"></canvas></section></div>
 <p id="cp-error" role="alert"></p>
 </div></div></div>
 <script src="vendor/jstat.min.js"></script>
