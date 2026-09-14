@@ -19,8 +19,6 @@ function sample(n,f,p,df,seed) {
  });
 }
 const quantile=(u,m)=>({uniform:()=>u,normal:()=>J.normal.inv(u,0,1),t:()=>J.studentt.inv(u,4),exponential:()=>-Math.log1p(-u),lognormal:()=>Math.exp(J.normal.inv(u,0,1)),beta:()=>J.beta.inv(u,2,5)})[m]();
-function corr(a){const n=a.length,m=a.reduce((s,p)=>[s[0]+p[0]/n,s[1]+p[1]/n],[0,0]);let xx=0,yy=0,xy=0;for(const [x,y]of a){xx+=(x-m[0])**2;yy+=(y-m[1])**2;xy+=(x-m[0])*(y-m[1]);}return xy/Math.sqrt(xx*yy);}
-function ranks(a,col){const s=a.map((p,i)=>[p[col],i]).sort((a,b)=>a[0]-b[0]),r=[];for(let i=0;i<s.length;){let j=i+1;while(j<s.length&&s[j][0]===s[i][0])j++;for(let k=i;k<j;k++)r[s[k][1]]=(i+j-1)/2;i=j;}return r;}
 function plot(canvas,data,uv,uniform){
  const size=Math.max(280,canvas.getBoundingClientRect().width),dpr=window.devicePixelRatio||1;canvas.width=size*dpr;canvas.height=size*dpr;const c=canvas.getContext('2d');c.scale(dpr,dpr);const l=48,t=57,r=size-49,b=size-43,w=r-l,h=b-t;
  const ranges=[0,1].map(k=>{if(uniform)return [0,1];let lo=Infinity,hi=-Infinity;for(const p of data){lo=Math.min(lo,p[k]);hi=Math.max(hi,p[k]);}const pad=(hi-lo)*.04||1;return [lo-pad,hi+pad];});
@@ -41,8 +39,6 @@ function update(regenerate=true){
  if(!xy.every(p=>p.every(Number.isFinite))){$('error').textContent='数值计算失败，请调整模型参数。';return;}
  $('margin-title').textContent=`X: ${$('x').selectedOptions[0].text} · Y: ${$('y').selectedOptions[0].text}`;
  plot($('uniform'),uv,uv,true);plot($('transformed'),xy,uv,false);
- const rx=ranks(xy,0),ry=ranks(xy,1),sp=corr(rx.map((x,i)=>[x,ry[i]]));
- $('stats').innerHTML=[['样本数',uv.length],['Pearson r · (U, V)',corr(uv).toFixed(3)],['Pearson r · (X, Y)',corr(xy).toFixed(3)],['Spearman · (X, Y)',sp.toFixed(3)]].map(([a,b])=>`<div class="cp-stat">${a}<strong>${b}</strong></div>`).join('');
 }
 $('family').addEventListener('change',()=>{familySetup();update();});
 for(const id of ['param','df','n'])$(id).addEventListener('input',()=>update());
@@ -53,5 +49,5 @@ document.querySelectorAll('[data-preset]').forEach(b=>b.addEventListener('click'
 let timer;window.addEventListener('resize',()=>{clearTimeout(timer);timer=setTimeout(()=>update(false),100);});
 familySetup();update();
 // Expose pure numerical operations for reproducible validation.
-window.CopulaLab={sample,quantile,corr};
+window.CopulaLab={sample,quantile};
 })();
