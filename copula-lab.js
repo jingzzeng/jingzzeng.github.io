@@ -20,14 +20,14 @@ function sample(n,f,p,df,seed) {
 }
 const quantile=(u,m)=>({uniform:()=>u,normal:()=>J.normal.inv(u,0,1),t:()=>J.studentt.inv(u,4),exponential:()=>-Math.log1p(-u),lognormal:()=>Math.exp(J.normal.inv(u,0,1)),beta:()=>J.beta.inv(u,2,5)})[m]();
 function plot(canvas,data,uv,uniform){
- const size=Math.max(280,canvas.getBoundingClientRect().width),dpr=window.devicePixelRatio||1;canvas.width=size*dpr;canvas.height=size*dpr;const c=canvas.getContext('2d');c.scale(dpr,dpr);const l=48,t=57,r=size-49,b=size-43,w=r-l,h=b-t;
+ const size=Math.max(280,canvas.getBoundingClientRect().width),dpr=window.devicePixelRatio||1;canvas.width=size*dpr;canvas.height=size*dpr;const c=canvas.getContext('2d');c.scale(dpr,dpr);const l=60,t=62,r=size-58,b=size-56,w=r-l,h=b-t;
  const ranges=[0,1].map(k=>{if(uniform)return [0,1];let lo=Infinity,hi=-Infinity;for(const p of data){lo=Math.min(lo,p[k]);hi=Math.max(hi,p[k]);}const pad=(hi-lo)*.04||1;return [lo-pad,hi+pad];});
  const pos=(v,k)=> (v-ranges[k][0])/(ranges[k][1]-ranges[k][0]);
- c.font='11px system-ui';c.lineWidth=1;
- for(let i=0;i<=4;i++){const f=i/4,x=l+w*f,y=b-h*f;c.strokeStyle='#e6edf2';c.beginPath();c.moveTo(x,t);c.lineTo(x,b);c.moveTo(l,y);c.lineTo(r,y);c.stroke();c.fillStyle='#627587';c.textAlign='center';c.fillText((ranges[0][0]+f*(ranges[0][1]-ranges[0][0])).toFixed(uniform?2:1),x,b+17);c.textAlign='right';c.fillText((ranges[1][0]+f*(ranges[1][1]-ranges[1][0])).toFixed(uniform?2:1),l-6,y+4);}
+ c.font='14px system-ui';c.lineWidth=1;
+ for(let i=0;i<=4;i++){const f=i/4,x=l+w*f,y=b-h*f;c.strokeStyle='#e6edf2';c.beginPath();c.moveTo(x,t);c.lineTo(x,b);c.moveTo(l,y);c.lineTo(r,y);c.stroke();c.fillStyle='#627587';c.textAlign='center';c.fillText((ranges[0][0]+f*(ranges[0][1]-ranges[0][0])).toFixed(uniform?2:1),x,b+22);c.textAlign='right';c.fillText((ranges[1][0]+f*(ranges[1][1]-ranges[1][0])).toFixed(uniform?2:1),l-8,y+5);}
  for(let k=0;k<2;k++){const bins=Array(22).fill(0);data.forEach(p=>bins[Math.min(21,Math.max(0,Math.floor(pos(p[k],k)*22)))]++);const max=Math.max(...bins);c.fillStyle='#bad7e9';bins.forEach((v,i)=>{if(k===0)c.fillRect(l+i*w/22,t-8-v/max*35,w/22-1,v/max*35);else c.fillRect(r+8,b-(i+1)*h/22,v/max*30,h/22-1);});}
  data.forEach((p,i)=>{const f=uv[i][0];c.fillStyle=`hsla(${212-184*f},65%,45%,0.5)`;c.beginPath();c.arc(l+pos(p[0],0)*w,b-pos(p[1],1)*h,data.length>3000?1.4:2,0,2*Math.PI);c.fill();});
- c.strokeStyle='#8094a4';c.strokeRect(l,t,w,h);c.fillStyle='#263e51';c.textAlign='center';c.fillText(uniform?'U':'X',l+w/2,size-6);c.save();c.translate(12,t+h/2);c.rotate(-Math.PI/2);c.fillText(uniform?'V':'Y',0,0);c.restore();
+ c.strokeStyle='#8094a4';c.strokeRect(l,t,w,h);c.fillStyle='#263e51';c.font='16px system-ui';c.textAlign='center';c.fillText(uniform?'U':'X',l+w/2,size-8);c.save();c.translate(16,t+h/2);c.rotate(-Math.PI/2);c.fillText(uniform?'V':'Y',0,0);c.restore();
 }
 let uv=[],xy=[],seed=freshSeed();
 function familySetup(){const f=$('family').value,arch=['clayton','gumbel'].includes(f);$('dependence').hidden=f==='independent';$('df-wrap').hidden=f!=='t';$('param').min=arch?(f==='gumbel'?1:.1):-.95;$('param').max=arch?8:.95;$('param').step=arch?.1:.05;$('param').value=arch?2:.5;$('param-label').textContent=arch?'依赖参数 θ':'相关参数 ρ';$('family-note').textContent={gaussian:'对称依赖；ρ 可为负。',t:'对称的上下尾依赖；ν 越小，尾部依赖通常越强。',clayton:'本实验使用 θ > 0：θ 越大，正依赖越强，具有下尾依赖。',gumbel:'θ = 1 时独立；θ > 1 时具有上尾依赖。',independent:'U 与 V 相互独立。'}[f];}
