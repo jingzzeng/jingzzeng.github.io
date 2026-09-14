@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Jing Zeng - STAT3003: Fundamentals of Statistical Algorithm</title>
+<title>Jing Zeng - Copula 模型</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -55,7 +55,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -111,16 +111,17 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">STAT3003: Fundamentals of Statistical Algorithm</h1>
+<h1 class="title">Copula 模型</h1>
+<p class="subtitle lead">STAT3003 · Lecture 1.2</p>
 </div>
 
 
@@ -135,405 +136,34 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="course-overview" class="level2">
-<h2 class="anchored" data-anchor-id="course-overview">Course overview</h2>
-<p>This course introduces the fundamental ideas and computational tools behind modern statistical algorithms. Topics include random-variable generation, Monte Carlo methods, optimization, Markov chain Monte Carlo, and bootstrap methods.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/stat3003-algorithms.png" class="course-overview-image img-fluid figure-img"></p>
-<figcaption class="figure-caption">A visual overview of random-number generation, Markov chain Monte Carlo, and bootstrap resampling.</figcaption>
-</figure>
-</div>
-</section>
-<section id="course-materials" class="level2">
-<h2 class="anchored" data-anchor-id="course-materials">Course materials</h2>
-<p><em>Course materials will be continuously updated throughout the course.</em></p>
-<section id="syllabus" class="level3">
-<h3 class="anchored" data-anchor-id="syllabus">Syllabus</h3>
-<p><a href="course-materials/stat3003/STAT3003-syllabus.pdf" class="btn btn-outline-primary" target="_blank" rel="noopener">Open the syllabus (PDF)</a></p>
-</section>
-<section id="lecture-1.1-random-variable-generation-1" class="level3">
-<h3 class="anchored" data-anchor-id="lecture-1.1-random-variable-generation-1">Lecture 1.1: Random Variable Generation (1)</h3>
-<div class="lecture-downloads">
-<p><a href="course-materials/stat3003/STAT3003-1.1-random-variable-generation.pdf" class="btn btn-outline-primary slides-download" target="_blank" rel="noopener">Open the slides (PDF)</a></p>
-</div>
-</section>
-<section id="lecture-1.2-random-variable-generation-2" class="level3">
-<h3 class="anchored" data-anchor-id="lecture-1.2-random-variable-generation-2">Lecture 1.2: Random Variable Generation (2)</h3>
-<div class="lecture-downloads">
-<p><a href="course-materials/stat3003/STAT3003-1.2-random-variable-generation.pdf" class="btn btn-outline-primary slides-download" target="_blank" rel="noopener">Open the slides (PDF)</a></p>
-</div>
-</section>
-</section>
-<section id="labs" class="level2">
-<h2 class="anchored" data-anchor-id="labs">Labs</h2>
-<div class="lab-grid">
-  <article class="lab-card">
-    <div class="lab-card-topline">
-      <span class="lab-number">LAB 01</span>
-      <span class="lab-topic">Random Variable Generation</span>
-    </div>
-    <h3 class="anchored">Acceptance–Rejection</h3>
-    <p>Explore how the proposal distribution, envelope coefficient, and random candidates determine which samples are accepted.</p>
-    <a class="lab-link" href="stat3003-ar-lab.html">Open lab <span aria-hidden="true">→</span></a>
-  </article>
-  <article class="lab-card">
-    <div class="lab-card-topline"><span class="lab-number">LAB 02</span><span class="lab-topic">Copula Models</span></div>
-    <h3 class="anchored">Copula &amp; Marginal Distributions</h3>
-    <p>Choose a copula and marginal distributions to explore dependence, tail behavior, and scatterplots through inverse transforms.</p>
-    <a class="lab-link" href="stat3003-copula-lab.html">Open lab <span aria-hidden="true">→</span></a>
-  </article>
-</div>
-</section>
-<section id="course-schedule" class="level2">
-<h2 class="anchored" data-anchor-id="course-schedule">Course schedule</h2>
-<p class="schedule-note">
-2026 Fall · Tuesdays 14:00–15:35
-</p>
-<div class="schedule-table" role="region" aria-label="STAT3003 course schedule" tabindex="0">
-
-<table>
-<thead>
-<tr>
-<th>
-Week
-</th>
-<th>
-Date
-</th>
-<th>
-Planned topics
-</th>
-<th>
-Slides / module
-</th>
-<th>
-Assignment
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-1
-</td>
-<td>
-Sep 1
-</td>
-<td>
-Course introduction; random-number generation; inverse transform method
-</td>
-<td>
-0-syllabus; 1.1
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-2
-</td>
-<td>
-Sep 8
-</td>
-<td>
-Inverse transform method; acceptance–rejection algorithm
-</td>
-<td>
-1.1
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-3
-</td>
-<td>
-Sep 15
-</td>
-<td>
-Mixture models; special transformations; copula models
-</td>
-<td>
-1.2
-</td>
-<td>
-Assignment 1 released
-</td>
-</tr>
-<tr>
-<td>
-4
-</td>
-<td>
-Sep 22
-</td>
-<td>
-Monte Carlo integration; variance and efficiency
-</td>
-<td>
-2.1
-</td>
-<td>
-Assignment 1 due
-</td>
-</tr>
-<tr>
-<td>
-5
-</td>
-<td>
-Sep 29
-</td>
-<td>
-Monte Carlo statistical inference: parameter estimation and hypothesis testing
-</td>
-<td>
-2.2
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-6
-</td>
-<td>
-Oct 10
-</td>
-<td>
-Variance reduction: antithetic variables, control variates, and more
-</td>
-<td>
-2.3
-</td>
-<td>
-Assignment 2 released
-</td>
-</tr>
-<tr>
-<td>
-7
-</td>
-<td>
-Oct 13
-</td>
-<td>
-Variance reduction: importance sampling, stratified sampling, and more
-</td>
-<td>
-2.3
-</td>
-<td>
-Assignment 2 due
-</td>
-</tr>
-<tr>
-<td>
-8
-</td>
-<td>
-Oct 20
-</td>
-<td>
-MCMC: Markov-chain foundations; Metropolis–Hastings algorithm
-</td>
-<td>
-2.4
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-9
-</td>
-<td>
-Oct 27
-</td>
-<td>
-Gibbs sampling, convergence diagnostics, and MCMC applications
-</td>
-<td>
-2.4
-</td>
-<td>
-Assignment 3 released
-</td>
-</tr>
-<tr>
-<td>
-10
-</td>
-<td>
-Nov 3
-</td>
-<td>
-Bisection method; Newton’s method
-</td>
-<td>
-3.1
-</td>
-<td>
-Assignment 3 due
-</td>
-</tr>
-<tr>
-<td>
-11
-</td>
-<td>
-Nov 10
-</td>
-<td>
-Fisher scoring; gradient descent
-</td>
-<td>
-3.1
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-12
-</td>
-<td>
-Nov 17
-</td>
-<td>
-Gradient descent; coordinate descent
-</td>
-<td>
-3.2
-</td>
-<td>
-Assignment 4 released
-</td>
-</tr>
-<tr>
-<td>
-13
-</td>
-<td>
-Nov 24
-</td>
-<td>
-EM algorithm
-</td>
-<td>
-3.2
-</td>
-<td>
-Assignment 4 due
-</td>
-</tr>
-<tr>
-<td>
-14
-</td>
-<td>
-Dec 1
-</td>
-<td>
-EM algorithm
-</td>
-<td>
-3.2
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-15
-</td>
-<td>
-Dec 8
-</td>
-<td>
-MM algorithm; ADMM algorithm
-</td>
-<td>
-3.3
-</td>
-<td>
-Assignment 5 released
-</td>
-</tr>
-<tr>
-<td>
-16
-</td>
-<td>
-Dec 15
-</td>
-<td>
-ADMM algorithm
-</td>
-<td>
-3.3
-</td>
-<td>
-Assignment 5 due
-</td>
-</tr>
-<tr>
-<td>
-17
-</td>
-<td>
-Dec 22
-</td>
-<td>
-Bootstrap: bias and standard-error estimation
-</td>
-<td>
-4
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-18
-</td>
-<td>
-Dec 29
-</td>
-<td>
-Bootstrap confidence intervals; cross-validation; course review
-</td>
-<td>
-4
-</td>
-<td>
-Assignment 6 released
-</td>
-</tr>
-<tr>
-<td>
-Post-course
-</td>
-<td>
-Jan 5, 2027
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-Assignment 6 due
-</td>
-</tr>
-</tbody>
-
-</table>
-</div>
+<link rel="stylesheet" href="copula-lab.css">
+<div class="cp-lab" id="cp-lab">
+<a href="stat3003.html">← 返回 STAT3003</a>
+<div class="cp-intro"><strong>依赖结构 + 边际分布 = 联合分布</strong><p>先生成 (U, V) ∼ C，再令 X = F₁⁻¹(U)、Y = F₂⁻¹(V)。改变边际分布，观察同一组点如何变形。</p></div>
+<div class="cp-layout"><section class="cp-controls" aria-label="实验参数">
+<h2 class="anchored">设置模型</h2>
+<label for="cp-family">Copula</label><select id="cp-family"><option value="gaussian">Gaussian · 高斯</option><option value="t">Student t</option><option value="clayton">Clayton · 下尾依赖</option><option value="gumbel">Gumbel · 上尾依赖</option><option value="independent">Independence · 独立</option></select>
+<div id="cp-dependence"><label for="cp-param" id="cp-param-label">相关参数 ρ</label><div class="cp-slider"><input type="range" id="cp-param" min="-0.95" max="0.95" step="0.05" value="0.5"><output id="cp-param-value">0.50</output></div></div>
+<div id="cp-df-wrap" hidden=""><label for="cp-df">Copula 自由度 ν</label><input id="cp-df" type="number" min="2" max="50" step="1" value="4"></div>
+<p class="cp-help" id="cp-family-note"></p>
+<label for="cp-x">X 的边际分布</label><select id="cp-x"><option value="uniform">Uniform(0, 1)</option><option value="normal" selected="">Normal(0, 1)</option><option value="t">Student t(df = 4)</option><option value="exponential">Exponential(rate = 1)</option><option value="lognormal">Lognormal(0, 1)</option><option value="beta">Beta(2, 5)</option></select><label for="cp-y">Y 的边际分布</label><select id="cp-y"><option value="uniform">Uniform(0, 1)</option><option value="normal" selected="">Normal(0, 1)</option><option value="t">Student t(df = 4)</option><option value="exponential">Exponential(rate = 1)</option><option value="lognormal">Lognormal(0, 1)</option><option value="beta">Beta(2, 5)</option></select><label for="cp-n">样本数</label><select id="cp-n"><option>200</option><option selected="">1000</option><option>3000</option><option>5000</option></select>
+<label for="cp-seed">随机种子</label><input type="number" id="cp-seed" min="1" max="2147483647" step="1" value="12345">
+<div class="cp-actions"><button id="cp-resample">重新抽样</button><button id="cp-reset" class="cp-secondary">重置</button></div>
+<p class="cp-help">设置自动生效；只改边际时保留 (U, V)。同一设置和种子可复现实验。</p>
+</section><div class="cp-results">
+<div class="cp-presets" aria-label="课件示例"><span>课件示例</span><button data-preset="uniform">均匀边际 · ρ = 0.5</button><button data-preset="normal">正态边际 · ρ = 0.9</button><button data-preset="mixed">t + 正态 · ρ = 0.5</button></div>
+<div class="cp-plots"><section class="cp-panel"><h2 class="anchored">① Copula 样本</h2><p>U、V 的边际均为 Uniform(0, 1)</p><canvas id="cp-uniform" role="img" aria-label="Copula 均匀边际散点图及边际直方图"></canvas></section><section class="cp-panel"><h2 class="anchored">② 边际变换后的样本</h2><p id="cp-margin-title"></p><canvas id="cp-transformed" role="img" aria-label="变换后的 X Y 散点图及边际直方图"></canvas></section></div>
+<div class="cp-stats" id="cp-stats" aria-live="polite"></div>
+<p class="cp-help">点的颜色按 U 从蓝到橙变化，两图中相同颜色对应相同样本。坐标轴覆盖全部样本；重尾分布可能使中部点更集中。直方图表示各区间的样本数。</p>
+<details><summary>如何观察？</summary><p>固定 Copula，只改变一个边际：秩相关保持不变，但 Pearson 相关系数可能变化。Gaussian 的 ρ 是潜在正态变量的相关系数，一般不等于变换后 X、Y 的相关系数。</p><p>比较 Gaussian、Clayton 和 Gumbel：观察左下角或右上角点的聚集。Student t Copula 即使 ρ = 0 也通常不独立。Copula 自由度与 t 边际的自由度是不同的参数。</p></details>
+<details><summary>对应的 R 代码</summary><p>使用相同模型与参数；R 与浏览器的随机数生成器不同，具体样本不会逐点一致。</p><pre><code id="cp-code"></code></pre></details>
+<p class="cp-help">参考：<a href="https://search.r-project.org/CRAN/refmans/copula/html/Copula.html">R copula 包</a> · 基于 Slides 1.2 §6.4 的逆变换模拟。</p>
+<p id="cp-error" role="alert"></p>
+</div></div></div>
+<script src="vendor/jstat.min.js"></script>
+<script src="copula-lab.js"></script>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

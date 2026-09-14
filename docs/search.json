@@ -25,7 +25,7 @@
     "href": "stat3003.html#labs",
     "title": "STAT3003: Fundamentals of Statistical Algorithm",
     "section": "Labs",
-    "text": "Labs\n\n\n\n  &lt;span class=\"lab-number\"&gt;LAB 01&lt;/span&gt;\n  &lt;span class=\"lab-topic\"&gt;Random Variable Generation&lt;/span&gt;\n&lt;/div&gt;\n&lt;h3&gt;Acceptance–Rejection&lt;/h3&gt;\n&lt;p&gt;Explore how the proposal distribution, envelope coefficient, and random candidates determine which samples are accepted.&lt;/p&gt;\n&lt;a class=\"lab-link\" href=\"stat3003-ar-lab.html\"&gt;Open lab &lt;span aria-hidden=\"true\"&gt;→&lt;/span&gt;&lt;/a&gt;"
+    "text": "Labs\n\n  \n    \n      LAB 01\n      Random Variable Generation\n    \n    Acceptance–Rejection\n    Explore how the proposal distribution, envelope coefficient, and random candidates determine which samples are accepted.\n    Open lab →\n  \n  \n    LAB 02Copula Models\n    Copula & Marginal Distributions\n    Choose a copula and marginal distributions to explore dependence, tail behavior, and scatterplots through inverse transforms.\n    Open lab →"
   },
   {
     "objectID": "stat3003.html#course-schedule",
@@ -131,5 +131,12 @@
     "title": "Software",
     "section": "",
     "text": "R Packages\n\nTRES (Tensor Regression with Envelope Structure) \nSummary: Provides three estimators for tensor response regression (TRR) and tensor predictor regression (TPR) models with tensor envelope structure. The three types of estimation approaches are generic and can be applied to any envelope estimation problems.\nReference: TRES: An R Package for Tensor Regression and Envelope Algorithms. Journal of Statistical Software, 99, 1-31.\n\n\n\n\nPaper Codes\n\nSEAS\nReference: Subspace Estimation with Automatic Dimension and Variable Selection in Sufficient Dimension Reduction. Journal of the American Statistical Association, 119(545), 343–355.\n\n\nLSLDA\nReference: An Efficient Convex Formulation for Reduced-Rank Linear Discriminant Analysis in High Dimensions. Statistics Sinica, 33, 1249-1270.\n\n\nGLAA\nReference: Generalized Liquid Association Analysis for Multimodal Data Integration. Journal of the American Statistical Association, 118(543), 1984–1996.\n\n\nCOPES\nReference: Dimension Reduction for Extreme Regression via Contour Projection. Statistics Sinica, just-accepted."
+  },
+  {
+    "objectID": "stat3003-copula-lab.html",
+    "href": "stat3003-copula-lab.html",
+    "title": "Copula 模型",
+    "section": "",
+    "text": "← 返回 STAT3003\n依赖结构 + 边际分布 = 联合分布先生成 (U, V) ∼ C，再令 X = F₁⁻¹(U)、Y = F₂⁻¹(V)。改变边际分布，观察同一组点如何变形。\n\n设置模型\nCopulaGaussian · 高斯Student tClayton · 下尾依赖Gumbel · 上尾依赖Independence · 独立\n相关参数 ρ0.50\nCopula 自由度 ν\n\nX 的边际分布Uniform(0, 1)Normal(0, 1)Student t(df = 4)Exponential(rate = 1)Lognormal(0, 1)Beta(2, 5)Y 的边际分布Uniform(0, 1)Normal(0, 1)Student t(df = 4)Exponential(rate = 1)Lognormal(0, 1)Beta(2, 5)样本数200100030005000\n随机种子\n重新抽样重置\n设置自动生效；只改边际时保留 (U, V)。同一设置和种子可复现实验。\n\n课件示例均匀边际 · ρ = 0.5正态边际 · ρ = 0.9t + 正态 · ρ = 0.5\n① Copula 样本U、V 的边际均为 Uniform(0, 1)② 边际变换后的样本\n\n点的颜色按 U 从蓝到橙变化，两图中相同颜色对应相同样本。坐标轴覆盖全部样本；重尾分布可能使中部点更集中。直方图表示各区间的样本数。\n如何观察？固定 Copula，只改变一个边际：秩相关保持不变，但 Pearson 相关系数可能变化。Gaussian 的 ρ 是潜在正态变量的相关系数，一般不等于变换后 X、Y 的相关系数。比较 Gaussian、Clayton 和 Gumbel：观察左下角或右上角点的聚集。Student t Copula 即使 ρ = 0 也通常不独立。Copula 自由度与 t 边际的自由度是不同的参数。\n对应的 R 代码使用相同模型与参数；R 与浏览器的随机数生成器不同，具体样本不会逐点一致。\n参考：R copula 包 · 基于 Slides 1.2 §6.4 的逆变换模拟。"
   }
 ]

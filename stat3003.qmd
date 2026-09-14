@@ -23,8 +23,16 @@ This course introduces the fundamental ideas and computational tools behind mode
 
 :::
 
+### Lecture 1.2: Random Variable Generation (2)
+
+::: lecture-downloads
+[Open the slides (PDF)](course-materials/stat3003/STAT3003-1.2-random-variable-generation.pdf){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
+
+:::
+
 ## Labs
 
+```{=html}
 <div class="lab-grid">
   <article class="lab-card">
     <div class="lab-card-topline">
@@ -35,7 +43,14 @@ This course introduces the fundamental ideas and computational tools behind mode
     <p>Explore how the proposal distribution, envelope coefficient, and random candidates determine which samples are accepted.</p>
     <a class="lab-link" href="stat3003-ar-lab.html">Open lab <span aria-hidden="true">→</span></a>
   </article>
+  <article class="lab-card">
+    <div class="lab-card-topline"><span class="lab-number">LAB 02</span><span class="lab-topic">Copula Models</span></div>
+    <h3>Copula &amp; Marginal Distributions</h3>
+    <p>Choose a copula and marginal distributions to explore dependence, tail behavior, and scatterplots through inverse transforms.</p>
+    <a class="lab-link" href="stat3003-copula-lab.html">Open lab <span aria-hidden="true">→</span></a>
+  </article>
 </div>
+```
 
 ## Course schedule
 
