@@ -147,9 +147,8 @@ ul.task-list li input[type="checkbox"] {
 <div id="cp-df-wrap" hidden=""><label for="cp-df">Copula 自由度 ν</label><input id="cp-df" type="number" min="2" max="50" step="1" value="4"></div>
 <p class="cp-help" id="cp-family-note"></p>
 <label for="cp-x">X 的边际分布</label><select id="cp-x"><option value="uniform">Uniform(0, 1)</option><option value="normal" selected="">Normal(0, 1)</option><option value="t">Student t(df = 4)</option><option value="exponential">Exponential(rate = 1)</option><option value="lognormal">Lognormal(0, 1)</option><option value="beta">Beta(2, 5)</option></select><label for="cp-y">Y 的边际分布</label><select id="cp-y"><option value="uniform">Uniform(0, 1)</option><option value="normal" selected="">Normal(0, 1)</option><option value="t">Student t(df = 4)</option><option value="exponential">Exponential(rate = 1)</option><option value="lognormal">Lognormal(0, 1)</option><option value="beta">Beta(2, 5)</option></select><label for="cp-n">样本数</label><select id="cp-n"><option>200</option><option selected="">1000</option><option>3000</option><option>5000</option></select>
-<label for="cp-seed">随机种子</label><input type="number" id="cp-seed" min="1" max="2147483647" step="1" value="12345">
 <div class="cp-actions"><button id="cp-resample">重新抽样</button><button id="cp-reset" class="cp-secondary">重置</button></div>
-<p class="cp-help">设置自动生效；只改边际时保留 (U, V)。同一设置和种子可复现实验。</p>
+<p class="cp-help">设置自动生效；只改边际时保留 (U, V)。每次“重新抽样”都会自动使用新的随机种子。</p>
 </section><div class="cp-results">
 <div class="cp-presets" aria-label="课件示例"><span>课件示例</span><button data-preset="uniform">均匀边际 · ρ = 0.5</button><button data-preset="normal">正态边际 · ρ = 0.9</button><button data-preset="mixed">t + 正态 · ρ = 0.5</button></div>
 <div class="cp-plots"><section class="cp-panel"><h2 class="anchored">① Copula 样本</h2><p>U、V 的边际均为 Uniform(0, 1)</p><canvas id="cp-uniform" role="img" aria-label="Copula 均匀边际散点图及边际直方图"></canvas></section><section class="cp-panel"><h2 class="anchored">② 边际变换后的样本</h2><p id="cp-margin-title"></p><canvas id="cp-transformed" role="img" aria-label="变换后的 X Y 散点图及边际直方图"></canvas></section></div>
