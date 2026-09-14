@@ -18,14 +18,14 @@
     "href": "stat3003.html#course-materials",
     "title": "STAT3003: Fundamentals of Statistical Algorithm",
     "section": "Course materials",
-    "text": "Course materials\nCourse materials will be continuously updated throughout the course.\n\nSyllabus\nOpen the syllabus (PDF)\n\n\nLecture 1.1: Random Variable Generation (1)\n\nOpen the slides (PDF)"
+    "text": "Course materials\nCourse materials will be continuously updated throughout the course.\n\nSyllabus\nOpen the syllabus (PDF)\n\n\nLecture 1.1: Random Variable Generation (1)\n\nOpen the slides (PDF)\n\n\n\nLecture 1.2: Random Variable Generation (2)\n\nOpen the slides (PDF)"
   },
   {
     "objectID": "stat3003.html#labs",
     "href": "stat3003.html#labs",
     "title": "STAT3003: Fundamentals of Statistical Algorithm",
     "section": "Labs",
-    "text": "Labs\n\n  \n    \n      LAB 01\n      Random Variable Generation\n    \n    Acceptance–Rejection\n    Explore how the proposal distribution, envelope coefficient, and random candidates determine which samples are accepted.\n    Open lab →\n  \n  \n    LAB 02Copula Models\n    Copula & Marginal Distributions\n    Choose a copula and marginal distributions to explore dependence, tail behavior, and scatterplots through inverse transforms.\n    Open lab →"
+    "text": "Labs\n\n  \n    \n      LAB 01\n      Random Variable Generation\n    \n    Acceptance–Rejection\n    Explore how the proposal distribution, envelope coefficient, and random candidates determine which samples are accepted.\n    Open lab →\n  \n  \n    LAB 02Copula Models\n    Copula Model\n    Choose a copula and marginal distributions to explore dependence, tail behavior, and scatterplots through inverse transforms.\n    Open lab →"
   },
   {
     "objectID": "stat3003.html#course-schedule",
@@ -135,7 +135,7 @@
   {
     "objectID": "stat3003-copula-lab.html",
     "href": "stat3003-copula-lab.html",
-    "title": "Copula 模型",
+    "title": "Copula Model",
     "section": "",
     "text": "← 返回 STAT3003\n依赖结构 + 边际分布 = 联合分布先生成 \\((U,V)\\sim C\\)，再令 \\(X=F_1^{-1}(U)\\)、\\(Y=F_2^{-1}(V)\\)。改变边际分布，观察同一组点如何变形。\n\n设置模型\nCopulaGaussian · 高斯Student tClayton · 下尾依赖Gumbel · 上尾依赖Independence · 独立\n相关参数 ρ0.50\nCopula 自由度 ν\n\nX 的边际分布Uniform(0, 1)Normal(0, 1)Student t(df = 4)Exponential(rate = 1)Lognormal(0, 1)Beta(2, 5)Y 的边际分布Uniform(0, 1)Normal(0, 1)Student t(df = 4)Exponential(rate = 1)Lognormal(0, 1)Beta(2, 5)样本数200100030005000\n重新抽样重置\n设置自动生效；只改边际时保留 (U, V)。每次“重新抽样”都会自动使用新的随机种子。\n\n课件示例均匀边际 · ρ = 0.5正态边际 · ρ = 0.9t + 正态 · ρ = 0.5\n① Copula 样本\\(U,V\\sim\\operatorname{Uniform}(0,1)\\)② 边际变换后的样本"
   }

@@ -45,7 +45,7 @@ This course introduces the fundamental ideas and computational tools behind mode
   </article>
   <article class="lab-card">
     <div class="lab-card-topline"><span class="lab-number">LAB 02</span><span class="lab-topic">Copula Models</span></div>
-    <h3>Copula &amp; Marginal Distributions</h3>
+    <h3>Copula Model</h3>
     <p>Choose a copula and marginal distributions to explore dependence, tail behavior, and scatterplots through inverse transforms.</p>
     <a class="lab-link" href="stat3003-copula-lab.html">Open lab <span aria-hidden="true">→</span></a>
   </article>
