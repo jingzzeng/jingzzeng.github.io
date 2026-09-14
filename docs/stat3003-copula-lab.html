@@ -140,10 +140,10 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<link rel="stylesheet" href="copula-lab.css">
+<link rel="stylesheet" href="copula-lab.css?v=20260914-3">
 <div class="cp-lab" id="cp-lab">
 <a href="stat3003.html">← 返回 STAT3003</a>
-<div class="cp-intro"><strong>依赖结构 + 边际分布 = 联合分布</strong><p>先生成 (U, V) ∼ C，再令 X = F₁⁻¹(U)、Y = F₂⁻¹(V)。改变边际分布，观察同一组点如何变形。</p></div>
+<div class="cp-intro"><strong>依赖结构 + 边际分布 = 联合分布</strong><p>先生成 \((U,V)\sim C\)，再令 \(X=F_1^{-1}(U)\)、\(Y=F_2^{-1}(V)\)。改变边际分布，观察同一组点如何变形。</p></div>
 <div class="cp-layout"><section class="cp-controls" aria-label="实验参数">
 <h2 class="anchored">设置模型</h2>
 <label for="cp-family">Copula</label><select id="cp-family"><option value="gaussian">Gaussian · 高斯</option><option value="t">Student t</option><option value="clayton">Clayton · 下尾依赖</option><option value="gumbel">Gumbel · 上尾依赖</option><option value="independent">Independence · 独立</option></select>
@@ -159,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
 <p id="cp-error" role="alert"></p>
 </div></div></div>
 <script src="vendor/jstat.min.js"></script>
-<script src="copula-lab.js"></script>
+<script src="copula-lab.js?v=20260914-3"></script>
 
 
 
