@@ -54,7 +54,6 @@ This course introduces the fundamental ideas and computational tools behind mode
 
 ## Course schedule
 
-<p class="schedule-note">2026 Fall · Tuesdays 14:00–15:35</p>
 
 <div class="schedule-table" role="region" aria-label="STAT3003 course schedule" tabindex="0">
 <table>
