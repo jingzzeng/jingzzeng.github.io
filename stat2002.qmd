@@ -28,6 +28,12 @@ This course introduces probability theory and mathematical statistics, covering 
 [Open the slides (PDF)](course-materials/stat2002/STAT2002-2-conditional-probability-and-independence.pdf){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
 :::
 
+### Lecture 3: Random Variables and Their Distributions (1)
+
+::: lecture-downloads
+[Open the slides (PDF)](course-materials/stat2002/STAT2002-3-random-variables-and-distributions.pdf){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
+:::
+
 ## Labs
 
 ```{=html}
