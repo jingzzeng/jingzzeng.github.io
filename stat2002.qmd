@@ -34,6 +34,12 @@ This course introduces probability theory and mathematical statistics, covering 
 [Open the slides (PDF)](course-materials/stat2002/STAT2002-3-random-variables-and-distributions.pdf){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
 :::
 
+### Lecture 4: Random Variables and Their Distributions (2)
+
+::: lecture-downloads
+[Open the slides (PDF)](course-materials/stat2002/STAT2002-4-continuous-random-variables-and-distributions.pdf){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
+:::
+
 ## Labs
 
 ```{=html}
