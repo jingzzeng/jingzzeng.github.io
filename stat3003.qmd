@@ -30,6 +30,13 @@ This course introduces the fundamental ideas and computational tools behind mode
 
 :::
 
+### Lecture 2.1: Monte Carlo Integration
+
+::: lecture-downloads
+[Open the slides (PDF)](course-materials/stat3003/STAT3003-2.1-montecarlo-integration.pdf){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
+
+:::
+
 ## Labs
 
 ```{=html}
