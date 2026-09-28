@@ -18,14 +18,14 @@
     "href": "stat3003.html#course-materials",
     "title": "STAT3003: Fundamentals of Statistical Algorithm",
     "section": "Course materials",
-    "text": "Course materials\nCourse materials will be continuously updated throughout the course.\n\nSyllabus\nOpen the syllabus (PDF)\n\n\nLecture 1.1: Random Variable Generation (1)\n\nOpen the slides (PDF)\n\n\n\nLecture 1.2: Random Variable Generation (2)\n\nOpen the slides (PDF)\n\n\n\nLecture 2.1: Monte Carlo Integration\n\nOpen the slides (PDF)"
+    "text": "Course materials\nCourse materials will be continuously updated throughout the course.\n\nSyllabus\nOpen the syllabus (PDF)\n\n\nLecture 1.1: Random Variable Generation (1)\n\nOpen the slides (PDF)\n\n\n\nLecture 1.2: Random Variable Generation (2)\n\nOpen the slides (PDF)\n\n\n\nLecture 2.1: Monte Carlo Integration\n\nOpen the slides (PDF)\n\n\n\nLecture 2.2: Monte Carlo Inference\n\nOpen the slides (PDF)"
   },
   {
     "objectID": "stat3003.html#labs",
     "href": "stat3003.html#labs",
     "title": "STAT3003: Fundamentals of Statistical Algorithm",
     "section": "Labs",
-    "text": "Labs\n\n  \n    \n      LAB 01\n      Random Variable Generation\n    \n    Acceptance–Rejection\n    Explore how the proposal distribution, envelope coefficient, and random candidates determine which samples are accepted.\n    Open lab →\n  \n  \n    LAB 02Copula Models\n    Copula Model\n    Choose a copula and marginal distributions to explore dependence, tail behavior, and scatterplots through inverse transforms.\n    Open lab →"
+    "text": "Labs\n\n  \n    \n      LAB 01\n      Random Variable Generation\n    \n    Acceptance–Rejection\n    Explore how the proposal distribution, envelope coefficient, and random candidates determine which samples are accepted.\n    Open lab →\n  \n  \n    LAB 02Copula Models\n    Copula Model\n    Choose a copula and marginal distributions to explore dependence, tail behavior, and scatterplots through inverse transforms.\n    Open lab →\n  \n  \n    LAB 03Monte Carlo Inference\n    Power of Hypothesis Testing\n    Compare mean tests across normal, heavy-tailed, and skewed distributions. Explore how the population mean and sample size change rejection rates and power.\n    Open lab →"
   },
   {
     "objectID": "stat3003.html#course-schedule",
@@ -138,5 +138,12 @@
     "title": "Copula Model",
     "section": "",
     "text": "← 返回 STAT3003\n依赖结构 + 边际分布 = 联合分布先生成 \\((U,V)\\sim C\\)，再令 \\(X=F_1^{-1}(U)\\)、\\(Y=F_2^{-1}(V)\\)。改变边际分布，观察同一组点如何变形。\n\n设置模型\nCopulaGaussian · 高斯Student tClayton · 下尾依赖Gumbel · 上尾依赖Independence · 独立\n相关参数 ρ0.50\nCopula 自由度 ν\n\nX 的边际分布Uniform(0, 1)Normal(0, 1)Student t(df = 4)Exponential(rate = 1)Lognormal(0, 1)Beta(2, 5)Y 的边际分布Uniform(0, 1)Normal(0, 1)Student t(df = 4)Exponential(rate = 1)Lognormal(0, 1)Beta(2, 5)样本数200100030005000\n重新抽样重置\n设置自动生效；只改边际时保留 (U, V)。每次“重新抽样”都会自动使用新的随机种子。\n\n课件示例均匀边际 · ρ = 0.5正态边际 · ρ = 0.9t + 正态 · ρ = 0.5\n① Copula 样本\\(U,V\\sim\\operatorname{Uniform}(0,1)\\)② 边际变换后的样本"
+  },
+  {
+    "objectID": "stat3003-power-lab.html",
+    "href": "stat3003-power-lab.html",
+    "title": "Power of Hypothesis Testing",
+    "section": "",
+    "text": "← 返回 STAT3003\n  \n    MONTE CARLO EXPERIMENT相同的均值，不同的分布。检验功效如何变化？重复抽样、进行检验，用拒绝零假设的比例描绘功效曲线。\n    \\(H_0:\\mu=\\mu_0\\)\\(H_1:\\mu&gt;\\mu_0\\)\n  \n  从一个例子开始例 5 · 正态均值例 6 · 污染正态拓展 · 偏态分布\n  \n    \n      设置实验\n      数据分布\n      Normal · 正态Contaminated normal · 污染正态Student t · 重尾（ν = 3）Gamma · 右偏（形状 = 2）\n      \n        正常组分比例 p0.90\n        污染组分标准差倍数3510\n        匹配总体方差\n      \n      零假设均值 μ₀总体标准差 σ\n      \n      样本量 n203050100200显著性水平 α0.010.050.10\n      均值范围：μ − μ₀\n      比较检验方法单样本 t 检验Bootstrap-t 均值检验Wilcoxon 符号秩检验Wilcoxon 仅用于对称分布：此时均值与对称中心一致。\n      每个均值的模拟次数 m50010003000\n      每次检验的 Bootstrap 次数 B199499\n      开始模拟\n      停止模拟\n      \n      准备就绪\n    \n    \n      01 数据来自什么分布？正态虚线：零假设下的分布　实线：当前选定均值下的分布\n      02 均值改变，拒绝概率如何变化？Monte Carlo 区间运行模拟后显示功效曲线\n        查看均值 μ = 0.00零假设：I 型错误率\n        \n\n当前模拟的拒绝概率估计\n\n\n\n\n\n\n\n检验方法\nμ = μ₀\nI 型错误率\n当前均值\n拒绝概率\n\n\n\n\n等待模拟"
   }
 ]

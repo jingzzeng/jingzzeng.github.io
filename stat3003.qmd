@@ -37,6 +37,13 @@ This course introduces the fundamental ideas and computational tools behind mode
 
 :::
 
+### Lecture 2.2: Monte Carlo Inference
+
+::: lecture-downloads
+[Open the slides (PDF)](course-materials/stat3003/STAT3003-2.2-montecarlo-inference.pdf){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
+
+:::
+
 ## Labs
 
 ```{=html}
@@ -55,6 +62,12 @@ This course introduces the fundamental ideas and computational tools behind mode
     <h3>Copula Model</h3>
     <p>Choose a copula and marginal distributions to explore dependence, tail behavior, and scatterplots through inverse transforms.</p>
     <a class="lab-link" href="stat3003-copula-lab.html">Open lab <span aria-hidden="true">→</span></a>
+  </article>
+  <article class="lab-card">
+    <div class="lab-card-topline"><span class="lab-number">LAB 03</span><span class="lab-topic">Monte Carlo Inference</span></div>
+    <h3>Power of Hypothesis Testing</h3>
+    <p>Compare mean tests across normal, heavy-tailed, and skewed distributions. Explore how the population mean and sample size change rejection rates and power.</p>
+    <a class="lab-link" href="stat3003-power-lab.html">Open lab <span aria-hidden="true">→</span></a>
   </article>
 </div>
 ```

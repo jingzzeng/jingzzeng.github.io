@@ -1,0 +1,62 @@
+---
+title: "Power of Hypothesis Testing"
+subtitle: "STAT3003 · Lecture 2.2 · Lab 03"
+page-layout: full
+toc: false
+resources:
+  - power-lab-core.js
+  - power-lab-worker.js
+  - vendor/jstat.min.js
+format:
+  html:
+    include-in-header:
+      text: |
+        <script>window.MathJax = { tex: { inlineMath: [['\\(', '\\)']] } };</script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"></script>
+---
+
+```{=html}
+<link rel="stylesheet" href="power-lab.css">
+<div id="pw-lab" class="pw-lab">
+  <a class="pw-back" href="stat3003.html">← 返回 STAT3003</a>
+  <div class="pw-intro">
+    <div><span class="pw-eyebrow">MONTE CARLO EXPERIMENT</span><h2>相同的均值，不同的分布。检验功效如何变化？</h2><p>重复抽样、进行检验，用拒绝零假设的比例描绘功效曲线。</p></div>
+    <div class="pw-hypothesis">\(H_0:\mu=\mu_0\)<br>\(H_1:\mu>\mu_0\)</div>
+  </div>
+  <div class="pw-presets" aria-label="课件示例"><span>从一个例子开始</span><button data-preset="normal">例 5 · 正态均值</button><button data-preset="contamination">例 6 · 污染正态</button><button data-preset="skew">拓展 · 偏态分布</button></div>
+  <div class="pw-layout">
+    <section class="pw-controls" aria-label="模拟设置">
+      <h2>设置实验</h2>
+      <label for="pw-family">数据分布</label>
+      <select id="pw-family"><option value="normal">Normal · 正态</option><option value="contamination">Contaminated normal · 污染正态</option><option value="student">Student t · 重尾（ν = 3）</option><option value="gamma">Gamma · 右偏（形状 = 2）</option></select>
+      <div id="pw-contamination" hidden>
+        <label for="pw-p">正常组分比例 p</label><div class="pw-range"><input id="pw-p" type="range" min="0.5" max="1" step="0.05" value="0.9"><output id="pw-p-value">0.90</output></div>
+        <label for="pw-k">污染组分标准差倍数</label><select id="pw-k"><option>3</option><option>5</option><option selected>10</option></select>
+        <label class="pw-check"><input id="pw-match" type="checkbox" checked><span>匹配总体方差</span></label>
+      </div>
+      <div class="pw-pair"><div><label for="pw-mu0">零假设均值 μ₀</label><input id="pw-mu0" type="number" value="0" step="0.1" min="-10000" max="10000"></div><div><label for="pw-sigma" id="pw-scale-label">总体标准差 σ</label><input id="pw-sigma" type="number" value="1" min="0.01" max="1000" step="0.1"></div></div>
+      <p class="pw-help" id="pw-variance-note"></p>
+      <div class="pw-pair"><div><label for="pw-n">样本量 n</label><select id="pw-n"><option>20</option><option selected>30</option><option>50</option><option>100</option><option>200</option></select></div><div><label for="pw-alpha">显著性水平 α</label><select id="pw-alpha"><option>0.01</option><option selected>0.05</option><option>0.10</option></select></div></div>
+      <label>均值范围：μ − μ₀</label><div class="pw-pair"><input id="pw-low" type="number" value="-0.5" step="0.1" aria-label="均值偏移下限"><input id="pw-high" type="number" value="1.5" step="0.1" aria-label="均值偏移上限"></div>
+      <fieldset><legend>比较检验方法</legend><label class="pw-check"><input id="pw-t" type="checkbox" checked><span><i class="pw-dot pw-blue"></i>单样本 t 检验</span></label><label class="pw-check"><input id="pw-bootstrap" type="checkbox" checked><span><i class="pw-dot pw-amber"></i>Bootstrap-t 均值检验</span></label><label class="pw-check" id="pw-wilcoxon-label"><input id="pw-wilcoxon" type="checkbox"><span><i class="pw-dot pw-teal"></i>Wilcoxon 符号秩检验</span></label><p class="pw-help" id="pw-method-note">Wilcoxon 仅用于对称分布：此时均值与对称中心一致。</p></fieldset>
+      <label for="pw-m">每个均值的模拟次数 m</label><select id="pw-m"><option selected>500</option><option>1000</option><option>3000</option></select>
+      <div id="pw-b-wrap"><label for="pw-b">每次检验的 Bootstrap 次数 B</label><select id="pw-b"><option selected>199</option><option>499</option></select></div>
+      <button id="pw-run" class="pw-primary">开始模拟</button>
+      <button id="pw-cancel" class="pw-secondary" hidden>停止模拟</button>
+      <progress id="pw-progress" max="1" value="0" aria-label="模拟进度" hidden></progress>
+      <p id="pw-status" class="pw-help" role="status" aria-live="polite">准备就绪</p>
+    </section>
+    <div class="pw-results">
+      <section class="pw-panel pw-density-panel"><div class="pw-panel-heading"><h2><span>01</span> 数据来自什么分布？</h2><span class="pw-tag" id="pw-family-tag">正态</span></div><p id="pw-density-formula" class="pw-formula"></p><canvas id="pw-density" role="img" aria-label="零假设与选定均值下的总体密度"></canvas><p class="pw-help pw-center">虚线：零假设下的分布　实线：当前选定均值下的分布</p></section>
+      <section class="pw-panel pw-power-panel"><div class="pw-panel-heading"><h2><span>02</span> 均值改变，拒绝概率如何变化？</h2><label class="pw-check pw-band-switch"><input id="pw-bands" type="checkbox"><span>Monte Carlo 区间</span></label></div><p id="pw-result-label" class="pw-help">运行模拟后显示功效曲线</p><div id="pw-method-legend" class="pw-legend"></div><canvas id="pw-power" role="img" aria-label="各检验的经验拒绝概率随总体均值变化的曲线"></canvas>
+        <div class="pw-inspector"><label for="pw-inspect">查看均值 <output id="pw-inspect-value">μ = 0.00</output></label><input id="pw-inspect" type="range" min="0" max="40" value="10" step="1" disabled><span id="pw-inspect-kind" class="pw-tag">零假设：I 型错误率</span></div>
+        <div class="pw-table-wrap"><table id="pw-summary"><caption class="pw-sr-only">当前模拟的拒绝概率估计</caption><thead><tr><th>检验方法</th><th>μ = μ₀<br><small>I 型错误率</small></th><th id="pw-selected-heading">当前均值<br><small>拒绝概率</small></th></tr></thead><tbody><tr><td colspan="3">等待模拟</td></tr></tbody></table></div>
+      </section>
+      <p id="pw-error" role="alert"></p>
+    </div>
+  </div>
+</div>
+<script src="vendor/jstat.min.js"></script>
+<script src="power-lab-core.js"></script>
+<script src="power-lab.js"></script>
+```

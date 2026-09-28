@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Jing Zeng - STAT3003: Fundamentals of Statistical Algorithm</title>
+<title>Jing Zeng - Power of Hypothesis Testing</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */
   vertical-align: middle;
 }
 </style>
@@ -50,12 +50,14 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>window.MathJax = { tex: { inlineMath: [['\\(', '\\)']] } };</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"></script>
 
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -74,35 +76,35 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="./index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./about.html" rel="" target="">
  <span class="menu-text">About</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./research.html" rel="" target="">
  <span class="menu-text">Research</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./group.html" rel="" target="">
  <span class="menu-text">Group</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./teaching.html" rel="" target="">
  <span class="menu-text">Teaching</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./software.html" rel="" target="">
  <span class="menu-text">Software</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./CV/CV.pdf" rel="" target="">
  <span class="menu-text">CV</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./gallery.html" rel="" target="">
  <span class="menu-text">Gallery</span></a>
-  </li>  
+  </li>
 </ul>
             <div class="quarto-navbar-tools ms-auto">
 </div>
@@ -111,444 +113,100 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">STAT3003: Fundamentals of Statistical Algorithm</h1>
+<h1 class="title">Power of Hypothesis Testing</h1>
+<p class="subtitle lead">STAT3003 · Lecture 2.2 · Lab 03</p>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    
-  
-    
+
+
+
   </div>
-  
+
 
 </header>
 
-<section id="course-overview" class="level2">
-<h2 class="anchored" data-anchor-id="course-overview">Course overview</h2>
-<p>This course introduces the fundamental ideas and computational tools behind modern statistical algorithms. Topics include random-variable generation, Monte Carlo methods, optimization, Markov chain Monte Carlo, and bootstrap methods.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/stat3003-algorithms.png" class="course-overview-image img-fluid figure-img"></p>
-<figcaption class="figure-caption">A visual overview of random-number generation, Markov chain Monte Carlo, and bootstrap resampling.</figcaption>
-</figure>
-</div>
-</section>
-<section id="course-materials" class="level2">
-<h2 class="anchored" data-anchor-id="course-materials">Course materials</h2>
-<p><em>Course materials will be continuously updated throughout the course.</em></p>
-<section id="syllabus" class="level3">
-<h3 class="anchored" data-anchor-id="syllabus">Syllabus</h3>
-<p><a href="course-materials/stat3003/STAT3003-syllabus.pdf" class="btn btn-outline-primary" target="_blank" rel="noopener">Open the syllabus (PDF)</a></p>
-</section>
-<section id="lecture-1.1-random-variable-generation-1" class="level3">
-<h3 class="anchored" data-anchor-id="lecture-1.1-random-variable-generation-1">Lecture 1.1: Random Variable Generation (1)</h3>
-<div class="lecture-downloads">
-<p><a href="course-materials/stat3003/STAT3003-1.1-random-variable-generation.pdf" class="btn btn-outline-primary slides-download" target="_blank" rel="noopener">Open the slides (PDF)</a></p>
-</div>
-</section>
-<section id="lecture-1.2-random-variable-generation-2" class="level3">
-<h3 class="anchored" data-anchor-id="lecture-1.2-random-variable-generation-2">Lecture 1.2: Random Variable Generation (2)</h3>
-<div class="lecture-downloads">
-<p><a href="course-materials/stat3003/STAT3003-1.2-random-variable-generation.pdf" class="btn btn-outline-primary slides-download" target="_blank" rel="noopener">Open the slides (PDF)</a></p>
-</div>
-</section>
-<section id="lecture-2.1-monte-carlo-integration" class="level3">
-<h3 class="anchored" data-anchor-id="lecture-2.1-monte-carlo-integration">Lecture 2.1: Monte Carlo Integration</h3>
-<div class="lecture-downloads">
-<p><a href="course-materials/stat3003/STAT3003-2.1-montecarlo-integration.pdf" class="btn btn-outline-primary slides-download" target="_blank" rel="noopener">Open the slides (PDF)</a></p>
-</div>
-</section>
-<section id="lecture-2.2-monte-carlo-inference" class="level3">
-<h3 class="anchored" data-anchor-id="lecture-2.2-monte-carlo-inference">Lecture 2.2: Monte Carlo Inference</h3>
-<div class="lecture-downloads">
-<p><a href="course-materials/stat3003/STAT3003-2.2-montecarlo-inference.pdf" class="btn btn-outline-primary slides-download" target="_blank" rel="noopener">Open the slides (PDF)</a></p>
-</div>
-</section>
-</section>
-<section id="labs" class="level2">
-<h2 class="anchored" data-anchor-id="labs">Labs</h2>
-<div class="lab-grid">
-  <article class="lab-card">
-    <div class="lab-card-topline">
-      <span class="lab-number">LAB 01</span>
-      <span class="lab-topic">Random Variable Generation</span>
-    </div>
-    <h3 class="anchored">Acceptance–Rejection</h3>
-    <p>Explore how the proposal distribution, envelope coefficient, and random candidates determine which samples are accepted.</p>
-    <a class="lab-link" href="stat3003-ar-lab.html">Open lab <span aria-hidden="true">→</span></a>
-  </article>
-  <article class="lab-card">
-    <div class="lab-card-topline"><span class="lab-number">LAB 02</span><span class="lab-topic">Copula Models</span></div>
-    <h3 class="anchored">Copula Model</h3>
-    <p>Choose a copula and marginal distributions to explore dependence, tail behavior, and scatterplots through inverse transforms.</p>
-    <a class="lab-link" href="stat3003-copula-lab.html">Open lab <span aria-hidden="true">→</span></a>
-  </article>
-  <article class="lab-card">
-    <div class="lab-card-topline"><span class="lab-number">LAB 03</span><span class="lab-topic">Monte Carlo Inference</span></div>
-    <h3 class="anchored">Power of Hypothesis Testing</h3>
-    <p>Compare mean tests across normal, heavy-tailed, and skewed distributions. Explore how the population mean and sample size change rejection rates and power.</p>
-    <a class="lab-link" href="stat3003-power-lab.html">Open lab <span aria-hidden="true">→</span></a>
-  </article>
-</div>
-</section>
-<section id="course-schedule" class="level2">
-<h2 class="anchored" data-anchor-id="course-schedule">Course schedule</h2>
-<div class="schedule-table" role="region" aria-label="STAT3003 course schedule" tabindex="0">
 
-<table>
+<link rel="stylesheet" href="power-lab.css">
+<div id="pw-lab" class="pw-lab">
+  <a class="pw-back" href="stat3003.html">← 返回 STAT3003</a>
+  <div class="pw-intro">
+    <div><span class="pw-eyebrow">MONTE CARLO EXPERIMENT</span><h2 class="anchored">相同的均值，不同的分布。检验功效如何变化？</h2><p>重复抽样、进行检验，用拒绝零假设的比例描绘功效曲线。</p></div>
+    <div class="pw-hypothesis">\(H_0:\mu=\mu_0\)<br>\(H_1:\mu&gt;\mu_0\)</div>
+  </div>
+  <div class="pw-presets" aria-label="课件示例"><span>从一个例子开始</span><button data-preset="normal">例 5 · 正态均值</button><button data-preset="contamination">例 6 · 污染正态</button><button data-preset="skew">拓展 · 偏态分布</button></div>
+  <div class="pw-layout">
+    <section class="pw-controls" aria-label="模拟设置">
+      <h2 class="anchored">设置实验</h2>
+      <label for="pw-family">数据分布</label>
+      <select id="pw-family"><option value="normal">Normal · 正态</option><option value="contamination">Contaminated normal · 污染正态</option><option value="student">Student t · 重尾（ν = 3）</option><option value="gamma">Gamma · 右偏（形状 = 2）</option></select>
+      <div id="pw-contamination" hidden="">
+        <label for="pw-p">正常组分比例 p</label><div class="pw-range"><input id="pw-p" type="range" min="0.5" max="1" step="0.05" value="0.9"><output id="pw-p-value">0.90</output></div>
+        <label for="pw-k">污染组分标准差倍数</label><select id="pw-k"><option>3</option><option>5</option><option selected="">10</option></select>
+        <label class="pw-check"><input id="pw-match" type="checkbox" checked=""><span>匹配总体方差</span></label>
+      </div>
+      <div class="pw-pair"><div><label for="pw-mu0">零假设均值 μ₀</label><input id="pw-mu0" type="number" value="0" step="0.1" min="-10000" max="10000"></div><div><label for="pw-sigma" id="pw-scale-label">总体标准差 σ</label><input id="pw-sigma" type="number" value="1" min="0.01" max="1000" step="0.1"></div></div>
+      <p class="pw-help" id="pw-variance-note"></p>
+      <div class="pw-pair"><div><label for="pw-n">样本量 n</label><select id="pw-n"><option>20</option><option selected="">30</option><option>50</option><option>100</option><option>200</option></select></div><div><label for="pw-alpha">显著性水平 α</label><select id="pw-alpha"><option>0.01</option><option selected="">0.05</option><option>0.10</option></select></div></div>
+      <label>均值范围：μ − μ₀</label><div class="pw-pair"><input id="pw-low" type="number" value="-0.5" step="0.1" aria-label="均值偏移下限"><input id="pw-high" type="number" value="1.5" step="0.1" aria-label="均值偏移上限"></div>
+      <fieldset><legend>比较检验方法</legend><label class="pw-check"><input id="pw-t" type="checkbox" checked=""><span><i class="pw-dot pw-blue"></i>单样本 t 检验</span></label><label class="pw-check"><input id="pw-bootstrap" type="checkbox" checked=""><span><i class="pw-dot pw-amber"></i>Bootstrap-t 均值检验</span></label><label class="pw-check" id="pw-wilcoxon-label"><input id="pw-wilcoxon" type="checkbox"><span><i class="pw-dot pw-teal"></i>Wilcoxon 符号秩检验</span></label><p class="pw-help" id="pw-method-note">Wilcoxon 仅用于对称分布：此时均值与对称中心一致。</p></fieldset>
+      <label for="pw-m">每个均值的模拟次数 m</label><select id="pw-m"><option selected="">500</option><option>1000</option><option>3000</option></select>
+      <div id="pw-b-wrap"><label for="pw-b">每次检验的 Bootstrap 次数 B</label><select id="pw-b"><option selected="">199</option><option>499</option></select></div>
+      <button id="pw-run" class="pw-primary">开始模拟</button>
+      <button id="pw-cancel" class="pw-secondary" hidden="">停止模拟</button>
+      <progress id="pw-progress" max="1" value="0" aria-label="模拟进度" hidden=""></progress>
+      <p id="pw-status" class="pw-help" role="status" aria-live="polite">准备就绪</p>
+    </section>
+    <div class="pw-results">
+      <section class="pw-panel pw-density-panel"><div class="pw-panel-heading"><h2 class="anchored"><span>01</span> 数据来自什么分布？</h2><span class="pw-tag" id="pw-family-tag">正态</span></div><p id="pw-density-formula" class="pw-formula"></p><canvas id="pw-density" role="img" aria-label="零假设与选定均值下的总体密度"></canvas><p class="pw-help pw-center">虚线：零假设下的分布　实线：当前选定均值下的分布</p></section>
+      <section class="pw-panel pw-power-panel"><div class="pw-panel-heading"><h2 class="anchored"><span>02</span> 均值改变，拒绝概率如何变化？</h2><label class="pw-check pw-band-switch"><input id="pw-bands" type="checkbox"><span>Monte Carlo 区间</span></label></div><p id="pw-result-label" class="pw-help">运行模拟后显示功效曲线</p><div id="pw-method-legend" class="pw-legend"></div><canvas id="pw-power" role="img" aria-label="各检验的经验拒绝概率随总体均值变化的曲线"></canvas>
+        <div class="pw-inspector"><label for="pw-inspect">查看均值 <output id="pw-inspect-value">μ = 0.00</output></label><input id="pw-inspect" type="range" min="0" max="40" value="10" step="1" disabled=""><span id="pw-inspect-kind" class="pw-tag">零假设：I 型错误率</span></div>
+        <div class="pw-table-wrap">
+<table id="pw-summary" data-quarto-postprocess="true" class="table">
+<caption>当前模拟的拒绝概率估计</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
 <thead>
-<tr>
-<th>
-Week
-</th>
-<th>
-Date
-</th>
-<th>
-Planned topics
-</th>
-<th>
-Slides / module
-</th>
-<th>
-Assignment
-</th>
+<tr class="header">
+<th data-quarto-table-cell-role="th">检验方法</th>
+<th data-quarto-table-cell-role="th">μ = μ₀<br>
+<span class="small">I 型错误率</span></th>
+<th id="pw-selected-heading" data-quarto-table-cell-role="th">当前均值<br>
+<span class="small">拒绝概率</span></th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>
-1
-</td>
-<td>
-Sep 1
-</td>
-<td>
-Course introduction; random-number generation; inverse transform method
-</td>
-<td>
-0-syllabus; 1.1
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-2
-</td>
-<td>
-Sep 8
-</td>
-<td>
-Inverse transform method; acceptance–rejection algorithm
-</td>
-<td>
-1.1
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-3
-</td>
-<td>
-Sep 15
-</td>
-<td>
-Mixture models; special transformations; copula models
-</td>
-<td>
-1.2
-</td>
-<td>
-<a href="course-materials/stat3003/STAT3003-assignment-1.pdf" target="_blank" rel="noopener">Assignment 1</a>
-</td>
-</tr>
-<tr>
-<td>
-4
-</td>
-<td>
-Sep 22
-</td>
-<td>
-Monte Carlo integration
-</td>
-<td>
-2.1
-</td>
-<td>
-Assignment 1 due
-</td>
-</tr>
-<tr>
-<td>
-5
-</td>
-<td>
-Sep 29
-</td>
-<td>
-Monte Carlo statistical inference: parameter estimation and hypothesis testing
-</td>
-<td>
-2.2
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-6
-</td>
-<td>
-Oct 10
-</td>
-<td>
-Variance reduction: antithetic variables, control variates, and more
-</td>
-<td>
-2.3
-</td>
-<td>
-Assignment 2 released
-</td>
-</tr>
-<tr>
-<td>
-7
-</td>
-<td>
-Oct 13
-</td>
-<td>
-Variance reduction: importance sampling, stratified sampling, and more
-</td>
-<td>
-2.3
-</td>
-<td>
-Assignment 2 due
-</td>
-</tr>
-<tr>
-<td>
-8
-</td>
-<td>
-Oct 20
-</td>
-<td>
-MCMC: Markov-chain foundations; Metropolis–Hastings algorithm
-</td>
-<td>
-2.4
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-9
-</td>
-<td>
-Oct 27
-</td>
-<td>
-Gibbs sampling, convergence diagnostics, and MCMC applications
-</td>
-<td>
-2.4
-</td>
-<td>
-Assignment 3 released
-</td>
-</tr>
-<tr>
-<td>
-10
-</td>
-<td>
-Nov 3
-</td>
-<td>
-Bisection method; Newton’s method
-</td>
-<td>
-3.1
-</td>
-<td>
-Assignment 3 due
-</td>
-</tr>
-<tr>
-<td>
-11
-</td>
-<td>
-Nov 10
-</td>
-<td>
-Fisher scoring; gradient descent
-</td>
-<td>
-3.1
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-12
-</td>
-<td>
-Nov 17
-</td>
-<td>
-Gradient descent; coordinate descent
-</td>
-<td>
-3.2
-</td>
-<td>
-Assignment 4 released
-</td>
-</tr>
-<tr>
-<td>
-13
-</td>
-<td>
-Nov 24
-</td>
-<td>
-EM algorithm
-</td>
-<td>
-3.2
-</td>
-<td>
-Assignment 4 due
-</td>
-</tr>
-<tr>
-<td>
-14
-</td>
-<td>
-Dec 1
-</td>
-<td>
-EM algorithm
-</td>
-<td>
-3.2
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-15
-</td>
-<td>
-Dec 8
-</td>
-<td>
-MM algorithm; ADMM algorithm
-</td>
-<td>
-3.3
-</td>
-<td>
-Assignment 5 released
-</td>
-</tr>
-<tr>
-<td>
-16
-</td>
-<td>
-Dec 15
-</td>
-<td>
-ADMM algorithm
-</td>
-<td>
-3.3
-</td>
-<td>
-Assignment 5 due
-</td>
-</tr>
-<tr>
-<td>
-17
-</td>
-<td>
-Dec 22
-</td>
-<td>
-Bootstrap: bias and standard-error estimation
-</td>
-<td>
-4
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-18
-</td>
-<td>
-Dec 29
-</td>
-<td>
-Bootstrap confidence intervals; cross-validation; course review
-</td>
-<td>
-4
-</td>
-<td>
-Assignment 6 released
-</td>
-</tr>
-<tr>
-<td>
-Post-course
-</td>
-<td>
-Jan 5, 2027
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-Assignment 6 due
-</td>
+<tr class="odd">
+<td colspan="3">等待模拟</td>
 </tr>
 </tbody>
-
 </table>
 </div>
+      </section>
+      <p id="pw-error" role="alert"></p>
+    </div>
+  </div>
+</div>
+<script src="vendor/jstat.min.js"></script>
+<script src="power-lab-core.js"></script>
+<script src="power-lab.js"></script>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -570,7 +228,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       toggleBodyColorMode(bsSheetEl);
     }
   }
-  toggleBodyColorPrimary();  
+  toggleBodyColorPrimary();
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -580,7 +238,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
+      if (clz.startsWith('code-annotation-')) {
         return true;
       }
     }
@@ -611,11 +269,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
       button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
+      tooltip = new bootstrap.Tooltip(button,
+        { trigger: "manual",
           customClass: "code-copy-button-tooltip",
           offset: [0, -8]});
-      tooltip.show();    
+      tooltip.show();
     }
     setTimeout(function() {
       if (tooltip) {
@@ -645,7 +303,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       theme: 'quarto',
       placement: 'bottom-start'
     };
-    window.tippy(el, config); 
+    window.tippy(el, config);
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
   for (var i=0; i<noterefs.length; i++) {
@@ -690,7 +348,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             height = bottom - top;
           }
           if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
+            // cook up a div (if necessary) and position it
             let div = window.document.getElementById("code-annotation-line-highlight");
             if (div === null) {
               div = window.document.createElement("div");
@@ -789,7 +447,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   <div class="nav-footer">
     <div class="nav-footer-left">
       &nbsp;
-    </div>   
+    </div>
     <div class="nav-footer-center">Copyright 2022, Jing Zeng</div>
     <div class="nav-footer-right">
       &nbsp;
