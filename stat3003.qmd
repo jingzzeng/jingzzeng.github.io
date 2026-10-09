@@ -44,6 +44,13 @@ This course introduces the fundamental ideas and computational tools behind mode
 
 :::
 
+### Lecture 2.3: Monte Carlo Variance Reduction
+
+::: lecture-downloads
+[Open the slides (PDF)](course-materials/stat3003/STAT3003-2.3-montecarlo-variance.pdf){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
+
+:::
+
 ## Labs
 
 ```{=html}
