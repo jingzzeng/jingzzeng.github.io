@@ -93,9 +93,9 @@ This course introduces the fundamental ideas and computational tools behind mode
 <tr><td>3</td><td>Sep 15</td><td>Mixture models; special transformations; copula models</td><td>1.2</td><td><a href="course-materials/stat3003/STAT3003-assignment-1.pdf" target="_blank" rel="noopener">Assignment 1</a></td></tr>
 <tr><td>4</td><td>Sep 22</td><td>Monte Carlo integration</td><td>2.1</td><td>Assignment 1 due</td></tr>
 <tr><td>5</td><td>Sep 29</td><td>Monte Carlo statistical inference: parameter estimation and hypothesis testing</td><td>2.2</td><td></td></tr>
-<tr><td>6</td><td>Oct 10</td><td>Variance reduction: antithetic variables, control variates, and more</td><td>2.3</td><td>Assignment 2 released</td></tr>
-<tr><td>7</td><td>Oct 13</td><td>Variance reduction: importance sampling, stratified sampling, and more</td><td>2.3</td><td>Assignment 2 due</td></tr>
-<tr><td>8</td><td>Oct 20</td><td>MCMC: Markov-chain foundations; Metropolis–Hastings algorithm</td><td>2.4</td><td></td></tr>
+<tr><td>6</td><td>Oct 10</td><td>Variance reduction: antithetic variables, control variates, and more</td><td>2.3</td><td><a href="course-materials/stat3003/STAT3003-assignment-2.pdf" target="_blank" rel="noopener">Assignment 2</a></td></tr>
+<tr><td>7</td><td>Oct 13</td><td>Variance reduction: importance sampling, stratified sampling, and more</td><td>2.3</td><td></td></tr>
+<tr><td>8</td><td>Oct 20</td><td>MCMC: Markov-chain foundations; Metropolis–Hastings algorithm</td><td>2.4</td><td>Assignment 2 due (evening)</td></tr>
 <tr><td>9</td><td>Oct 27</td><td>Gibbs sampling, convergence diagnostics, and MCMC applications</td><td>2.4</td><td>Assignment 3 released</td></tr>
 <tr><td>10</td><td>Nov 3</td><td>Bisection method; Newton's method</td><td>3.1</td><td>Assignment 3 due</td></tr>
 <tr><td>11</td><td>Nov 10</td><td>Fisher scoring; gradient descent</td><td>3.1</td><td></td></tr>
