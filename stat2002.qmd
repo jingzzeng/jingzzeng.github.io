@@ -46,6 +46,12 @@ This course introduces probability theory and mathematical statistics, covering 
 [Open the slides (PDF)](course-materials/stat2002/STAT2002-5-multivariate-random-variables-and-distributions.pdf){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
 :::
 
+### Lecture 6: Numerical Characteristics of Random Variables and Limit Theorems
+
+::: lecture-downloads
+[Open the slides (PDF)](course-materials/stat2002/STAT2002-6-numerical-characteristics-and-limit-theorems.pdf){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
+:::
+
 ## Labs
 
 ```{=html}
