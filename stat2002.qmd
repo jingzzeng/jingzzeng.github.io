@@ -65,6 +65,15 @@ This course introduces probability theory and mathematical statistics, covering 
     <p>Choose among three, four, or five doors, watch the host reveal a goat, and decide whether to stay or switch. Compare the two strategies over repeated rounds.</p>
     <a class="lab-link" href="stat2002-monty-hall-lab.html">Open lab <span aria-hidden="true">→</span></a>
   </article>
+  <article class="lab-card">
+    <div class="lab-card-topline">
+      <span class="lab-number">LAB 02</span>
+      <span class="lab-topic">Entropy</span>
+    </div>
+    <h3>Entropy and Distributions</h3>
+    <p>Scatter points inside a unit disk. Adjust the variance and center of a truncated normal distribution, and compare its entropy with a uniform distribution.</p>
+    <a class="lab-link" href="stat2002-entropy-lab.html">Open lab <span aria-hidden="true">→</span></a>
+  </article>
 </div>
 ```
 
