@@ -83,6 +83,12 @@ This course introduces the fundamental ideas and computational tools behind mode
     <p>Compare mean tests across normal, heavy-tailed, and skewed distributions. Explore how the population mean and sample size change rejection rates and power.</p>
     <a class="lab-link" href="stat3003-power-lab.html">Open lab <span aria-hidden="true">→</span></a>
   </article>
+  <article class="lab-card">
+    <div class="lab-card-topline"><span class="lab-number">LAB 04</span><span class="lab-topic">Numerical Optimization</span></div>
+    <h3>Bisection &amp; Newton’s Method</h3>
+    <p>Step through the lecture example: shrink a bracket with bisection, or follow tangent lines with Newton’s method to find the same root.</p>
+    <a class="lab-link" href="stat3003-root-lab.html">Open lab <span aria-hidden="true">→</span></a>
+  </article>
 </div>
 ```
 

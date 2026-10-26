@@ -1,0 +1,46 @@
+---
+title: "二分法与牛顿法"
+subtitle: "STAT3003 · Lecture 3.1 · Lab 04"
+page-layout: full
+toc: false
+format:
+  html:
+    css: root-lab.css
+---
+
+```{=html}
+<div class="rt-lab" id="root-lab">
+  <a class="rt-back" href="stat3003.html">← 返回 STAT3003</a>
+  <div class="rt-intro"><span class="rt-eyebrow">从区间缩小，到切线求交</span><h2>一个方程，两条求根路径。</h2><p>沿用课件例 2.1。观察候选值 <i>y</i> 怎样移动，直到函数曲线与横轴相交。</p><div class="rt-equation">g(y) = a² + y² + 2ay / (n − 1) − (n − 2) = 0</div></div>
+  <div class="rt-layout">
+    <div class="rt-controls" aria-label="实验设置">
+      <label>求根方法<select id="rt-method"><option value="bis">二分法 · 保留异号区间</option><option value="newton">牛顿法 · 沿切线求交</option></select></label>
+      <div class="rt-pair"><label>参数 a<input id="rt-a" type="number" min="0" max="1" step="0.1" value="0.5"></label><label>参数 n<input id="rt-n" type="number" min="4" max="100" step="1" value="20"></label></div>
+      <div class="rt-pair"><label>左端点 L<input id="rt-left" type="number" value="0" step="1"></label><label>右端点 R<input id="rt-right" type="number" value="100" step="1"></label></div>
+      <label>牛顿法初值 y₀<input id="rt-start" type="number" value="20" step="1"></label>
+      <label>停止容差<select id="rt-tol"><option value="0.000001">10⁻⁶</option><option value="0.001">10⁻³</option><option value="0.00000001">10⁻⁸</option></select></label>
+      <div class="rt-presets"><button id="rt-original">课件区间 [0, 100]</button><button id="rt-near">根附近 [0, 10]</button></div>
+      <button id="rt-apply" class="rt-primary">应用参数并重置</button>
+      <p id="rt-error" role="alert"></p>
+      <div class="rt-rule" id="rt-rule"></div>
+      <label class="rt-check"><input id="rt-follow" type="checkbox" checked>随迭代缩放坐标</label>
+      <label>播放速度<select id="rt-speed"><option value="1200">慢速 · 适合讲解</option><option value="650" selected>正常</option><option value="250">快速</option></select></label>
+      <p class="rt-note">只改变设置不会打断当前演示；点击“应用参数并重置”后生效。牛顿法不保证每个初值都收敛到同一个根。</p>
+    </div>
+    <div class="rt-main">
+      <section class="rt-panel">
+        <div class="rt-heading"><div><span class="rt-eyebrow" id="rt-step-label"></span><h3 id="rt-phase-title"></h3></div><span id="rt-badge"></span></div>
+        <div id="rt-chart" aria-label="求根过程：横轴y，纵轴g(y)"></div>
+        <div class="rt-legend"><span class="curve">函数 g(y)</span><span class="point">当前候选点</span><span class="aux" id="rt-aux-legend">保留区间</span></div>
+        <div class="rt-explain" id="rt-explain" aria-live="polite"></div>
+        <div class="rt-playback"><button id="rt-back">← 上一步</button><button id="rt-play" class="rt-primary">▶ 自动播放</button><button id="rt-next">下一步 →</button><button id="rt-reset">重播</button></div>
+        <label class="rt-scrub-label">拖动回看 <input id="rt-scrub" type="range" min="0" max="0" value="0"><output id="rt-progress"></output></label>
+      </section>
+      <section class="rt-stats" aria-label="当前计算结果"><div><span>候选值 y</span><strong id="rt-value"></strong></div><div><span>函数残差 |g(y)|</span><strong id="rt-residual"></strong></div><div><span id="rt-width-label">区间宽度 R − L</span><strong id="rt-width"></strong></div></section>
+      <section class="rt-panel rt-history"><h3>已经走过的迭代</h3><div class="rt-table-wrap"><table><thead id="rt-thead"></thead><tbody id="rt-tbody"></tbody></table></div><p class="rt-note">表格记录当前已展示的迭代。函数图的横轴是 y，不是迭代次数；两种算法都使用同一个 g(y)。</p></section>
+    </div>
+  </div>
+</div>
+<script src="root-lab-core.js"></script>
+<script src="root-lab.js"></script>
+```
