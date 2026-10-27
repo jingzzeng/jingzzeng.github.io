@@ -63,8 +63,6 @@ This course introduces the fundamental ideas and computational tools behind mode
 ::: lecture-downloads
 [Open the slides (PDF)](course-materials/stat3003/STAT3003-3.1-optimization.pdf?v=3f1f2048b20e){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
 
-[Open the lab: Bisection & Newton’s Method](stat3003-root-lab.html?v=1bef324c56cf){.btn .btn-outline-primary target="_blank" rel="noopener"}
-
 :::
 
 ## Labs
