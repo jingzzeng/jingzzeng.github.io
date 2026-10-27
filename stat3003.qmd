@@ -14,47 +14,84 @@ This course introduces the fundamental ideas and computational tools behind mode
 
 ### Syllabus
 
-[Open the syllabus (PDF)](course-materials/stat3003/STAT3003-syllabus.pdf){.btn .btn-outline-primary target="_blank" rel="noopener"}
+[Open the syllabus (PDF)](course-materials/stat3003/STAT3003-syllabus.pdf?v=eda56f5a7097){.btn .btn-outline-primary target="_blank" rel="noopener"}
 
 ### Lecture 1.1: Random Variable Generation (1)
 
 ::: lecture-downloads
-[Open the slides (PDF)](course-materials/stat3003/STAT3003-1.1-random-variable-generation.pdf){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
+[Open the slides (PDF)](course-materials/stat3003/STAT3003-1.1-random-variable-generation.pdf?v=7b10ac19413f){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
 
 :::
 
 ### Lecture 1.2: Random Variable Generation (2)
 
 ::: lecture-downloads
-[Open the slides (PDF)](course-materials/stat3003/STAT3003-1.2-random-variable-generation.pdf){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
+[Open the slides (PDF)](course-materials/stat3003/STAT3003-1.2-random-variable-generation.pdf?v=ef0b8e218719){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
 
 :::
 
 ### Lecture 2.1: Monte Carlo Integration
 
 ::: lecture-downloads
-[Open the slides (PDF)](course-materials/stat3003/STAT3003-2.1-montecarlo-integration.pdf){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
+[Open the slides (PDF)](course-materials/stat3003/STAT3003-2.1-montecarlo-integration.pdf?v=fb6caff85108){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
 
 :::
 
 ### Lecture 2.2: Monte Carlo Inference
 
 ::: lecture-downloads
-[Open the slides (PDF)](course-materials/stat3003/STAT3003-2.2-montecarlo-inference.pdf){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
+[Open the slides (PDF)](course-materials/stat3003/STAT3003-2.2-montecarlo-inference.pdf?v=63313c215a66){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
 
 :::
 
 ### Lecture 2.3: Monte Carlo Variance Reduction
 
 ::: lecture-downloads
-[Open the slides (PDF)](course-materials/stat3003/STAT3003-2.3-montecarlo-variance.pdf){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
+[Open the slides (PDF)](course-materials/stat3003/STAT3003-2.3-montecarlo-variance.pdf?v=f876bc09315b){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
 
 :::
 
 ### Lecture 2.4: Markov Chain Monte Carlo
 
 ::: lecture-downloads
-[Open the slides (PDF)](course-materials/stat3003/STAT3003-2.4-mcmc.pdf){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
+[Open the slides (PDF)](course-materials/stat3003/STAT3003-2.4-mcmc.pdf?v=4d5f7f17c917){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
+
+:::
+
+### Lecture 3.1: Root Finding, Newton Methods, and Fisher Scoring
+
+::: lecture-downloads
+[Open the slides (PDF)](course-materials/stat3003/STAT3003-3.1-optimization.pdf?v=3f1f2048b20e){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
+
+[Open the lab: Bisection & Newton’s Method](stat3003-root-lab.html?v=1bef324c56cf){.btn .btn-outline-primary target="_blank" rel="noopener"}
+
+:::
+
+### Lecture 3.2: Gradient Methods and Coordinate Descent
+
+::: lecture-downloads
+[Open the slides (PDF)](course-materials/stat3003/STAT3003-3.2-optimization.pdf?v=f4eb49da0341){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
+
+:::
+
+### Lecture 3.3: Expectation–Maximization
+
+::: lecture-downloads
+[Open the slides (PDF)](course-materials/stat3003/STAT3003-3.3-optimization.pdf?v=bdbd1d9a8580){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
+
+:::
+
+### Lecture 3.4: MM and ADMM
+
+::: lecture-downloads
+[Open the slides (PDF)](course-materials/stat3003/STAT3003-3.4-optimization.pdf?v=949b132102c0){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
+
+:::
+
+### Lecture 4: Bootstrap and Cross-Validation
+
+::: lecture-downloads
+[Open the slides (PDF)](course-materials/stat3003/STAT3003-4-bootstrap.pdf?v=789830f89ee4){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
 
 :::
 
@@ -87,7 +124,7 @@ This course introduces the fundamental ideas and computational tools behind mode
     <div class="lab-card-topline"><span class="lab-number">LAB 04</span><span class="lab-topic">Numerical Optimization</span></div>
     <h3>Bisection &amp; Newton’s Method</h3>
     <p>Step through the lecture example: shrink a bracket with bisection, or follow tangent lines with Newton’s method to find the same root.</p>
-    <a class="lab-link" href="stat3003-root-lab.html">Open lab <span aria-hidden="true">→</span></a>
+    <a class="lab-link" href="stat3003-root-lab.html?v=1bef324c56cf">Open lab <span aria-hidden="true">→</span></a>
   </article>
 </div>
 ```
@@ -111,12 +148,12 @@ This course introduces the fundamental ideas and computational tools behind mode
 <tr><td>8</td><td>Oct 20</td><td>MCMC: Markov-chain foundations; Metropolis–Hastings algorithm; Gibbs sampling</td><td>2.4</td><td>Assignment 2 due</td></tr>
 <tr><td>9</td><td>Oct 27</td><td>Bisection method; Newton's method</td><td>3.1</td><td>Assignment 3 released</td></tr>
 <tr><td>10</td><td>Nov 3</td><td>To be confirmed</td><td></td><td>Assignment 3 due</td></tr>
-<tr><td>11</td><td>Nov 10</td><td>Fisher scoring; gradient descent</td><td>3.1</td><td></td></tr>
+<tr><td>11</td><td>Nov 10</td><td>Fisher scoring; gradient descent</td><td>3.1; 3.2</td><td></td></tr>
 <tr><td>12</td><td>Nov 17</td><td>Gradient descent; coordinate descent</td><td>3.2</td><td>Assignment 4 released</td></tr>
-<tr><td>13</td><td>Nov 24</td><td>EM algorithm</td><td>3.2</td><td>Assignment 4 due</td></tr>
-<tr><td>14</td><td>Dec 1</td><td>EM algorithm</td><td>3.2</td><td></td></tr>
-<tr><td>15</td><td>Dec 8</td><td>MM algorithm; ADMM algorithm</td><td>3.3</td><td>Assignment 5 released</td></tr>
-<tr><td>16</td><td>Dec 15</td><td>ADMM algorithm</td><td>3.3</td><td>Assignment 5 due</td></tr>
+<tr><td>13</td><td>Nov 24</td><td>EM algorithm</td><td>3.3</td><td>Assignment 4 due</td></tr>
+<tr><td>14</td><td>Dec 1</td><td>EM algorithm</td><td>3.3</td><td></td></tr>
+<tr><td>15</td><td>Dec 8</td><td>MM algorithm; ADMM algorithm</td><td>3.4</td><td>Assignment 5 released</td></tr>
+<tr><td>16</td><td>Dec 15</td><td>ADMM algorithm</td><td>3.4</td><td>Assignment 5 due</td></tr>
 <tr><td>17</td><td>Dec 22</td><td>Bootstrap: bias and standard-error estimation</td><td>4</td><td></td></tr>
 <tr><td>18</td><td>Dec 29</td><td>Bootstrap confidence intervals; cross-validation; course review</td><td>4</td><td>Assignment 6 released</td></tr>
 <tr><td>Post-course</td><td>Jan 5, 2027</td><td></td><td></td><td>Assignment 6 due</td></tr>

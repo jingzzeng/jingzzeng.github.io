@@ -35,6 +35,6 @@ format:
     </div>
   </div>
 </div>
-<script src="root-lab-core.js"></script>
-<script src="root-lab.js"></script>
+<script src="root-lab-core.js?v=18380397375c"></script>
+<script src="root-lab.js?v=e1a66ea0c1dd"></script>
 ```
