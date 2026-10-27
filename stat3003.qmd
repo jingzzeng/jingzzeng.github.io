@@ -67,34 +67,6 @@ This course introduces the fundamental ideas and computational tools behind mode
 
 :::
 
-### Lecture 3.2: Gradient Methods and Coordinate Descent
-
-::: lecture-downloads
-[Open the slides (PDF)](course-materials/stat3003/STAT3003-3.2-optimization.pdf?v=f4eb49da0341){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
-
-:::
-
-### Lecture 3.3: Expectation–Maximization
-
-::: lecture-downloads
-[Open the slides (PDF)](course-materials/stat3003/STAT3003-3.3-optimization.pdf?v=bdbd1d9a8580){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
-
-:::
-
-### Lecture 3.4: MM and ADMM
-
-::: lecture-downloads
-[Open the slides (PDF)](course-materials/stat3003/STAT3003-3.4-optimization.pdf?v=949b132102c0){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
-
-:::
-
-### Lecture 4: Bootstrap and Cross-Validation
-
-::: lecture-downloads
-[Open the slides (PDF)](course-materials/stat3003/STAT3003-4-bootstrap.pdf?v=789830f89ee4){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
-
-:::
-
 ## Labs
 
 ```{=html}
