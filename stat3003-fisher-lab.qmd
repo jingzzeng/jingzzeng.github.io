@@ -1,0 +1,35 @@
+---
+title: "Fisher 得分法与 Logistic 回归"
+subtitle: "STAT3003 · Lecture 3.1 · Lab 05"
+page-layout: full
+toc: false
+format:
+  html:
+    css: fisher-lab.css
+---
+
+```{=html}
+<div class="rt-lab" id="fisher-lab"><a class="rt-back" href="https://jingzzeng.github.io/stat3003.html">← 返回 STAT3003</a>
+<div class="rt-intro"><div class="rt-equation">Yᵢ | Xᵢ ∼ Bernoulli(pᵢ)，logit(pᵢ) = βXᵢ，Xᵢ ∼ N(0, 1)</div></div>
+<div class="rt-layout"><div class="rt-controls" aria-label="实验设置">
+<label>样本量 n<select id="fs-n"><option>100</option><option>300</option><option selected>1000</option></select></label>
+<label>真实参数 β<input id="fs-truth" type="number" min="-3" max="3" step="0.1" value="0.3"></label>
+<label>初始估计 β⁽⁰⁾<input id="fs-start" type="number" min="-10" max="10" step="0.1" value="-1"></label>
+<label>随机种子<input id="fs-seed" type="number" min="0" max="4294967295" step="1" value="3003"></label>
+<button class="rt-primary" id="fs-apply">应用参数并重置</button>
+<p class="rt-note">固定样本逐步更新 β。停止条件：|U(β)| / n ≤ 10⁻⁸，最多迭代 50 次。</p>
+<p id="fs-error" role="alert"></p></div>
+<div class="rt-main"><section class="rt-panel">
+<div class="phase"><span id="fs-phase" aria-live="polite"></span><span id="fs-iteration"></span></div>
+<div class="charts"><section><h2>对数似然与局部二次近似</h2><div id="fs-likelihood"></div><div class="rt-legend"><span>平均对数似然</span><span class="aux" id="fs-quadratic-legend">局部二次近似</span><span class="point">当前 β</span></div></section></div>
+<div class="rt-stats"><div><span>当前参数 β</span><strong id="fs-beta"></strong></div><div><span>得分 U(β)</span><strong id="fs-score"></strong></div><div><span>Fisher 信息量 I(β)</span><strong id="fs-info"></strong></div></div>
+<div class="step-equation" id="fs-update" aria-live="polite"></div>
+<div class="rt-playback"><button id="fs-back">← 上一步</button><button id="fs-play" class="rt-primary">▶ 自动播放</button><button id="fs-next">下一步 →</button><button id="fs-reset">重播</button></div>
+<label class="rt-scrub-label">拖动回看 <input id="fs-scrub" type="range" min="0" max="0" value="0"><output id="fs-progress"></output></label>
+</section>
+<section class="rt-panel rt-history"><h2>已经走过的迭代</h2><div class="rt-table-wrap"><table><thead><tr><th>t</th><th>β⁽ᵗ⁾</th><th>U(β⁽ᵗ⁾)</th><th>I(β⁽ᵗ⁾)</th><th>β⁽ᵗ⁺¹⁾</th><th>ℓ(β⁽ᵗ⁾) / n</th></tr></thead><tbody id="fs-history"></tbody></table></div></section>
+
+</div></div></div>
+<script src="fisher-lab-core.js?v=31bfce49e679"></script>
+<script src="fisher-lab.js?v=ce1455ef7f5b"></script>
+```
