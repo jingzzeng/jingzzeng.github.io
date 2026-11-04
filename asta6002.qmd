@@ -4,16 +4,35 @@ title: "ASTA6002: Regression Analysis and Data Thinking"
 
 ## Course overview
 
-本课程围绕回归分析与数据思维，介绍高维回归、变量选择、正则化与降维方法，以及多响应回归和张量回归中的结构建模。通过案例、推导与课堂练习，理解统计方法背后的建模思路与计算方法。
+This course develops regression analysis and data thinking through high-dimensional regression, variable selection, regularization, dimension reduction, and structured models for multivariate and tensor responses. Case studies, derivations, and classroom exercises connect statistical modeling with computational methods.
 
 ## Course materials
 
-*课件将随课程进度持续更新。*
+*Course materials will be continuously updated throughout the course.*
 
-### Lecture 1: 高维线性回归与正则化
+### Lecture 1: High-Dimensional Linear Regression and Regularization
 
-从高维数据中的最小二乘问题出发，介绍 Ridge、最佳子集选择与 Lasso，讨论软阈值、坐标下降、近端梯度、正则化路径与交叉验证调参。
+Starting with the limitations of least squares in high dimensions, this lecture introduces Ridge regression, best subset selection, and Lasso, followed by soft thresholding, coordinate descent, proximal gradient methods, regularization paths, and cross-validation.
 
 ::: lecture-downloads
-[打开课件 / Open the slides (PDF)](course-materials/asta6002/ASTA6002-01-high-dimensional-regression.pdf?v=478afac5c2e5){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
+[Open the slides (PDF)](course-materials/asta6002/ASTA6002-01-high-dimensional-regression.pdf?v=478afac5c2e5){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
 :::
+## Course schedule
+
+The course consists of six lectures, each spanning four 45-minute class periods (24 class periods in total). The tentative schedule includes derivations, classroom exercises, and discussion; topics may be adjusted as the course progresses. Class dates will be announced separately.
+
+<div class="schedule-table" role="region" aria-label="ASTA6002 course schedule" tabindex="0">
+<table>
+<thead>
+<tr><th>Lecture</th><th>Class periods</th><th>Planned topics</th><th>Slides / module</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>1–4</td><td>High-dimensional regression and Ridge; best subset selection and Lasso; optimization and regularization paths; tuning and case studies</td><td><a href="course-materials/asta6002/ASTA6002-01-high-dimensional-regression.pdf?v=478afac5c2e5" target="_blank" rel="noopener">Lecture 1 slides</a></td></tr>
+<tr><td>2</td><td>5–8</td><td>Prediction and variable-selection theory; Elastic Net and adaptive weights; structured and nonconvex penalties; inference and selected research topics</td><td>Variable Selection and Structured Regularization</td></tr>
+<tr><td>3</td><td>9–12</td><td>Penalized likelihood and KKT conditions; IRLS and coordinate descent; count models and structured penalties; inference and research extensions</td><td>Regularized GLMs and Variable Selection</td></tr>
+<tr><td>4</td><td>13–16</td><td>Principal component regression (PCR); central subspaces and sliced inverse regression (SIR); SAVE and implementation diagnostics; high-dimensional sufficient dimension reduction</td><td>PCR and Sufficient Dimension Reduction</td></tr>
+<tr><td>5</td><td>17–20</td><td>Multivariate regression and low-rank assumptions; reduced-rank regression; group sparsity, nuclear norm penalties, and penalized matrix decomposition; evaluation and research discussion</td><td>Multivariate Regression and Low-Rank Structure</td></tr>
+<tr><td>6</td><td>21–24</td><td>Tensor notation and regression objectives; CP and Tucker decompositions; parameter counts and identifiability; block optimization and regularization; limitations and research discussion</td><td>Tensor Regression</td></tr>
+</tbody>
+</table>
+</div>
