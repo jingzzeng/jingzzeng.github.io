@@ -14,27 +14,24 @@ This course develops regression analysis and data thinking through high-dimensio
 
 ### Lecture 1: High-Dimensional Linear Regression and Regularization
 
-Starting with the limitations of least squares in high dimensions, this lecture introduces Ridge regression, best subset selection, and Lasso, followed by soft thresholding, coordinate descent, proximal gradient methods, regularization paths, and cross-validation.
-
 ::: lecture-downloads
 [Open the slides (PDF)](course-materials/asta6002/ASTA6002-01-high-dimensional-regression.pdf?v=478afac5c2e5){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
 :::
-## Course schedule
 
-The course consists of six lectures, each spanning four 45-minute class periods (24 class periods in total). The tentative schedule includes derivations, classroom exercises, and discussion; topics may be adjusted as the course progresses. Class dates will be announced separately.
+## Course schedule
 
 <div class="schedule-table" role="region" aria-label="ASTA6002 course schedule" tabindex="0">
 <table>
 <thead>
-<tr><th>Week</th><th>Date</th><th>Planned topics</th><th>Slides / module</th><th>Assignment</th></tr>
+<tr><th>Week</th><th>Date</th><th>Topics</th><th>Slides / module</th><th>Assignment</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td></td><td>High-dimensional regression and Ridge; best subset selection and Lasso; optimization and regularization paths; tuning and case studies</td><td><a href="course-materials/asta6002/ASTA6002-01-high-dimensional-regression.pdf?v=478afac5c2e5" target="_blank" rel="noopener">Lecture 1 slides</a></td><td></td></tr>
-<tr><td>2</td><td></td><td>Prediction and variable-selection theory; Elastic Net and adaptive weights; structured and nonconvex penalties; inference and selected research topics</td><td>Variable Selection and Structured Regularization</td><td></td></tr>
-<tr><td>3</td><td></td><td>Penalized likelihood and KKT conditions; IRLS and coordinate descent; count models and structured penalties; inference and research extensions</td><td>Regularized GLMs and Variable Selection</td><td></td></tr>
-<tr><td>4</td><td></td><td>Principal component regression (PCR); central subspaces and sliced inverse regression (SIR); SAVE and implementation diagnostics; high-dimensional sufficient dimension reduction</td><td>PCR and Sufficient Dimension Reduction</td><td></td></tr>
-<tr><td>5</td><td></td><td>Multivariate regression and low-rank assumptions; reduced-rank regression; group sparsity, nuclear norm penalties, and penalized matrix decomposition; evaluation and research discussion</td><td>Multivariate Regression and Low-Rank Structure</td><td></td></tr>
-<tr><td>6</td><td></td><td>Tensor notation and regression objectives; CP and Tucker decompositions; parameter counts and identifiability; block optimization and regularization; limitations and research discussion</td><td>Tensor Regression</td><td></td></tr>
+<tr><td>1</td><td>Nov 4</td><td><ul><li>Ridge and Lasso</li><li>Best subset selection</li><li>Optimization and cross-validation</li></ul></td><td>1</td><td></td></tr>
+<tr><td>2</td><td>Nov 11</td><td><ul><li>Variable-selection theory</li><li>Elastic Net and adaptive Lasso</li><li>Structured penalties</li></ul></td><td>2</td><td></td></tr>
+<tr><td>3</td><td>Nov 18</td><td><ul><li>Penalized likelihood</li><li>IRLS and coordinate descent</li><li>Regularized GLMs</li></ul></td><td>3</td><td></td></tr>
+<tr><td>4</td><td>Nov 25</td><td><ul><li>Principal component regression</li><li>SIR and SAVE</li><li>Sufficient dimension reduction</li></ul></td><td>4</td><td></td></tr>
+<tr><td>5</td><td>Dec 2</td><td><ul><li>Multivariate regression</li><li>Reduced-rank regression</li><li>Sparse and low-rank models</li></ul></td><td>5</td><td></td></tr>
+<tr><td>6</td><td>Dec 9</td><td><ul><li>Tensor regression</li><li>CP and Tucker decompositions</li><li>Optimization and regularization</li></ul></td><td>6</td><td></td></tr>
 </tbody>
 </table>
 </div>
