@@ -1,0 +1,19 @@
+---
+title: "ASTA6002: Regression Analysis and Data Thinking"
+---
+
+## Course overview
+
+本课程围绕回归分析与数据思维，介绍高维回归、变量选择、正则化与降维方法，以及多响应回归和张量回归中的结构建模。通过案例、推导与课堂练习，理解统计方法背后的建模思路与计算方法。
+
+## Course materials
+
+*课件将随课程进度持续更新。*
+
+### Lecture 1: 高维线性回归与正则化
+
+从高维数据中的最小二乘问题出发，介绍 Ridge、最佳子集选择与 Lasso，讨论软阈值、坐标下降、近端梯度、正则化路径与交叉验证调参。
+
+::: lecture-downloads
+[打开课件 / Open the slides (PDF)](course-materials/asta6002/ASTA6002-01-high-dimensional-regression.pdf?v=478afac5c2e5){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
+:::

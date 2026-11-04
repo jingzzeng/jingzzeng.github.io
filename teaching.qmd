@@ -12,7 +12,7 @@ title: "Teaching"
 
 -   [STAT3003: Fundamentals of Statistical Algorithm](stat3003.qmd)
 
--   ASTA6002P: Regression Analysis and Data Thinking
+-   [ASTA6002P: Regression Analysis and Data Thinking](asta6002.qmd)
 
 ------------------------------------------------------------------------
 
