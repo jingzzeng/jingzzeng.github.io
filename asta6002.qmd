@@ -15,7 +15,7 @@ This course develops regression analysis and data thinking through high-dimensio
 ### Lecture 1: High-Dimensional Linear Regression and Regularization
 
 ::: lecture-downloads
-[Open the slides (PDF)](course-materials/asta6002/ASTA6002-01-high-dimensional-regression.pdf?v=478afac5c2e5){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
+[Open the slides (PDF)](course-materials/asta6002/ASTA6002-01-high-dimensional-regression.pdf){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
 :::
 
 ## Course schedule
