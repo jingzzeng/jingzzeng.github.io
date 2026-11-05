@@ -52,6 +52,12 @@ This course introduces probability theory and mathematical statistics, covering 
 [Open the slides (PDF)](course-materials/stat2002/STAT2002-6-numerical-characteristics-and-limit-theorems.pdf){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
 :::
 
+### Lecture 7: Basic Statistical Concepts and Sampling Distributions
+
+::: lecture-downloads
+[Open the slides (PDF)](course-materials/stat2002/STAT2002-7-basic-statistical-concepts-and-sampling-distributions.pdf){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
+:::
+
 ## Labs
 
 ```{=html}
