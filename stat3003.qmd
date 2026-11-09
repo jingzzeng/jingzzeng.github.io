@@ -65,6 +65,13 @@ This course introduces the fundamental ideas and computational tools behind mode
 
 :::
 
+### Lecture 3.2: Gradient Methods and Coordinate Descent
+
+::: lecture-downloads
+[Open the slides (PDF)](course-materials/stat3003/STAT3003-3.2-optimization.pdf?v=7f2f940350c5){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
+
+:::
+
 ## Labs
 
 ```{=html}
