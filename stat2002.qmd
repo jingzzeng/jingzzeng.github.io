@@ -58,6 +58,12 @@ This course introduces probability theory and mathematical statistics, covering 
 [Open the slides (PDF)](course-materials/stat2002/STAT2002-7-basic-statistical-concepts-and-sampling-distributions.pdf){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
 :::
 
+### Lecture 8: Point Estimation
+
+::: lecture-downloads
+[Open the slides (PDF)](course-materials/stat2002/STAT2002-8-point-estimation.pdf){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
+:::
+
 ## Labs
 
 ```{=html}
