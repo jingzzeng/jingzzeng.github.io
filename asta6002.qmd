@@ -24,6 +24,12 @@ This course covers linear models, generalized linear models, quantile regression
 [Open the slides (PDF)](course-materials/asta6002/ASTA6002-02-variable-selection.pdf){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
 :::
 
+### Lecture 3: Regularized Generalized Linear Models
+
+::: lecture-downloads
+[Open the slides (PDF)](course-materials/asta6002/ASTA6002-03-regularized-glm.pdf){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
+:::
+
 ## Course schedule
 
 <div class="schedule-table" role="region" aria-label="ASTA6002 course schedule" tabindex="0">
