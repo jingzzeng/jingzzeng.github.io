@@ -64,6 +64,12 @@ This course introduces probability theory and mathematical statistics, covering 
 [Open the slides (PDF)](course-materials/stat2002/STAT2002-8-point-estimation.pdf){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
 :::
 
+### Lecture 9: Properties of Point Estimators
+
+::: lecture-downloads
+[Open the slides (PDF)](course-materials/stat2002/STAT2002-9-properties-of-point-estimators.pdf){.btn .btn-outline-primary .slides-download target="_blank" rel="noopener"}
+:::
+
 ## Labs
 
 ```{=html}
