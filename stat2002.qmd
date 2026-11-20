@@ -125,7 +125,7 @@ This course introduces probability theory and mathematical statistics, covering 
 <tr><td>9</td><td>Oct 30</td><td>No class — Sports Day</td><td></td><td></td></tr>
 <tr><td>10</td><td>Nov 6</td><td>A brief history of statistics; basic concepts; populations, samples, and sampling distributions</td><td>5.1–5.3</td><td><a href="course-materials/stat2002/STAT2002-assignment-8.pdf" target="_blank" rel="noopener">Assignment 8</a></td></tr>
 <tr><td>11</td><td>Nov 13</td><td>Point estimation; the method of moments and maximum likelihood estimation</td><td>6.1–6.3</td><td><a href="course-materials/stat2002/STAT2002-assignment-9.pdf" target="_blank" rel="noopener">Assignment 9</a></td></tr>
-<tr><td>12</td><td>Nov 20</td><td>Criteria for evaluating estimators; large-sample theory of point estimation</td><td>6.4–6.5</td><td></td></tr>
+<tr><td>12</td><td>Nov 20</td><td>Criteria for evaluating estimators; large-sample theory of point estimation</td><td>6.4–6.5</td><td><a href="course-materials/stat2002/STAT2002-assignment-10.pdf" target="_blank" rel="noopener">Assignment 10</a></td></tr>
 <tr><td>13</td><td>Nov 27</td><td>Interval estimation; the pivotal quantity method</td><td>7.1–7.2</td><td></td></tr>
 <tr><td>14</td><td>Dec 4</td><td>Large-sample methods; bootstrap confidence intervals; confidence limits</td><td>7.3–7.5</td><td></td></tr>
 <tr><td>15</td><td>Dec 11</td><td>Hypothesis testing; tests for the mean and variance of a single normal population</td><td>8.1; 8.2.1</td><td></td></tr>
